@@ -1,0 +1,41 @@
+# 日语语法知识库
+
+一个以 GitHub 仓库为内容源的日语语法文档与学习工具。目标是让群友能方便地阅读、检索、练习，并通过 GitHub 网页编辑或 Pull Request 参与贡献。
+
+## 项目目标
+
+- 提供清晰、可检索的日语语法文档。
+- 支持 JLPT 等级、标签与专题导航。
+- 提供例句、假名标注与可选音频。
+- 提供轻量练习与自测。
+- 以静态网站发布，不依赖自建后端或数据库。
+
+## 技术方案
+
+- VitePress：文档站与静态构建。
+- Vue 3 + TypeScript：筛选、练习、假名显示等交互。
+- Markdown + YAML Frontmatter：语法正文与元数据。
+- JSON：练习题数据。
+- GitHub Actions + GitHub Pages：自动检查、构建和部署。
+
+## 文档导航
+
+- [产品需求](docs/PRD.md)
+- [系统架构](docs/ARCHITECTURE.md)
+- [内容数据规范](docs/CONTENT_SCHEMA.md)
+- [开发与部署](docs/DEVELOPMENT.md)
+- [测试策略](docs/TESTING.md)
+- [路线图](docs/ROADMAP.md)
+- [贡献指南](CONTRIBUTING.md)
+- [语法编写指南](docs/contribute/writing-guide.md)
+- [练习题编写指南](docs/contribute/quiz-guide.md)
+- [内容审核指南](docs/contribute/review-guide.md)
+- [架构决策记录](docs/adr/README.md)
+
+## 状态
+
+Milestone 0（仓库初始化）已完成：VitePress 站点骨架、数据校验脚本与 CI/Pages 工作流已就位；语法内容按路线图（M1 起）逐步补充。开发过程中若实际实现与文档不同，应同步更新文档，并在重大技术选择时新增 ADR。
+
+## 许可证与内容来源
+
+代码与配置以 [MIT](LICENSE) 许可发布；语法讲解、例句等创作内容以 [CC BY-SA 4.0](LICENSE.content) 提供。贡献者应只提交自己创作、获得许可或可合法再分发的内容；不要直接复制受版权保护的教材、题库、音频或网站释义。
