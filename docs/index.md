@@ -7,11 +7,11 @@ hero:
   tagline: 由学习群共同维护 · 支持 JLPT 等级与标签筛选 · 纯静态站点
   actions:
     - theme: brand
+      text: 浏览语法
+      link: /grammar-index
+    - theme: alt
       text: 参与贡献
       link: /contribute/writing-guide
-    - theme: alt
-      text: 查看出题规范
-      link: /contribute/quiz-guide
 
 features:
   - title: 统一的内容格式

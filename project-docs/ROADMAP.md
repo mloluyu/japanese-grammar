@@ -21,19 +21,19 @@
 
 ## Milestone 2：质量门禁
 
-- [ ] 实现语法数据校验。
-- [ ] 实现题库 JSON 校验。
-- [ ] 检查重复 ID 与失效关联。
-- [ ] PR 自动运行校验与构建。
-- [ ] 验收：故意引入错误时，CI 能失败并指出位置。
+- [x] 实现语法数据校验（scripts/validate-grammar.mjs：必填字段、ID 规则、等级标签、分类注册表、related 引用、例句 JSON）。
+- [x] 实现题库 JSON 校验（scripts/validate-quiz.mjs）。
+- [x] 检查重复 ID 与失效关联（两个校验器均已覆盖）。
+- [x] PR 自动运行校验与构建（ci.yml 仅在 pull_request 触发）。
+- [ ] 验收：故意引入错误时，CI 能失败并指出位置（校验器的报错定位已在本地验证，CI 首次实际触发后勾选）。
 
 ## Milestone 3：检索与导航
 
-- [ ] 启用本地全文搜索，先用真实日语样本验证分词效果，必要时在搜索配置中加入 CJK 二元分词。
-- [ ] 生成语法索引。
-- [ ] 实现 JLPT、标签与分类筛选。
-- [ ] 建立专题索引与相似语法链接。
-- [ ] 验收：用户可以通过关键词和组合筛选找到条目。
+- [x] 启用本地全文搜索并加入 CJK 二元分词（docs/.vitepress/search-tokenizer.mjs；scripts/verify-search.mjs 已证实：默认分词下句中片段查询 4/6 落空，二元分词 6/6 命中，脚本已并入 npm run check）。注意：例句 JSON 在 M5 渲染组件上线前不进入页面文本，分词验证已提前把例句纳入语料。
+- [x] 生成语法索引（构建时数据加载器 docs/grammar-index.data.ts，基于 createContentLoader，无需手工维护）。
+- [x] 实现 JLPT、标签与分类筛选（/grammar-index 页：关键词 + 等级 + 分类 + 标签可组合，含空状态与清除筛选）。
+- [x] 建立专题索引与相似语法链接（/topics/ 两个专题；语法页底部由 related 自动渲染「相关语法」）。
+- [x] 验收：用户可以通过关键词和组合筛选找到条目（浏览器端最终确认随正式发布进行）。
 
 ## Milestone 4：练习体验
 

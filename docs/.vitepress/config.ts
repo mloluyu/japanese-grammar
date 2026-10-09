@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { cjkTokenize } from './search-tokenizer.mjs'
 
 // base 必须与最终托管 URL 一致。
 // 当前为 '/'：对应 Cloudflare Pages 的域名根路径托管（如 *.pages.dev 或自定义域）。
@@ -12,11 +13,23 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '语法索引', link: '/grammar-index' },
+      { text: '专题', link: '/topics/' },
       { text: '编写指南', link: '/contribute/writing-guide' },
       { text: '出题指南', link: '/contribute/quiz-guide' },
       { text: '审核指南', link: '/contribute/review-guide' },
     ],
     sidebar: {
+      '/topics/': [
+        {
+          text: '专题',
+          items: [
+            { text: '专题总览', link: '/topics/' },
+            { text: '条件表达：と・ば・たら・なら', link: '/topics/conditionals' },
+            { text: '决定、努力与变化', link: '/topics/decision-and-intention' },
+          ],
+        },
+      ],
       '/contribute/': [
         {
           text: '参与贡献',
@@ -33,6 +46,15 @@ export default defineConfig({
     ],
     search: {
       provider: 'local',
+      options: {
+        miniSearch: {
+          // CJK 二元分词：构建端建索引与客户端查询共用同一分词器。
+          // 实现见 ./search-tokenizer.mjs；验收脚本 scripts/verify-search.mjs。
+          options: {
+            tokenize: cjkTokenize,
+          },
+        },
+      },
     },
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
