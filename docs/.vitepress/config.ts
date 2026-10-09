@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 // base 必须与最终托管 URL 一致。
-// Cloudflare Pages 在域名根路径（如 *.pages.dev 或自定义域）服务站点，
-// 配置部署时应将 base 改为 '/'；当前值对应仓库子路径托管方式。
+// 当前为 '/'：对应 Cloudflare Pages 的域名根路径托管（如 *.pages.dev 或自定义域）。
+// 若改为仓库子路径托管，需同步改回如 '/japanese-grammar/'。
 export default defineConfig({
   lang: 'zh-CN',
   title: '日语语法知识库',
   description: '由学习群共同维护的日语语法参考：可检索、可筛选、可练习。',
-  base: '/japanese-grammar/',
+  base: '/',
 
   themeConfig: {
     nav: [
