@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-// 仓库子路径部署：base 必须与 GitHub Pages 实际 URL 一致（见 docs/DEVELOPMENT.md）。
-// 若仓库名或部署方式变更，同步修改此处。
+// base 必须与最终托管 URL 一致。
+// Cloudflare Pages 在域名根路径（如 *.pages.dev 或自定义域）服务站点，
+// 配置部署时应将 base 改为 '/'；当前值对应仓库子路径托管方式。
 export default defineConfig({
   lang: 'zh-CN',
   title: '日语语法知识库',
@@ -28,8 +29,7 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      // TODO: 仓库公开后把 <OWNER> 替换为实际 GitHub 用户名或组织名。
-      { icon: 'github', link: 'https://github.com/<OWNER>/japanese-grammar' },
+      { icon: 'github', link: 'https://github.com/mloluyu/japanese-grammar' },
     ],
     search: {
       provider: 'local',

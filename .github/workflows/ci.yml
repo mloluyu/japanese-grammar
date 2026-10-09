@@ -1,9 +1,9 @@
 name: CI
 
+# 仅在 PR 时运行：直接推送到 main 不触发远程构建，
+# 站点效果以本地 `npm run docs:dev` / `npm run docs:build` 验证为主。
 on:
   pull_request:
-  push:
-    branches: [main]
 
 jobs:
   check-and-build:

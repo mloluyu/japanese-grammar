@@ -54,19 +54,17 @@ npm run docs:dev
 4. VitePress 构建。
 5. 如已配置，运行类型检查和单元测试。
 
-PR 检查失败时，贡献者应先修复再请求合并。正式部署只由受信任的主分支触发。
+PR 检查失败时，贡献者应先修复再请求合并。站点部署在正式发布阶段由 Cloudflare Pages 承担，不在 CI 中进行。
 
-## 6. GitHub Pages 发布
+## 6. 部署（Cloudflare Pages，正式发布时配置）
 
-1. 将仓库推送到 GitHub。
-2. 在仓库 Settings → Pages 中将构建来源设置为 GitHub Actions。
-3. 添加基于官方 Pages artifact/deploy actions 的工作流。
-4. 确认 `permissions`、`environment` 和并发设置符合官方建议。
-5. 确认 `base` 与公开 URL 一致。
-6. 合并到主分支后检查 Actions 结果与实际页面。
-7. 之后每次合并都观察部署是否成功。
+日常开发以本地验证为主，不在 CI 中构建或部署站点：
 
-工作流中的 Action 版本应在实施时核对官方文档并固定。示例配置不是对所有仓库设置都可直接复制的保证。
+1. 本地效果验证：`npm run docs:dev`；发布前完整验证：`npm run check && npm run docs:build`。
+2. 正式发布时在 Cloudflare Pages 连接仓库，构建命令 `npm run docs:build`，输出目录 `docs/.vitepress/dist`。
+3. 在 Pages 项目的环境变量中固定 Node 版本（如 `NODE_VERSION=24`）。
+4. Cloudflare Pages 在域名根路径服务站点，届时将 `docs/.vitepress/config.ts` 中的 `base` 改为 `/`。
+5. 首次部署后核对公开 URL、内部链接与音频等资源路径。
 
 ## 7. 网页编辑流程
 

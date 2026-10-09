@@ -23,8 +23,8 @@ GitHub repository
           ▼ CI: validate → build
       VitePress static output
           │
-          ▼ deploy from main
-      GitHub Pages/Cloudflare Pages
+          ▼ deploy（正式发布时配置）
+      Cloudflare Pages
           │
           ▼ browser
   search / filters / quiz
@@ -38,8 +38,8 @@ GitHub repository
 - **Markdown + YAML Frontmatter**：语法说明及可筛选元数据。
 - **JSON**：题库和需要结构化处理的例句数据。
 - **Node.js 校验脚本**：校验 ID、枚举、引用、答案索引与必要字段。
-- **GitHub Actions**：PR 检查和主分支部署。
-- **Pages**：静态托管。
+- **GitHub Actions**：仅在 PR 时运行数据校验与构建检查；直接推送 main 不触发远程构建。
+- **Cloudflare Pages**：静态托管（正式发布时配置）。
 
 ## 4. 内容处理流程
 
@@ -48,7 +48,7 @@ GitHub repository
 3. 校验脚本检查必填字段、枚举值、重复 ID、引用完整性。
 4. VitePress 构建静态页面。
 5. 构建成功后由维护者合并。
-6. main 分支工作流发布到 Pages。
+6. 正式发布阶段由 Cloudflare Pages 构建部署；日常推送到 main 不触发远程构建。
 
 索引文件应由脚本从语法文档生成，不应由人手工重复维护。若 VitePress 插件或构建钩子不适合直接实现索引生成，可使用独立 Node.js 脚本在构建前生成。
 
@@ -121,8 +121,7 @@ CONTRIBUTING.md
 
 ## 10. 部署环境
 
-- 默认使用 GitHub Pages。
-- 使用 Actions 构建并部署。
-- 站点配置中的 `base` 必须与实际 URL 匹配。
+- 静态托管计划使用 Cloudflare Pages，正式发布时配置；在此之前不在 CI 中部署站点。
+- GitHub Actions 仅在 PR 时运行校验与构建检查，直接推送到 main 不触发远程构建。
+- Cloudflare Pages 在域名根路径服务站点，届时站点配置中的 `base` 应改为 `/`。
 - 依赖使用 lockfile 固定解析结果；CI 使用 `npm ci`。
-- 具体 Actions 版本、Node 版本和 VitePress 版本在实现时按官方支持状态确认并锁定。

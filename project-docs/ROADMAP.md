@@ -5,11 +5,11 @@
 ## Milestone 0：仓库初始化
 
 - [x] 选择许可证：代码 MIT，内容 CC BY-SA 4.0。
-- [ ] 在 GitHub 创建 `japanese-grammar` 仓库并推送。
+- [x] 在 GitHub 创建 `japanese-grammar` 仓库并推送。
 - [x] 初始化 VitePress、Vue 3 与 TypeScript 配置。
 - [x] 添加首页、导航和基础主题。
-- [x] 配置 Pages 工作流。
-- [ ] 验收：空白站点可成功部署（首次 Pages 部署成功后勾选）。
+- [ ] 配置 Cloudflare Pages 部署（正式发布时）。
+- [ ] 验收：空白站点可成功部署（Cloudflare Pages 首次部署成功后勾选）。
 
 ## Milestone 1：内容规范
 
