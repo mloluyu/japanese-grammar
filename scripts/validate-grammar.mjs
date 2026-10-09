@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // 语法条目 Frontmatter 校验。
-// 字段规范：docs/CONTENT_SCHEMA.md；验收用例：docs/TESTING.md「数据校验测试」。
+// 字段规范：project-docs/CONTENT_SCHEMA.md；验收用例：project-docs/TESTING.md「数据校验测试」。
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import process from 'node:process'

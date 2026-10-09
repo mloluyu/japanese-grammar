@@ -20,17 +20,17 @@
 
 ## 文档导航
 
-- [产品需求](docs/PRD.md)
-- [系统架构](docs/ARCHITECTURE.md)
-- [内容数据规范](docs/CONTENT_SCHEMA.md)
-- [开发与部署](docs/DEVELOPMENT.md)
-- [测试策略](docs/TESTING.md)
-- [路线图](docs/ROADMAP.md)
+- [产品需求](project-docs/PRD.md)
+- [系统架构](project-docs/ARCHITECTURE.md)
+- [内容数据规范](project-docs/CONTENT_SCHEMA.md)
+- [开发与部署](project-docs/DEVELOPMENT.md)
+- [测试策略](project-docs/TESTING.md)
+- [路线图](project-docs/ROADMAP.md)
 - [贡献指南](CONTRIBUTING.md)
 - [语法编写指南](docs/contribute/writing-guide.md)
 - [练习题编写指南](docs/contribute/quiz-guide.md)
 - [内容审核指南](docs/contribute/review-guide.md)
-- [架构决策记录](docs/adr/README.md)
+- [架构决策记录](project-docs/adr/README.md)
 
 ## 状态
 

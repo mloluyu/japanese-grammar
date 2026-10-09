@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // 练习题 JSON 校验。
-// 字段规范：docs/CONTENT_SCHEMA.md 第 4 节；出题质量：docs/contribute/quiz-guide.md。
+// 字段规范：project-docs/CONTENT_SCHEMA.md 第 4 节；出题质量：docs/contribute/quiz-guide.md。
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import process from 'node:process'

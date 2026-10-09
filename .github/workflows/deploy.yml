@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 
-# 仅由受信任的 main 分支触发（PR 检查失败不会发布，见 docs/DEVELOPMENT.md 第 5 节）。
+# 仅由受信任的 main 分支触发（PR 检查失败不会发布，见 project-docs/DEVELOPMENT.md 第 5 节）。
 on:
   push:
     branches: [main]

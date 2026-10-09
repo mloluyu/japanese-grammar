@@ -8,18 +8,6 @@ export default defineConfig({
   description: '由学习群共同维护的日语语法参考：可检索、可筛选、可练习。',
   base: '/japanese-grammar/',
 
-  // 项目管理类文档（PRD、ADR 等）只保留在仓库中供维护者阅读，
-  // 不构建进公开的学习站点。
-  srcExclude: [
-    '**/PRD.md',
-    '**/ARCHITECTURE.md',
-    '**/CONTENT_SCHEMA.md',
-    '**/DEVELOPMENT.md',
-    '**/TESTING.md',
-    '**/ROADMAP.md',
-    'adr/**',
-  ],
-
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

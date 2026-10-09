@@ -58,7 +58,7 @@ GitHub repository
 .github/
   ISSUE_TEMPLATE/
   workflows/
-docs/
+docs/                   # 仅站点内容（VitePress 源码目录）
   .vitepress/
     config.ts
     theme/
@@ -69,6 +69,14 @@ docs/
   topics/
   contribute/
   public/audio/
+project-docs/           # 项目管理文档，不构建进公开站点
+  PRD.md
+  ARCHITECTURE.md
+  CONTENT_SCHEMA.md
+  DEVELOPMENT.md
+  TESTING.md
+  ROADMAP.md
+  adr/
 scripts/
   validate-grammar.mjs
   validate-quiz.mjs
