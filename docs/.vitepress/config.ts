@@ -16,9 +16,12 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '语法索引', link: '/grammar-index' },
       { text: '专题', link: '/topics/' },
-      { text: '编写指南', link: '/contribute/writing-guide' },
-      { text: '出题指南', link: '/contribute/quiz-guide' },
-      { text: '审核指南', link: '/contribute/review-guide' },
+      {
+        text: '关于',
+        items: [
+          { text: '贡献指南', link: '/contribute/' },
+        ],
+      },
     ],
     sidebar: {
       '/topics/': [
@@ -35,6 +38,7 @@ export default defineConfig({
         {
           text: '参与贡献',
           items: [
+            { text: '贡献总览', link: '/contribute/' },
             { text: '语法条目编写指南', link: '/contribute/writing-guide' },
             { text: '练习题编写指南', link: '/contribute/quiz-guide' },
             { text: '内容审核指南', link: '/contribute/review-guide' },
@@ -66,5 +70,9 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
+    footer: {
+      message: `©2026-${new Date().getFullYear()} 本站维护组`,
+      copyright: '遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 协议。',
+    }
   },
 })

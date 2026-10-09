@@ -11,7 +11,7 @@ hero:
       link: /grammar-index
     - theme: alt
       text: 参与贡献
-      link: /contribute/writing-guide
+      link: /contribute/
 
 features:
   - title: 统一的内容格式
