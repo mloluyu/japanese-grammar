@@ -20,6 +20,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '贡献指南', link: '/contribute/' },
+          { text: '维护团队', link: '/team/' },
         ],
       },
     ],
@@ -71,8 +72,8 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     footer: {
-      message: `©2026-${new Date().getFullYear()} 本站维护组`,
-      copyright: '遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 协议。',
+      message: `©2026-${new Date().getFullYear()} <a href="/team/">维护团队</a>`,
+      copyright: 'Content licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License.',
     }
   },
 })

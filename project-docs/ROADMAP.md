@@ -4,7 +4,7 @@
 
 ## Milestone 0：仓库初始化
 
-- [x] 选择许可证：代码 MIT，内容 CC BY-SA 4.0。
+- [x] 选择许可证：代码 MIT，内容 CC BY-NC-SA 4.0。
 - [x] 在 GitHub 创建 `japanese-grammar` 仓库并推送。
 - [x] 初始化 VitePress、Vue 3 与 TypeScript 配置。
 - [x] 添加首页、导航和基础主题。
