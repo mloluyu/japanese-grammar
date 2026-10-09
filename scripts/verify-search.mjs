@@ -15,8 +15,8 @@ const FIELDS = ['title', 'titles', 'text']
 const SEARCH_OPTIONS = { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
 
 // 测试查询：覆盖标题命中、句中片段、长音/促音等不同情况。
-// 注意：例句 JSON 在 M5 渲染组件上线前不会进入页面的真实搜索索引；
-// 本脚本将其纳入语料，提前验证分词对例句文本（最难的片段场景）有效。
+// 语料与真实索引一致：M5 起搜索索引经 docs/.vitepress/search-render.mjs
+// 把例句文本、释义与读音注入提取，因此这里的 md + 例句 JSON 组合即真实索引内容。
 const QUERIES = [
   { q: 'ことになる', expect: '标题与正文（基线，默认分词也应命中）' },
   { q: '結婚する', expect: 'koto-ni-naru 例句片段' },

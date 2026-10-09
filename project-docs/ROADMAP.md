@@ -29,7 +29,7 @@
 
 ## Milestone 3：检索与导航
 
-- [x] 启用本地全文搜索并加入 CJK 二元分词（docs/.vitepress/search-tokenizer.mjs；scripts/verify-search.mjs 已证实：默认分词下句中片段查询 4/6 落空，二元分词 6/6 命中，脚本已并入 npm run check）。注意：例句 JSON 在 M5 渲染组件上线前不进入页面文本，分词验证已提前把例句纳入语料。
+- [x] 启用本地全文搜索并加入 CJK 二元分词（docs/.vitepress/search-tokenizer.mjs；scripts/verify-search.mjs 已证实：默认分词下句中片段查询 4/6 落空，二元分词 6/6 命中，脚本已并入 npm run check）。例句文本经 search-render.mjs 注入索引，验证语料与真实索引一致。
 - [x] 生成语法索引（构建时数据加载器 docs/grammar-index.data.ts，基于 createContentLoader，无需手工维护）。
 - [x] 实现 JLPT、标签与分类筛选（/grammar-index 页：关键词 + 等级 + 分类 + 标签可组合，含空状态与清除筛选）。
 - [x] 建立专题索引与相似语法链接（/topics/ 两个专题；语法页底部由 related 自动渲染「相关语法」）。
@@ -45,10 +45,10 @@
 
 ## Milestone 5：例句体验
 
-- [ ] 实现假名显示切换。
-- [ ] 实现音频播放器与无音频状态。
-- [ ] 例句组件输出正确的 `lang` 标记。
-- [ ] 验收：无音频、切换假名等场景下例句渲染正常。
+- [x] 实现假名显示切换（ExampleSentences 组件：`<ruby><rt>` 输出，一键切换显示/隐藏，状态仅存于会话内存，遵守 ADR-0004）。
+- [x] 实现音频播放器与无音频状态（有 `audio` 字段时输出原生播放器并走 base 前缀；缺失时显示「暂无音频」，不渲染失效控件。真实音频文件待贡献）。
+- [x] 例句组件输出正确的 `lang` 标记（句子元素 `lang="ja"`，站点根保持 `zh-CN`）。
+- [x] 验收：无音频、切换假名等场景下例句渲染正常（构建产物验证 ruby 结构与占位行为；浏览器端确认随正式发布进行）。
 
 ## Milestone 6：群内试运行
 

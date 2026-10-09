@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { cjkTokenize } from './search-tokenizer.mjs'
+import { searchPageRender } from './search-render.mjs'
 
 // base 必须与最终托管 URL 一致。
 // 当前为 '/'：对应 Cloudflare Pages 的域名根路径托管（如 *.pages.dev 或自定义域）。
@@ -47,6 +48,8 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        // 索引文本提取：默认 Markdown 渲染之外，把语法条目的例句 JSON 纳入索引。
+        _render: searchPageRender,
         miniSearch: {
           // CJK 二元分词：构建端建索引与客户端查询共用同一分词器。
           // 实现见 ./search-tokenizer.mjs；验收脚本 scripts/verify-search.mjs。

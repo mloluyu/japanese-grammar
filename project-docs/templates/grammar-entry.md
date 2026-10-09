@@ -23,7 +23,7 @@ status: draft                 # draft / reviewed / needs-correction
 - な形容词词干／名词＋〜
 
 ## 例句
-例句由结构化例句数据渲染，不在正文中手写。
+<ExampleSentences />
 配套例句写在 `docs/grammar/<id>.json`（格式见《内容数据规范》第 5 节）。
 
 ## 相似表达

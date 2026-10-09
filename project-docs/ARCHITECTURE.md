@@ -103,7 +103,7 @@ CONTRIBUTING.md
 
 - VitePress 本地搜索处理全文关键词检索；已配置 CJK 二元分词（docs/.vitepress/search-tokenizer.mjs），构建端与客户端共用同一分词器，假名与汉字连续段做重叠二元切分。
 - 分词效果由 scripts/verify-search.mjs 用真实语料（含例句 JSON）验证并并入 `npm run check` 门禁；默认空白分词下句中片段查询不可命中，为已知结论。
-- 例句 JSON 在 M5 例句组件上线前不渲染进页面文本，因此真实索引暂只覆盖标题与正文散文；M5 落地后例句自动进入索引，无需额外处理。
+- 例句渲染与索引分开处理：页面由 `ExampleSentences` 组件渲染（`<ruby><rt>`、假名切换、音频位、`lang="ja"`）；搜索索引基于 Markdown 源渲染、不执行组件，因此通过 `themeConfig.search.options._render`（docs/.vitepress/search-render.mjs）把例句文本、中文释义与注音读音显式注入索引提取。
 - 自定义索引处理 JLPT、标签、分类等结构化筛选。
 - 第一版不引入外部搜索 SaaS。
 - 已知风险：本地搜索（MiniSearch）默认按空白与标点切词，对无空格的日语正文，中间片段（如例句中的「留学する」）可能无法命中。进入 M3 前先用真实日语样本验证；不达标就在搜索配置中加入 CJK 二元分词（实现成本低，无需形态分析）。
