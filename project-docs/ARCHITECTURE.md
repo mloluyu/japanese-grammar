@@ -94,7 +94,6 @@ CONTRIBUTING.md
 - `/grammar-index`：语法总索引与筛选。
 - `/grammar/koto-ni-naru`：单条语法。
 - `/topics/particles`：专题页面。
-- `/practice`：练习入口。
 - `/contribute/writing-guide`：内容贡献说明。
 
 页面路径以实际文件结构为准；修改路径时要更新内部链接和相关语法引用。

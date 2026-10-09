@@ -1,0 +1,56 @@
+{
+  "id": "decision-intention-001",
+  "title": "决定、努力与变化练习",
+  "questions": [
+    {
+      "id": "q-d01",
+      "type": "single-choice",
+      "grammarIds": ["koto-ni-naru"],
+      "prompt": "兄は来月、大阪へ転勤する（　）になりました。",
+      "options": ["こと", "もの", "わけ", "はず"],
+      "answer": 0,
+      "explanation": "「〜ことになる」表示（多由外部因素形成的）决定。调职由公司安排，用「ことになる」最自然。",
+      "difficulty": 1
+    },
+    {
+      "id": "q-d02",
+      "type": "single-choice",
+      "grammarIds": ["koto-ni-suru"],
+      "prompt": "健康のために、毎朝走る（　）にしました。",
+      "options": ["もの", "こと", "わけ", "ため"],
+      "answer": 1,
+      "explanation": "「〜ことにする」表示自己主动做出决定；「ことにしました」＝决定每天跑步。",
+      "difficulty": 1
+    },
+    {
+      "id": "q-d03",
+      "type": "single-choice",
+      "grammarIds": ["koto-ni-suru"],
+      "prompt": "「甘いものは食べない（　）にしています。」这句话强调的是——",
+      "options": ["刚刚做出的决定", "被别人规定的规矩", "一直以来的自我要求", "能力发生了变化"],
+      "answer": 2,
+      "explanation": "「〜ことにしている」表示自己定下并持续遵守的规矩；一次性的决定用「ことにした」，被安排的事用「ことになる」。",
+      "difficulty": 2
+    },
+    {
+      "id": "q-d04",
+      "type": "single-choice",
+      "grammarIds": ["you-ni-naru"],
+      "prompt": "一年練習して、泳げる（　）になりました。",
+      "options": ["よう", "こと", "もの", "ため"],
+      "answer": 0,
+      "explanation": "可能形＋「ようになる」表示从不会到会的能力变化，是本句型的核心用法。",
+      "difficulty": 2
+    },
+    {
+      "id": "q-d05",
+      "type": "single-choice",
+      "grammarIds": ["you-ni-suru"],
+      "prompt": "毎日、少しは運動する（　）にしています。",
+      "options": ["もの", "はず", "こと", "よう"],
+      "answer": 3,
+      "explanation": "「〜ようにする」强调人为的坚持与努力；「ようにしています」＝一直尽量在做。与「ことになる」「ことにする」的区分见条目内对照。",
+      "difficulty": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "invitation-001",
+  "title": "邀请与提议练习",
+  "questions": [
+    {
+      "id": "q-i01",
+      "type": "single-choice",
+      "grammarIds": ["masen-ka"],
+      "prompt": "想邀请同事一起吃午饭，最自然的说法是——",
+      "options": [
+        "一緒に昼ご飯を食べません。",
+        "一緒に昼ご飯を食べませんか。",
+        "一緒に昼ご飯を食べますか。",
+        "一緒に昼ご飯を食べるませんか。"
+      ],
+      "answer": 1,
+      "explanation": "「〜ませんか」用否定疑问发出邀请，把选择权交给对方；「食べません。」只是陈述「不吃」。",
+      "difficulty": 1
+    },
+    {
+      "id": "q-i02",
+      "type": "single-choice",
+      "grammarIds": ["mashou"],
+      "prompt": "「じゃあ、私が予約（　）。」表示「我来预约吧」，最合适的是：",
+      "options": ["しません", "しませんか", "しましょう", "ません"],
+      "answer": 2,
+      "explanation": "「〜ましょう」可以表示说话人的意志（我来做）；「しません」是「不做」，语义相反。",
+      "difficulty": 1
+    }
+  ]
+}

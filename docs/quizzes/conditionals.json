@@ -1,0 +1,46 @@
+{
+  "id": "conditionals-001",
+  "title": "条件表达练习",
+  "questions": [
+    {
+      "id": "q-c01",
+      "type": "single-choice",
+      "grammarIds": ["to"],
+      "prompt": "「押すと、電気をつけてください」这句不自然，主要是因为「と」的后项不能是——",
+      "options": ["自然现象", "意志或请求", "习惯动作", "客观事实"],
+      "answer": 1,
+      "explanation": "「と」表恒常条件，后项是不受说话人意志控制的必然结果，不能接命令、劝诱或意愿表达。",
+      "difficulty": 2
+    },
+    {
+      "id": "q-c02",
+      "type": "single-choice",
+      "grammarIds": ["nara"],
+      "prompt": "日本語を勉強している（　）、この辞書がおすすめですよ。",
+      "options": ["なら", "と", "ば", "ものなら"],
+      "answer": 0,
+      "explanation": "前项来自对话中刚出现的话题，后项是评价或建议，这正是「なら」的典型用法。",
+      "difficulty": 1
+    },
+    {
+      "id": "q-c03",
+      "type": "single-choice",
+      "grammarIds": ["tara"],
+      "prompt": "家に帰（　）、すぐ電話してください。",
+      "options": ["くと", "けば", "ったら", "くなら"],
+      "answer": 2,
+      "explanation": "「帰ったら」表示「到家之后」的时间先后，并能自然衔接请求；「ば」的后项不宜出现请求，「と」的后项不能是意志表达，「帰くなら」接续不成立。",
+      "difficulty": 1
+    },
+    {
+      "id": "q-c04",
+      "type": "single-choice",
+      "grammarIds": ["ba"],
+      "prompt": "动词「遊ぶ」的ば形是——",
+      "options": ["遊んだら", "遊べば", "遊ぶと", "遊ぶれば"],
+      "answer": 1,
+      "explanation": "五段动词「遊ぶ」的ば形是把词尾改为え段再加ば：遊ぶ→遊べば。「遊んだら」是其た形，属「たら」句型。",
+      "difficulty": 1
+    }
+  ]
+}
