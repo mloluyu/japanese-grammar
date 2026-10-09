@@ -1,0 +1,32 @@
+name: 站点问题
+description: 页面渲染、窄屏适配或功能异常
+labels: [site-bug]
+title: "[站点] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面地址
+      placeholder: "https://…/grammar/koto-ni-naru"
+    validations:
+      required: true
+  - type: textarea
+    id: phenomenon
+    attributes:
+      label: 现象与复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 设备与浏览器（选填）
+      placeholder: "iPhone Safari / Windows Chrome"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图（选填）
+      description: 可直接把图片粘贴到输入框
+    validations:
+      required: false

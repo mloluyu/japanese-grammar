@@ -1,0 +1,30 @@
+name: 内容纠错
+description: 释义、例句、接续、假名标注等内容有误
+labels: [content-error]
+title: "[内容纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈！请尽量写清具体位置，便于快速定位修改。
+  - type: textarea
+    id: entry
+    attributes:
+      label: 条目与位置
+      description: 条目页网址或语法 ID，以及具体位置（核心含义／接续／例句／相似表达／使用注意／练习题）
+      placeholder: "koto-ni-naru 的例句 2"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 现状与问题
+      description: 现在写的是什么，哪里有问题
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 修改建议（选填）
+      description: 应该改成什么；如有教材、词典等参考来源请注明
+    validations:
+      required: false

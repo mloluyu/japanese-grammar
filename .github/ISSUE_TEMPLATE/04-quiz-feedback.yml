@@ -1,0 +1,25 @@
+name: 练习题反馈
+description: 题目答案有误、选项有歧义或解析不清
+labels: [quiz-feedback]
+title: "[练习] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: 所在条目
+      placeholder: "koto-ni-suru"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 题目与问题
+      description: 哪道题（题干前几个字即可）、答案错在哪或哪里有歧义
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 修改建议（选填）
+    validations:
+      required: false

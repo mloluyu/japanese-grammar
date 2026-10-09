@@ -27,6 +27,7 @@
 - [测试策略](project-docs/TESTING.md)
 - [路线图](project-docs/ROADMAP.md)
 - [贡献指南](CONTRIBUTING.md)
+- [Issue 反馈入口](https://github.com/mloluyu/japanese-grammar/issues/new/choose)：内容纠错／新增语法建议／搜索反馈／练习反馈／站点问题
 - [语法编写指南](docs/contribute/writing-guide.md)
 - [练习题编写指南](docs/contribute/quiz-guide.md)
 - [内容审核指南](docs/contribute/review-guide.md)

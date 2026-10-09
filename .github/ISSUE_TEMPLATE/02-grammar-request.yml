@@ -1,0 +1,54 @@
+name: 新增语法建议
+description: 想查的句型还没有条目，建议收录
+labels: [content-request]
+title: "[新增语法] "
+body:
+  - type: textarea
+    id: pattern
+    attributes:
+      label: 语法句型
+      placeholder: "〜わけがない（わけがない）"
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: 建议等级
+      options:
+        - 不确定
+        - N5
+        - N4
+        - N3
+        - N2
+        - N1
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      options:
+        - 不确定
+        - 助词
+        - 助动词
+        - 形式名词
+        - 惯用句型
+        - 条件表达
+        - 授受表达
+        - 敬语
+        - 传闻与推量
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 收录理由与参考来源
+      description: 在哪里遇到、为什么值得收录；如有教材或网页来源请注明。不要粘贴未经许可的教材或题库内容。
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 自己的例句（选填）
+    validations:
+      required: false

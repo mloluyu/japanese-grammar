@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 想自己动手写内容？
+    url: https://github.com/mloluyu/japanese-grammar/blob/main/docs/contribute/writing-guide.md
+    about: 语法条目与练习题的编写规范与模板，提交 PR 走审核流程

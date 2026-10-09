@@ -1,0 +1,35 @@
+name: 搜索与筛选反馈
+description: 搜不到想找的条目，或搜索、筛选结果不对
+labels: [search-feedback]
+title: "[搜索] "
+body:
+  - type: input
+    id: keyword
+    attributes:
+      label: 搜索词
+      placeholder: "予約しましょう"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望与实际
+      description: 希望找到哪一篇或出现什么；实际出现了什么（或完全没有结果）
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 设备
+      options:
+        - 手机
+        - 电脑
+        - 平板
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明（选填）
+    validations:
+      required: false
