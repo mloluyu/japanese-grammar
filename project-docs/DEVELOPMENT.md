@@ -54,17 +54,17 @@ npm run docs:dev
 4. VitePress 构建。
 5. 如已配置，运行类型检查和单元测试。
 
-PR 检查失败时，贡献者应先修复再请求合并。站点部署在正式发布阶段由 Cloudflare Pages 承担，不在 CI 中进行。
+PR 检查失败时，贡献者应先修复再请求合并。站点部署由 Cloudflare Pages 承担，不在 CI 中进行。
 
-## 6. 部署（Cloudflare Pages，正式发布时配置）
+## 6. 部署（Cloudflare Pages，已配置）
 
-日常开发以本地验证为主，不在 CI 中构建或部署站点：
+日常开发以本地验证为主，不在 CI 中构建或部署站点；推送到 main 后由 Cloudflare Pages 自动构建发布：
 
 1. 本地效果验证：`npm run docs:dev`；发布前完整验证：`npm run check && npm run docs:build`。
-2. 正式发布时在 Cloudflare Pages 连接仓库，构建命令 `npm run docs:build`，输出目录 `docs/.vitepress/dist`。
-3. 在 Pages 项目的环境变量中固定 Node 版本（如 `NODE_VERSION=24`）。
-4. Cloudflare Pages 在域名根路径服务站点，届时将 `docs/.vitepress/config.ts` 中的 `base` 改为 `/`。
-5. 首次部署后核对公开 URL、内部链接与音频等资源路径。
+2. Cloudflare Pages 已连接仓库，构建命令 `npm run docs:build`，输出目录 `docs/.vitepress/dist`。
+3. Pages 环境变量固定 Node 版本（`NODE_VERSION=24`）。
+4. 站点在域名根路径服务，`docs/.vitepress/config.ts` 的 `base` 为 `/`；若改为仓库子路径托管需同步改回。
+5. 首次部署后已核对公开 URL、内部链接与资源路径；后续改动重点复查新页面的链接与资源。
 
 ## 7. 网页编辑流程
 

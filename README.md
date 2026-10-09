@@ -16,7 +16,7 @@
 - Vue 3 + TypeScript：筛选、练习、假名显示等交互。
 - Markdown + YAML Frontmatter：语法正文与元数据。
 - JSON：练习题数据。
-- GitHub Actions：仅在 PR 时运行数据校验与构建检查；部署由 Cloudflare Pages 承担（正式发布时配置）。
+- GitHub Actions：仅在 PR 时运行数据校验与构建检查；站点由 Cloudflare Pages 部署，已向群内管理员开放试用。
 
 ## 文档导航
 
