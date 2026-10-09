@@ -1,0 +1,21 @@
+{
+  "grammarId": "mashou",
+  "examples": [
+    {
+      "id": "ex-mashou-001",
+      "text": "次の電車で行きましょう。",
+      "furigana": [
+        { "text": "電車", "reading": "でんしゃ" }
+      ],
+      "translation": "坐下一班电车去吧。"
+    },
+    {
+      "id": "ex-mashou-002",
+      "text": "じゃあ、私が予約しましょう。",
+      "furigana": [
+        { "text": "予約", "reading": "よやく" }
+      ],
+      "translation": "那我（来）预约吧。"
+    }
+  ]
+}

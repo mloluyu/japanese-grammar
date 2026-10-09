@@ -1,0 +1,24 @@
+{
+  "grammarId": "koto-ni-naru",
+  "examples": [
+    {
+      "id": "ex-koto-ni-naru-001",
+      "text": "兄は来月、結婚することになりました。",
+      "furigana": [
+        { "text": "兄", "reading": "あに" },
+        { "text": "来月", "reading": "らいげつ" },
+        { "text": "結婚", "reading": "けっこん" }
+      ],
+      "translation": "哥哥定于下个月结婚。"
+    },
+    {
+      "id": "ex-koto-ni-naru-002",
+      "text": "来年から名古屋で働くことになりました。",
+      "furigana": [
+        { "text": "来年", "reading": "らいねん" },
+        { "text": "名古屋", "reading": "なごや" }
+      ],
+      "translation": "（由于安排）明年起要去名古屋工作。"
+    }
+  ]
+}

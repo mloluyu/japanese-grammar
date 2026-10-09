@@ -1,0 +1,22 @@
+{
+  "grammarId": "koto-ni-suru",
+  "examples": [
+    {
+      "id": "ex-koto-ni-suru-001",
+      "text": "健康のために、毎朝走ることにしました。",
+      "furigana": [
+        { "text": "健康", "reading": "けんこう" },
+        { "text": "毎朝", "reading": "まあさ" }
+      ],
+      "translation": "为了健康，我决定每天早上跑步。"
+    },
+    {
+      "id": "ex-koto-ni-suru-002",
+      "text": "今月は買い物をしないことにします。",
+      "furigana": [
+        { "text": "買", "reading": "か" }
+      ],
+      "translation": "我决定这个月不购物。"
+    }
+  ]
+}

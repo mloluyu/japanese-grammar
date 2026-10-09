@@ -1,0 +1,24 @@
+{
+  "grammarId": "you-ni-naru",
+  "examples": [
+    {
+      "id": "ex-you-ni-naru-001",
+      "text": "一年練習して、泳げるようになりました。",
+      "furigana": [
+        { "text": "一年", "reading": "いちねん" },
+        { "text": "練習", "reading": "れんしゅう" },
+        { "text": "泳", "reading": "およ" }
+      ],
+      "translation": "练了一年，（我）学会游泳了。"
+    },
+    {
+      "id": "ex-you-ni-naru-002",
+      "text": "最近、野菜をよく食べるようになりました。",
+      "furigana": [
+        { "text": "最近", "reading": "さいきん" },
+        { "text": "野菜", "reading": "やさい" }
+      ],
+      "translation": "最近（我）变得常吃蔬菜了。"
+    }
+  ]
+}

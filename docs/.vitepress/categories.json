@@ -1,0 +1,34 @@
+{
+  "particles": {
+    "label": "助词",
+    "description": "格助词、接续助词、副助词等。"
+  },
+  "auxiliary-verbs": {
+    "label": "助动词",
+    "description": "れる・られる、せる・させる、ない、たい 等；て形补助动词（てしまう、ておく等）也归于此。"
+  },
+  "formal-nouns": {
+    "label": "形式名词",
+    "description": "こと、もの、の、わけ、ため 等。"
+  },
+  "sentence-patterns": {
+    "label": "惯用句型",
+    "description": "〜ことになる、〜ようにする 等以固定搭配出现的句型。"
+  },
+  "conditionals": {
+    "label": "条件表达",
+    "description": "と、ば、たら、なら 及其对比。"
+  },
+  "giving-receiving": {
+    "label": "授受表达",
+    "description": "あげる・くれる・もらう 及其补助动词用法。"
+  },
+  "keigo": {
+    "label": "敬语",
+    "description": "尊敬语、谦让语、郑重语与丁宁语。"
+  },
+  "hearsay-and-conjecture": {
+    "label": "传闻与推量",
+    "description": "そうだ、ようだ、らしい、はずだ 等。"
+  }
+}

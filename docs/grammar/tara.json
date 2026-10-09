@@ -1,0 +1,22 @@
+{
+  "grammarId": "tara",
+  "examples": [
+    {
+      "id": "ex-tara-001",
+      "text": "雨が降ったら、試合は中止です。",
+      "furigana": [
+        { "text": "試合", "reading": "しあい" },
+        { "text": "中止", "reading": "ちゅうし" }
+      ],
+      "translation": "要是下雨，比赛就取消。"
+    },
+    {
+      "id": "ex-tara-002",
+      "text": "家に帰ったら、すぐ電話してください。",
+      "furigana": [
+        { "text": "電話", "reading": "でんわ" }
+      ],
+      "translation": "到家之后，马上给我打电话。"
+    }
+  ]
+}

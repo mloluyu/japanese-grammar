@@ -22,7 +22,7 @@
 | `title` | string | 是 | 页面标题，如 `〜ことになる` |
 | `reading` | string | 建议 | 读音或检索用假名 |
 | `jlpt` | enum | 是 | `N5`、`N4`、`N3`、`N2`、`N1` |
-| `category` | string | 是 | 稳定分类 ID |
+| `category` | string | 是 | 稳定分类 ID，必须在分类注册表 `docs/.vitepress/categories.json` 中定义 |
 | `tags` | string[] | 是 | 可为空数组，但字段必须存在；不写入 JLPT 等级标签 |
 | `forms` | string[] | 建议 | 接续形式 |
 | `related` | string[] | 是 | 关联语法 ID，可为空数组；驱动「相关语法」列表的自动渲染 |
@@ -36,7 +36,7 @@ id: koto-ni-naru
 title: 〜ことになる
 reading: ことになる
 jlpt: N3
-category: decision-and-result
+category: sentence-patterns
 tags:
   - 结果
   - 决定
@@ -48,7 +48,7 @@ status: draft
 ---
 ```
 
-`category` 的显示名称应集中维护，例如在分类配置中定义 `decision-and-result: 决定与结果`，避免每篇文档重复造不同写法。
+分类 ID 集中登记在分类注册表 `docs/.vitepress/categories.json`（ID 与中文显示名一一对应），校验脚本会拒绝未注册的分类；新增分类须通过 PR 修改该注册表，避免每篇文档自造写法。标签保持轻量：中文短词（建议 1–4 字），优先复用既有标签，不写入 JLPT 等级。
 
 JLPT 等级只通过 `jlpt` 字段维护，是等级信息的唯一事实源。`tags` 中不要写入 `N5`–`N1` 等级标签，校验脚本会将此类条目判为错误；等级徽章与索引筛选中的等级维度由构建脚本从 `jlpt` 字段自动派生，不需要手工重复维护。
 
@@ -97,27 +97,35 @@ JLPT 等级只通过 `jlpt` 字段维护，是等级信息的唯一事实源。`
 - `options` 至少两项，且答案索引是有效整数。
 - `grammarIds` 中的每个 ID 必须存在。
 - `explanation` 非空。
-- 难度建议使用 1–3 的整数，含义在贡献指南中保持一致。
+- 难度建议使用 1–3 的整数，含义见《练习题编写指南》（docs/contribute/quiz-guide.md）。
 
 ## 5. 结构化例句
 
+每条语法的例句存放在与条目同名的 JSON 文件中：`docs/grammar/{语法ID}.json`。
+
 ```json
 {
-  "id": "example-001",
-  "text": "日本語を勉強しています。",
-  "furigana": [
-    { "text": "日本語", "reading": "にほんご" }
-  ],
-  "translation": "我正在学习日语。",
-  "audio": "/audio/studying-japanese.mp3",
-  "grammarIds": ["example-grammar"]
+  "grammarId": "koto-ni-naru",
+  "examples": [
+    {
+      "id": "ex-koto-ni-naru-001",
+      "text": "来月、日本へ留学することになりました。",
+      "furigana": [
+        { "text": "来月", "reading": "らいげつ" },
+        { "text": "留学", "reading": "りゅうがく" }
+      ],
+      "translation": "（由于安排）下个月要去日本留学。",
+      "audio": "/audio/koto-ni-naru-001.mp3"
+    }
+  ]
 }
 ```
 
+- `grammarId` 必须与文件名及对应语法条目的 `id` 一致。
+- 例句 `id` 全局唯一，建议使用 `ex-{语法ID}-三位序号` 的形式。
+- `furigana` 为可选字段，仅覆盖确实需要标注的词，避免重复存储整句的每个字符；`text` 必须与句中出现的写法完全一致。
 - `audio` 为可选字段；不存在音频时省略或置为 `null`，并确保 UI 不显示失效播放器。
-- `furigana` 仅覆盖确实需要标注的词，避免重复存储整句的每个字符。
-- 若一条语法需要多个例句，应允许例句数组。
-- 例句一律以结构化 JSON 提供，Markdown 正文中不再手写例句或 `<ruby>` 标注；`<ruby><rt>` 只是组件渲染例句时的输出格式，不是贡献者的书写入口。例句 JSON 文件的组织方式（每条语法一个文件或按组合并）在实现时确定。
+- 例句一律以结构化 JSON 提供，Markdown 正文中不再手写例句或 `<ruby>` 标注；`<ruby><rt>` 只是组件渲染例句时的输出格式，不是贡献者的书写入口。页面「例句」一节由组件读取该文件渲染（组件在 M5 提供，此前构建产物中该节为占位说明）。
 
 ## 6. 音频规范
 

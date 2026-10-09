@@ -30,6 +30,7 @@
 - [语法编写指南](docs/contribute/writing-guide.md)
 - [练习题编写指南](docs/contribute/quiz-guide.md)
 - [内容审核指南](docs/contribute/review-guide.md)
+- [语法条目模板](project-docs/templates/grammar-entry.md)
 - [架构决策记录](project-docs/adr/README.md)
 
 ## 状态

@@ -1,0 +1,23 @@
+{
+  "grammarId": "to",
+  "examples": [
+    {
+      "id": "ex-to-001",
+      "text": "春になると、桜が咲きます。",
+      "furigana": [
+        { "text": "春", "reading": "はる" },
+        { "text": "桜", "reading": "さくら" }
+      ],
+      "translation": "一到春天，樱花就开。"
+    },
+    {
+      "id": "ex-to-002",
+      "text": "このボタンを押すと、電気がつきます。",
+      "furigana": [
+        { "text": "押", "reading": "お" },
+        { "text": "電気", "reading": "でんき" }
+      ],
+      "translation": "一按这个按钮，灯就亮。"
+    }
+  ]
+}
