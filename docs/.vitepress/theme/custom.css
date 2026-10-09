@@ -1,2 +1,25 @@
-/* 预留的全局样式覆盖。
-   M5 例句组件（lang 标记、ruby 渲染）等将在此补充。 */
+/* 预留的全局样式覆盖。 */
+.VPFooter {
+  padding-inline: 0;
+}
+
+.VPFooter .container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .VPFooter .container {
+    padding-inline: 48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPFooter .container {
+    padding-inline: 64px;
+  }
+}

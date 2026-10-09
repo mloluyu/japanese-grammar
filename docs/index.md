@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: 日语语法知识库
-  text: 可检索、可练习的日语语法参考
-  tagline: 由学习群共同维护 · 支持 JLPT 等级与标签筛选 · 纯静态站点
+  text: 
+  tagline: 
   actions:
     - theme: brand
       text: 浏览语法

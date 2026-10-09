@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { cjkTokenize } from './search-tokenizer.mjs'
 import { searchPageRender } from './search-render.mjs'
 
+const year = new Date().getFullYear()
 // base 必须与最终托管 URL 一致。
 // 当前为 '/'：对应 Cloudflare Pages 的域名根路径托管（如 *.pages.dev 或自定义域）。
 // 若改为仓库子路径托管，需同步改回如 '/japanese-grammar/'。
@@ -20,7 +21,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '贡献指南', link: '/contribute/' },
-          { text: '维护团队', link: '/team/' },
+          { text: '本站维护组', link: '/team/' },
         ],
       },
     ],
@@ -72,7 +73,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     footer: {
-      message: `©2026-${new Date().getFullYear()} <a href="/team/">维护团队</a>`,
+      message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a>`,
       copyright: 'Content licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License.',
     }
   },
