@@ -4,10 +4,12 @@ title: 贡献指南
 
 # 贡献指南
 
-这个站点由学习小组共同维护，欢迎任何人参与。**不需要会编程**——大多数贡献只是改文字，全程可以在浏览器里完成。
+这个站点的维护欢迎任何人参与。**不需要会编程**——大多数贡献只是改文字，全程可以在浏览器里完成。
 
 ::: tip 完全没写过 Markdown？
-页面文字用的是 Markdown——一种几分钟能上手的简单排版写法（标题前加 `#`、加粗用两个星号包住）。入门教程见 [GitHub 官方中文指南](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)；也可以让网页版 AI 帮你把内容整理成需要的格式，做法见[语法条目编写指南](/contribute/writing-guide)里的提示框。
+页面文字用的是 Markdown——一种几分钟能上手的简单排版写法（标题前加 `#`、加粗用两个星号包住）。入门教程见 [GitHub 官方中文指南](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)；
+
+也可以让网页版 AI 帮你把内容整理成需要的格式，做法见[语法条目编写指南](/contribute/writing-guide)里的提示框。
 :::
 
 ## 从你想做的事出发

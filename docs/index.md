@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 日语语法知识库
+  name: 日语知识文档库
   text: 
   tagline: 
   actions:
