@@ -1,0 +1,41 @@
+{
+  "grammarId": "jidoushi-tadoushi",
+  "examples": [
+    {
+      "id": "ex-jt-01",
+      "text": "ドアが開く。",
+      "furigana": [
+        { "text": "開", "reading": "あ" }
+      ],
+      "translation": "门（自己）开了。",
+      "audio": null
+    },
+    {
+      "id": "ex-jt-02",
+      "text": "ドアを開ける。",
+      "furigana": [
+        { "text": "開", "reading": "あ" }
+      ],
+      "translation": "把门打开。",
+      "audio": null
+    },
+    {
+      "id": "ex-jt-03",
+      "text": "電気が消える。",
+      "furigana": [
+        { "text": "消", "reading": "き" }
+      ],
+      "translation": "灯灭了。",
+      "audio": null
+    },
+    {
+      "id": "ex-jt-04",
+      "text": "電気を消す。",
+      "furigana": [
+        { "text": "消", "reading": "け" }
+      ],
+      "translation": "把灯关掉。",
+      "audio": null
+    }
+  ]
+}

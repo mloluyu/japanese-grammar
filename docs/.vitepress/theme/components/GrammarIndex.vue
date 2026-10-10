@@ -104,7 +104,7 @@ function categoryLabel(id: string) {
         <a :href="withBase(entry.url)" class="entry-title">{{ entry.title }}</a>
         <p v-if="entry.reading" class="entry-reading" lang="ja">{{ entry.reading }}</p>
         <p class="entry-meta">
-          <span class="badge level">{{ entry.jlpt }}</span>
+          <span v-if="entry.jlpt" class="badge level">{{ entry.jlpt }}</span>
           <span class="badge category">{{ categoryLabel(entry.category) }}</span>
           <span v-for="item in entry.tags" :key="item" class="badge tag">{{ item }}</span>
         </p>

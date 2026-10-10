@@ -12,6 +12,8 @@ const CATEGORIES_FILE = path.resolve('docs/.vitepress/categories.json')
 const JLPT = new Set(['N5', 'N4', 'N3', 'N2', 'N1'])
 const STATUS = new Set(['draft', 'reviewed', 'needs-correction'])
 const REQUIRED = ['id', 'title', 'jlpt', 'category', 'tags', 'related', 'status']
+// 文法术语类条目不标 JLPT 等级：jlpt 字段可省略（values 仍受限）。
+const TERM_CATEGORY = 'grammar-term'
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/
 
 async function walk(dir, ext) {
@@ -65,7 +67,9 @@ for (const file of files) {
   entries.push({ rel, data })
 
   for (const key of REQUIRED) {
-    if (data[key] === undefined) errors.push(`${rel}: 缺少必填字段 ${key}`)
+    if (data[key] === undefined && !(key === 'jlpt' && data.category === TERM_CATEGORY)) {
+      errors.push(`${rel}: 缺少必填字段 ${key}`)
+    }
   }
   if (data.id !== undefined) {
     if (typeof data.id !== 'string' || !ID_RE.test(data.id)) {
