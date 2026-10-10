@@ -1,0 +1,44 @@
+name: 侵权检举
+description: 站点内容涉嫌侵犯版权时，请通过此表单告诉我们
+title: '[侵权] 简述涉嫌侵权的内容'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。为了尽快处理，请尽量提供涉嫌侵权内容的出处证明；确认属实后我们会下架相关内容并回复处理结果。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 涉嫌侵权的内容类型
+      options:
+        - 正文/例句文字
+        - 练习题
+        - 音频
+        - 图片
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 涉嫌侵权内容的位置
+      description: 涉及的页面网址，以及页面中的具体位置（如第几条例句）
+      placeholder: 例如：https://（站点地址）/grammar/tara 例句第 2 句
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 原作品信息或出处证明
+      description: 原作品的名称、作者/出版方、链接等，能说明权利归属即可
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: 您的身份与联系方式（选填）
+      description: 如您是权利人或其代理人请说明；需要书面回复可留邮箱
+  - type: markdown
+    attributes:
+      value: |
+        > 也可以直接发邮件到 awako@mloluyu.uno。请不要在本表单粘贴大段受版权保护的内容。

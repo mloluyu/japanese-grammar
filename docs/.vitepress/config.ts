@@ -16,6 +16,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '语法索引', link: '/grammar-index' },
+      { text: '五十音', link: '/kana/' },
       { text: '专题', link: '/topics/' },
       {
         text: '关于',
@@ -65,6 +66,12 @@ export default defineConfig({
         },
       },
     },
+    editLink: {
+      // 条目页底部的「在 GitHub 上编辑此页」。:path 相对 srcDir（docs/），
+      // 因此 pattern 需带 docs/ 前缀指向仓库里的真实文件。
+      pattern: 'https://github.com/mloluyu/japanese-grammar/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页',
+    },
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
     returnToTopLabel: '回到顶部',
@@ -73,7 +80,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     footer: {
-      message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a>`,
+      message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a> · <a href="/contribute/#侵权投诉">侵权投诉</a>`,
       copyright: 'Content licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License.',
     }
   },
