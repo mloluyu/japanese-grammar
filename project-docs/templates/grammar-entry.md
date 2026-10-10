@@ -24,7 +24,7 @@ status: draft                 # draft / reviewed / needs-correction
 
 ## 例句
 <ExampleSentences />
-配套例句写在 `docs/grammar/<id>.json`（格式见《内容数据规范》第 5 节）。
+配套例句写在 `content/grammar/<id>.json`（格式见《内容数据规范》第 5 节）。
 
 ## 相似表达
 只写与关联条目的差异说明，不要手写链接——相关条目列表由 frontmatter 的 `related` 自动渲染。

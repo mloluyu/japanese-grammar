@@ -7,6 +7,7 @@ import process from 'node:process'
 import matter from 'gray-matter'
 
 const GRAMMAR_DIR = path.resolve('docs/grammar')
+const CONTENT_DIR = path.resolve('content')
 const CATEGORIES_FILE = path.resolve('docs/.vitepress/categories.json')
 const JLPT = new Set(['N5', 'N4', 'N3', 'N2', 'N1'])
 const STATUS = new Set(['draft', 'reviewed', 'needs-correction'])
@@ -113,8 +114,8 @@ for (const { rel, data } of entries) {
   }
 }
 
-// 例句 JSON：docs/grammar/{语法ID}.json（规范见 CONTENT_SCHEMA.md 第 5 节）。
-const exampleFiles = (await walk(GRAMMAR_DIR, '.json')).filter((f) => path.basename(f) !== 'categories.json')
+// 例句 JSON：content/grammar/{语法ID}.json，与条目 Markdown 分离（规范见 CONTENT_SCHEMA.md 第 5 节）。
+const exampleFiles = await walk(path.join(CONTENT_DIR, 'grammar'), '.json')
 const exampleIds = new Set()
 let exampleCount = 0
 for (const file of exampleFiles) {

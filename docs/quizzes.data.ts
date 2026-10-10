@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 
-// 题库数据加载器：构建时读取 docs/quizzes/*.json 并展平为题目列表。
+// 题库数据加载器：构建时读取 content/quizzes/*.json 并展平为题目列表。
 // 题目通过 grammarIds 与语法条目关联，练习组件按当前条目 ID 过滤。
 // 文件格式与校验规则见 project-docs/CONTENT_SCHEMA.md 第 4 节。
 
@@ -19,14 +19,14 @@ export interface QuizQuestion {
 declare const data: QuizQuestion[]
 export { data }
 
-function resolveSrcDir(): string {
-  const config = (globalThis as unknown as { VITEPRESS_CONFIG?: { srcDir?: string } }).VITEPRESS_CONFIG
-  return config?.srcDir ?? path.resolve(process.cwd(), 'docs')
+// 题库数据目录固定在仓库根 content/（npm scripts 与 CI 均从仓库根执行）。
+function contentDir(): string {
+  return path.resolve(process.cwd(), 'content')
 }
 
 export default {
   async load(): Promise<QuizQuestion[]> {
-    const dir = path.join(resolveSrcDir(), 'quizzes')
+    const dir = path.join(contentDir(), 'quizzes')
     const questions: QuizQuestion[] = []
     let names: string[] = []
     try {

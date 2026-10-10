@@ -40,7 +40,7 @@ status: draft
 
 ## 例句
 <ExampleSentences />
-配套例句写在 `docs/grammar/<id>.json`（格式见《内容数据规范》第 5 节）。
+配套例句写在 `content/grammar/<id>.json`（格式见《内容数据规范》第 5 节）。
 
 ## 相似表达
 关联条目列表由组件根据 `related` 渲染，本节只写差异说明，不手写链接。

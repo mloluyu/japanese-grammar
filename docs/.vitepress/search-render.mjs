@@ -1,13 +1,15 @@
 // 本地搜索的页面文本提取（themeConfig.search.options._render）。
 //
 // 背景：VitePress 构建搜索索引时用 markdown-it 渲染 Markdown 源码，不会执行
-// Vue 组件，因此写在 docs/grammar/{id}.json 里的结构化例句进不了索引。
-// 这里在默认渲染之后，为语法条目页追加同目录 JSON 的例句文本（仅进入索引，
+// Vue 组件，因此写在 content/grammar/{id}.json 里的结构化例句进不了索引。
+// 这里在默认渲染之后，为语法条目页追加 content/grammar 下同名 JSON 的例句文本（仅进入索引，
 // 页面显示不受影响；搜索详情视图里能看到命中例句片段）。
 //
 // 注意：此函数只在构建端执行；经 _vp-fn_ 序列化随站点数据下发到客户端后
 // 不会被调用。
 import { readFile } from 'node:fs/promises'
+import path from 'node:path'
+import process from 'node:process'
 
 /**
  * @param {string} mdSrc 处理过 include 的 Markdown 源码
@@ -24,7 +26,12 @@ export async function searchPageRender(mdSrc, env, md) {
   const id = typeof frontmatter.id === 'string' ? frontmatter.id : ''
   if (!id) return html
 
-  const jsonPath = env.path.replace(/\.md$/, '.json')
+  // 例句 JSON 与条目 Markdown 分离：固定从仓库根 content/grammar/ 取同名文件。
+  const jsonPath = path.resolve(
+    process.cwd(),
+    'content/grammar',
+    path.basename(env.path).replace(/\.md$/, '.json'),
+  )
   try {
     const parsed = JSON.parse(await readFile(jsonPath, 'utf8'))
     if (!parsed || parsed.grammarId !== id || !Array.isArray(parsed.examples)) return html

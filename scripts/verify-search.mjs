@@ -9,6 +9,7 @@ import MiniSearch from 'minisearch'
 import { cjkTokenize } from '../docs/.vitepress/search-tokenizer.mjs'
 
 const DOCS_DIR = path.resolve('docs')
+const CONTENT_DIR = path.resolve('content')
 
 // 与 VitePress 构建端一致的字段与查询配置（fuzzy/prefix 保持默认主题设置）。
 const FIELDS = ['title', 'titles', 'text']
@@ -52,7 +53,8 @@ function toPlainText(md) {
     .replace(/<[^>]+>/g, ' ')
 }
 
-const files = await walk(DOCS_DIR)
+// 语料 = docs 下的 Markdown + content/grammar 下的例句 JSON（与真实索引来源一致）。
+const files = [...(await walk(DOCS_DIR)), ...(await walk(CONTENT_DIR))]
 const documents = []
 for (const file of files) {
   const raw = await readFile(file, 'utf8')
@@ -60,7 +62,7 @@ for (const file of files) {
     // 例句文件：text 取日文原句 + 中文释义（M5 渲染后两者都会出现在页面上）。
     const json = JSON.parse(raw)
     const text = (json.examples ?? []).map((ex) => `${ex.text ?? ''} ${ex.translation ?? ''}`).join(' ')
-    documents.push({ id: path.relative(DOCS_DIR, file), title: `例句：${json.grammarId ?? path.basename(file, '.json')}`, titles: [], text })
+    documents.push({ id: path.relative(CONTENT_DIR, file), title: `例句：${json.grammarId ?? path.basename(file, '.json')}`, titles: [], text })
     continue
   }
   const text = toPlainText(raw)
@@ -79,7 +81,7 @@ function searchWith(tokenize, query) {
   return index.search(query, SEARCH_OPTIONS)
 }
 
-console.log(`verify-search: 语料 ${documents.length} 个 Markdown 文件，${QUERIES.length} 个查询。\n`)
+console.log(`verify-search: 语料 ${documents.length} 个文件（Markdown＋例句 JSON），${QUERIES.length} 个查询。\n`)
 let failures = 0
 const header = ['查询', '期望', '默认分词', 'CJK 二元分词']
 const rows = QUERIES.map(({ q, expect }) => {

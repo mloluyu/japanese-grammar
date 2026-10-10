@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 
-// 例句数据加载器：构建时聚合 docs/grammar/{语法ID}.json，
+// 例句数据加载器：构建时聚合 content/grammar/{语法ID}.json（例句数据在 docs 之外，见 ARCHITECTURE.md），
 // 以 grammarId 为键输出，供例句组件按当前条目取用。
 // 文件格式见 project-docs/CONTENT_SCHEMA.md 第 5 节；校验由 scripts/validate-grammar.mjs 负责。
 
@@ -21,15 +21,14 @@ export interface Example {
 declare const data: Record<string, Example[]>
 export { data }
 
-function resolveSrcDir(): string {
-  // 与 createContentLoader 相同的配置来源；兜底为标准布局。
-  const config = (globalThis as unknown as { VITEPRESS_CONFIG?: { srcDir?: string } }).VITEPRESS_CONFIG
-  return config?.srcDir ?? path.resolve(process.cwd(), 'docs')
+// 例句数据目录固定在仓库根 content/（npm scripts 与 CI 均从仓库根执行）。
+function contentDir(): string {
+  return path.resolve(process.cwd(), 'content')
 }
 
 export default {
   async load(): Promise<Record<string, Example[]>> {
-    const dir = path.join(resolveSrcDir(), 'grammar')
+    const dir = path.join(contentDir(), 'grammar')
     const result: Record<string, Example[]> = {}
     let names: string[] = []
     try {

@@ -101,7 +101,7 @@ JLPT 等级只通过 `jlpt` 字段维护，是等级信息的唯一事实源。`
 
 ## 5. 结构化例句
 
-每条语法的例句存放在与条目同名的 JSON 文件中：`docs/grammar/{语法ID}.json`。
+每条语法的例句存放在与条目同名的 JSON 文件中：`content/grammar/{语法ID}.json`（与条目 Markdown 分离存放）。
 
 ```json
 {

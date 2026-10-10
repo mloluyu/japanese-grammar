@@ -56,24 +56,27 @@ GitHub repository
 
 ```text
 .github/
-  ISSUE_TEMPLATE/        # 5 个 issue 表单 + config.yml（空白 issue 关闭）
+  ISSUE_TEMPLATE/        # 6 个 issue 表单 + config.yml（空白 issue 关闭）
   workflows/ci.yml       # 仅 pull_request：check + build
 docs/
   .vitepress/
-    config.ts            # 站点配置：nav/sidebar/search(_render + CJK 分词)/footer
+    config.ts            # 站点配置：nav/sidebar/search(_render + CJK 分词)/editLink/footer
     categories.json      # 分类注册表（校验器强制）
     search-tokenizer.mjs # CJK 二元分词（构建端与客户端共用）
     search-render.mjs    # 搜索索引文本提取（例句注入）
     theme/               # Layout + 组件注册
     components/          # GrammarIndex / RelatedGrammar / ExampleSentences / PracticeQuiz
-  grammar/               # 语法条目 .md + 同名例句 .json 平铺
-  quizzes/               # 题库 JSON
+  grammar/               # 语法条目 .md 平铺
+  kana/                  # 五十音速查页
   grammar-index.data.ts  # 索引页数据加载器（createContentLoader）
   examples.data.ts       # 例句聚合数据加载器
   quizzes.data.ts        # 题库聚合数据加载器
   index.md  grammar-index.md  team/
   topics/  contribute/   # 专题与贡献文档（各含 index 总览页）
   public/audio/          # 音频资产（待贡献）
+content/                 # 内容数据（在 docs 之外，构建时由加载器与校验器读取）
+  grammar/               # 例句 JSON，与条目同名
+  quizzes/               # 题库 JSON
 project-docs/            # 项目管理文档，不构建进公开站点
 scripts/
   validate-grammar.mjs  validate-quiz.mjs  verify-search.mjs

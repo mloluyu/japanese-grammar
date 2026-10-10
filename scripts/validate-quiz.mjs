@@ -6,7 +6,7 @@ import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
 
-const QUIZ_DIR = path.resolve('docs/quizzes')
+const QUIZ_DIR = path.resolve('content/quizzes')
 const GRAMMAR_DIR = path.resolve('docs/grammar')
 
 async function walk(dir, ext) {
@@ -42,7 +42,7 @@ async function collectGrammarIds() {
 const grammarIds = await collectGrammarIds()
 const quizFiles = await walk(QUIZ_DIR, '.json')
 if (quizFiles.length === 0) {
-  console.log('validate-quiz: docs/quizzes 下暂无题库，跳过校验。')
+  console.log('validate-quiz: content/quizzes 下暂无题库，跳过校验。')
   process.exit(0)
 }
 
