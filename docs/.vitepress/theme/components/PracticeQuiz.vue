@@ -6,6 +6,7 @@ import { data as questions } from '../../../quizzes.data'
 // 条目内练习（M4 范围调整：不做独立练习页与抽题）。
 // 按当前条目 ID 过滤 grammarIds 命中的题目；选择后即时反馈并展开解析。
 // 作答状态仅存于会话内存，不做本地持久化（ADR-0004）。
+// 折叠状态同样是会话内 ref；练习默认折叠（Issue #1 F10），展开后作答。
 
 interface Question {
   id: string
@@ -24,6 +25,9 @@ const entryQuestions = computed<Question[]>(() => {
   if (!id) return []
   return questions.filter((q) => q.grammarIds.includes(id))
 })
+
+// 练习块默认折叠，点击标题右侧按钮展开/收起。
+const expanded = ref(false)
 
 // answers[题目id] = 已选选项下标；未作答的题目不出现在对象里。
 const answers = ref<Record<string, number>>({})
@@ -64,9 +68,18 @@ const resultLabel = computed(() => {
       >
         重做
       </button>
+      <button
+        type="button"
+        class="quiz-toggle"
+        :aria-expanded="expanded"
+        aria-controls="practice-quiz-list"
+        @click="expanded = !expanded"
+      >
+        {{ expanded ? '收起' : '展开' }}
+      </button>
     </div>
 
-    <ol class="question-list">
+    <ol v-show="expanded" id="practice-quiz-list" class="question-list">
       <li v-for="question in entryQuestions" :key="question.id" class="question">
         <p class="prompt" lang="ja">{{ question.prompt }}</p>
         <div class="options">
@@ -129,9 +142,20 @@ const resultLabel = computed(() => {
   cursor: pointer;
   font-size: 13px;
 }
-.quiz-reset:hover {
+.quiz-reset:hover,
+.quiz-toggle:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
+}
+.quiz-toggle {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 2px 10px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: auto;
 }
 .question-list {
   list-style: none;

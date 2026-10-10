@@ -61,7 +61,7 @@
 - [x] 条目页加「在 GitHub 上编辑此页」链接（config.ts themeConfig.editLink，指向 main 分支对应 Markdown）。
 - [x] 侵权检举渠道：Issue 表单（06-copyright.yml）＋邮箱 awako@mloluyu.uno，页脚与贡献指南均有入口。
 - [x] 五十音静态速查页（/kana/，顶栏入口）。
-- [ ] 练习模块可展开/折叠，默认折叠（状态仅存会话内存，遵守 ADR-0004）。
+- [x] 练习模块可展开/折叠，默认折叠（PracticeQuiz 会话内状态，遵守 ADR-0004）。
 - [ ] 语法卡片/例句/习题模块的 UI 优化（F4/F5/F8/F9/F11，随 UI 重设计进行，维护者自留）。
 
 ## 暂缓项目
