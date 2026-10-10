@@ -10,7 +10,7 @@ title: 贡献指南
 
 - **报告问题**：使用 [Issue 反馈模板](https://github.com/mloluyu/japanese-grammar/issues/new/choose)——内容纠错／新增语法建议／搜索反馈／练习反馈／站点问题。
 - **网页编辑**：在 GitHub 上打开目标文件直接编辑、提交到新分支并发起 PR，适合小幅修订；完整步骤见仓库根目录的 `CONTRIBUTING.md`。
-- **本地开发**：克隆仓库后 `npm run docs:dev` 预览，提交前运行 `npm run check`；详细流程见 `CONTRIBUTING.md`。
+- **本地开发（面向程序员）**：克隆仓库后 `npm run docs:dev` 预览，提交前运行 `npm run check`；详细流程见 `CONTRIBUTING.md`。
 
 ## 三份指南
 

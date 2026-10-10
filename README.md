@@ -1,43 +1,71 @@
 # 日语语法知识库
 
-一个以 GitHub 仓库为内容源的日语语法文档与学习工具。目标是让群友能方便地阅读、检索、练习，并通过 GitHub 网页编辑或 Pull Request 参与贡献。
+> 开放共享的可检索、可练习的日语语法参考。
 
-## 项目目标
+[在线阅览](https://hinata.mloluyu.uno) · [反馈问题](https://github.com/mloluyu/japanese-grammar/issues/new/choose) · [参与贡献](CONTRIBUTING.md)
 
-- 提供清晰、可检索的日语语法文档。
-- 支持 JLPT 等级、标签与专题导航。
-- 提供例句、假名标注与可选音频。
-- 提供轻量练习与自测。
-- 以静态网站发布，不依赖自建后端或数据库。
+## 这是什么
 
-## 技术方案
+面向日语学习者的静态语法参考站点，以学习群为主要读者。内容以 Git 仓库为单一事实源，网站只读呈现，修订通过 Pull Request 进入审核流程。
 
-- VitePress：文档站与静态构建。
-- Vue 3 + TypeScript：筛选、练习、假名显示等交互。
-- Markdown + YAML Frontmatter：语法正文与元数据。
-- JSON：练习题数据。
-- GitHub Actions：仅在 PR 时运行数据校验与构建检查；站点由 Cloudflare Pages 部署，已向群内管理员开放试用。
+- **结构化条目**——每篇语法一个 Markdown 文件，Frontmatter 统一维护 JLPT 等级、分类与标签；语法 ID 稳定且不含等级，等级调整不影响链接。
+- **检索与筛选**——本地全文搜索针对日语做了二元分词，句中片段（如「予約しましょう」）与假名读音都能命中；[语法索引](docs/grammar-index.md)支持关键词、等级、分类、标签组合筛选。
+- **例句与假名**——例句为结构化 JSON（假名标注、中文释义，音频位预留），页面一键切换假名显示。
+- **条目内练习**——单选题内嵌每篇条目，即时反馈与解析；跨条目对比题会同时出现在相关条目上。
+- **专题页**——跨条目的系统对比，如[条件表达：と・ば・たら・なら](docs/topics/conditionals.md)。
 
-## 文档导航
+## 当前状态
 
-- [产品需求](project-docs/PRD.md)
-- [系统架构](project-docs/ARCHITECTURE.md)
-- [内容数据规范](project-docs/CONTENT_SCHEMA.md)
-- [开发与部署](project-docs/DEVELOPMENT.md)
-- [测试策略](project-docs/TESTING.md)
-- [路线图](project-docs/ROADMAP.md)
-- [贡献指南](CONTRIBUTING.md)
-- [Issue 反馈入口](https://github.com/mloluyu/japanese-grammar/issues/new/choose)：内容纠错／新增语法建议／搜索反馈／练习反馈／站点问题
-- [语法编写指南](docs/contribute/writing-guide.md)
-- [练习题编写指南](docs/contribute/quiz-guide.md)
-- [内容审核指南](docs/contribute/review-guide.md)
-- [语法条目模板](project-docs/templates/grammar-entry.md)
-- [架构决策记录](project-docs/adr/README.md)
+站点已部署于 Cloudflare Pages，并向群内管理员开放试用。里程碑进度与验收标准见 [project-docs/ROADMAP.md](project-docs/ROADMAP.md)。
 
-## 状态
+## 本地开发
 
-Milestone 0（仓库初始化）已完成：VitePress 站点骨架、数据校验脚本与 CI/Pages 工作流已就位；语法内容按路线图（M1 起）逐步补充。开发过程中若实际实现与文档不同，应同步更新文档，并在重大技术选择时新增 ADR。
+要求 Node.js 24+（仓库内 `.nvmrc` 固定 CI 版本）。
 
-## 许可证与内容来源
+```bash
+git clone https://github.com/mloluyu/japanese-grammar.git
+cd japanese-grammar
+npm ci
+npm run docs:dev        # 本地预览
+```
+
+提交前完整验证：
+
+```bash
+npm run check           # 条目/例句/题库校验 + 搜索分词验证
+npm run docs:build      # 完整构建
+```
+
+## 参与贡献
+
+贡献流程、PR 要求与行为规范见 [CONTRIBUTING.md](CONTRIBUTING.md)；各环节分册指南：
+
+- 新增或修订语法 → [语法条目编写指南](docs/contribute/writing-guide.md)，条目模板在 `project-docs/templates/grammar-entry.md`
+- 出题 → [练习题编写指南](docs/contribute/quiz-guide.md)
+- 合并前审核 → [内容审核指南](docs/contribute/review-guide.md)
+
+只想报问题、不动代码：走 [Issue 模板](https://github.com/mloluyu/japanese-grammar/issues/new/choose)（内容纠错／新增语法建议／搜索反馈／练习反馈／站点问题）。
+
+## 项目文档
+
+设计与维护文档集中在 [project-docs/](project-docs/)；实现与文档不一致时应同步更新文档：
+
+| 文档 | 内容 |
+|---|---|
+| [产品需求 PRD](project-docs/PRD.md) | 目标用户、功能需求与验收标准 |
+| [系统架构](project-docs/ARCHITECTURE.md) | 技术选型、站点结构与搜索/筛选边界 |
+| [内容数据规范](project-docs/CONTENT_SCHEMA.md) | 条目 Frontmatter、例句 JSON 与题库格式 |
+| [开发与部署](project-docs/DEVELOPMENT.md) | 本地开发、CI 约定与 Cloudflare Pages 配置 |
+| [测试策略](project-docs/TESTING.md) | 自动化校验范围与手工验收清单 |
+| [路线图](project-docs/ROADMAP.md) | 里程碑与当前进度 |
+| [架构决策记录 ADR](project-docs/adr/README.md) | 重大技术选择的背景与结论 |
+
+## 技术栈
+
+- [VitePress](https://vitepress.dev) + Vue 3 + TypeScript：静态站点与交互（筛选、练习、假名切换）。
+- Node.js 校验脚本：`npm run check` 汇总数据校验与搜索分词验证；CI 仅在 PR 时运行。
+- 部署：Cloudflare Pages，推送到 main 自动构建发布。
+
+## 许可证
 
 代码与配置以 [MIT](LICENSE) 许可发布；语法讲解、例句等创作内容以 [CC BY-NC-SA 4.0](LICENSE.content) 提供。贡献者应只提交自己创作、获得许可或可合法再分发的内容；不要直接复制受版权保护的教材、题库、音频或网站释义。

@@ -8,8 +8,8 @@ const year = new Date().getFullYear()
 // 若改为仓库子路径托管，需同步改回如 '/japanese-grammar/'。
 export default defineConfig({
   lang: 'zh-CN',
-  title: '日语语法知识库',
-  description: '由学习群共同维护的日语语法参考：可检索、可筛选、可练习。',
+  title: '日语知识文档库',
+  description: '由学习群共同维护的日语知识参考：可检索、可筛选、可练习。',
   base: '/',
 
   themeConfig: {
@@ -20,8 +20,8 @@ export default defineConfig({
       {
         text: '关于',
         items: [
-          { text: '贡献指南', link: '/contribute/' },
-          { text: '本站维护组', link: '/team/' },
+          { text: '问题反馈与贡献指南', link: '/contribute/' },
+          { text: '关于本站', link: '/team/' },
         ],
       },
     ],
