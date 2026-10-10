@@ -9,3 +9,4 @@ docs/data/
 .env
 .env.*
 !.env.example
+project-docs/DOC_CONSISTENCY_AUDIT.md

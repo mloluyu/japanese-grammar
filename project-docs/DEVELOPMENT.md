@@ -3,7 +3,7 @@
 ## 1. 环境准备
 
 建议安装：
-- Node.js 当前受支持的 LTS 版本（项目初始化时确认具体版本）。
+- Node.js 24+（`.nvmrc` 固定 24；Cloudflare Pages 侧 `NODE_VERSION=24`）。
 - npm。
 - Git。
 - 一个 GitHub 账号。
@@ -11,7 +11,7 @@
 ## 2. 本地开发
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mloluyu/japanese-grammar.git
 cd japanese-grammar
 npm ci
 npm run docs:dev
@@ -19,22 +19,13 @@ npm run docs:dev
 
 终端会输出本地开发地址。修改 `docs/` 下的内容后，开发服务器通常会自动刷新。
 
-## 3. 建议脚本
+## 3. 脚本
 
-`package.json` 应至少提供：
+脚本清单以 `package.json` 实际内容与 README《本地开发》一节为准，此处不重复维护，避免多处清单漂移。常用命令：
 
-```json
-{
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "check": "node scripts/validate-grammar.mjs && node scripts/validate-quiz.mjs"
-  }
-}
-```
-
-上面的命令是假定校验脚本使用 `.mjs` 扩展名。如果使用 TypeScript，应选择并固定一种执行方式（例如编译后运行或采用受支持的 TypeScript runner），并同步修改脚本路径；不要把示例中的扩展名和实际文件名混用。
+- `npm run docs:dev`：本地预览。
+- `npm run docs:build`：完整构建。
+- `npm run check`：数据校验与搜索分词验证门禁，PR 与发布前必跑。
 
 ## 4. 站点配置
 
@@ -47,12 +38,12 @@ npm run docs:dev
 
 ## 5. Pull Request 检查
 
-每个 PR 至少运行：
+每个 PR 至少运行（与 `.github/workflows/ci.yml` 保持一致）：
 1. 安装 lockfile 中的依赖：`npm ci`。
-2. 语法元数据校验。
-3. 练习题 JSON 校验。
-4. VitePress 构建。
-5. 如已配置，运行类型检查和单元测试。
+2. `npm run check`：语法元数据、例句与题库校验，加搜索分词验证。
+3. `npm run docs:build`：VitePress 构建。
+
+当前未配置类型检查与单元测试；未来引入时应先更新本清单与 ci.yml。
 
 PR 检查失败时，贡献者应先修复再请求合并。站点部署由 Cloudflare Pages 承担，不在 CI 中进行。
 

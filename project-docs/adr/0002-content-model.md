@@ -15,7 +15,7 @@
 
 ## 决策
 
-语法正文使用 Markdown，元数据使用 YAML Frontmatter，练习题使用 JSON。索引由脚本生成。
+语法正文使用 Markdown，元数据使用 YAML Frontmatter，练习题使用 JSON。筛选索引在构建时由数据加载器生成（后续演进见 ARCHITECTURE §4）。
 
 ## 后果
 
