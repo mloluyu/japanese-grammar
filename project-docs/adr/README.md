@@ -41,3 +41,4 @@ ADR 用于记录影响项目长期维护的技术决策。小型文案修改不�
 - [ADR-0002：使用 Markdown Frontmatter 与 JSON 分离内容](0002-content-model.md)
 - [ADR-0003：使用静态托管与本地学习状态](0003-static-first.md)（本地学习状态部分已被 ADR-0004 取代）
 - [ADR-0004：不实现本地学习记录](0004-no-local-study-state.md)
+- [ADR-0005：生成音频的许可与模型分发策略](0005-generated-audio-licensing.md)
