@@ -237,8 +237,16 @@ for (const voiceId of voiceIds) {
     if (!regenerate.has(ex.exampleId)) { skipped++; continue }
     const tts = (ex.reading?.trim() || ex.text).trim()
     try {
-      const audio = await piper.synthesize(tts, voice.params)
-      const mp3 = encodeMp3(audio.samples, audio.sampleRate, encode.bitrateKbps)
+      const raw = await piper.synthesize(tts, voice.params)
+      // 句尾静音垫：合成出的音频末端截断生硬，按配置补一小段
+      const padSec = encode.tailSilenceSeconds ?? 0
+      let samples = raw.samples
+      if (padSec > 0) {
+        const padded = new Float32Array(samples.length + Math.round(raw.sampleRate * padSec))
+        padded.set(samples, 0)
+        samples = padded
+      }
+      const mp3 = encodeMp3(samples, raw.sampleRate, encode.bitrateKbps)
       const rel = `${audioUrlPrefix}/${voiceId}/${ex.exampleId}.mp3`
       await fs.writeFile(path.join(voiceDir, `${ex.exampleId}.mp3`), mp3)
       manifest.items[itemKey(voiceId, ex.exampleId)] = {
@@ -250,7 +258,7 @@ for (const voiceId of voiceIds) {
         textSha256: sha256(Buffer.from(tts, 'utf8')),
         audioSha256: sha256(mp3),
         bytes: mp3.length,
-        sampleRate: audio.sampleRate,
+        sampleRate: raw.sampleRate,
         fingerprint: fingerprint(voice),
         modelOnnxSha256: onnxSha,
         engine: { package: engine.npmPackage, version: engine.npmVersion },

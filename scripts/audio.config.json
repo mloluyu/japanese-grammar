@@ -15,22 +15,10 @@
     "format": "mp3",
     "bitrateKbps": 64,
     "channels": 1,
-    "sampleRate": "模型原生（22050），不重采样"
+    "sampleRate": "模型原生（22050），不重采样",
+    "tailSilenceSeconds": 0.35
   },
   "voices": {
-    "css10-ja-v1": {
-      "label": "CSS10 日语（训练语料公有领域）",
-      "model": {
-        "repo": "ayousanz/piper-plus-css10-ja-6lang",
-        "onnx": "css10-ja-6lang-fp16.onnx",
-        "config": "config.json",
-        "base": "ayousanz/piper-plus-base（CC BY-4.0）",
-        "dataLicense": "CSS10 public domain"
-      },
-      "params": { "language": "ja", "noiseScale": 0.667, "lengthScale": 1.2, "noiseW": 0.5 },
-      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
-      "active": false
-    },
     "tsukuyomi-v1": {
       "label": "つくよみちゃん（训练语料为自定义条款）",
       "model": {
@@ -40,7 +28,7 @@
         "base": "ayousanz/piper-plus-base（CC BY-4.0）",
         "dataLicense": "つくよみちゃんコーパス条款（自定义：署名与用途限制，须逐条审查）"
       },
-      "params": { "language": "ja", "noiseScale": 0.667, "lengthScale": 1.5, "noiseW": 0.5 },
+      "params": { "language": "ja", "noiseScale": 0.5, "lengthScale": 1.7, "noiseW": 0.3 },
       "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
       "active": false
     }
