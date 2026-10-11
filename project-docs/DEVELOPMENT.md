@@ -40,6 +40,7 @@ npm run docs:dev
 - 多音字兜底：例句 JSON 的 `reading` 字段（全假名，校验器禁止汉字）会替代 `text` 送入 TTS。
 - 许可状态：引擎 MIT（lamejs 为 LGPL-3.0，仅构建期工具，产物不受其约束）；生成音频按 tsukuyomi 语料利用规约处理——**仅限站内收听（鑑賞用），不授权二次利用**，且不得标注 CC0。正式声明见 `docs/team/index.md`「许可与声明」与 `LICENSE.content` 例外段；`audio.config.json` 的 `license` 字段已落正式文字。选型已完成（tsukuyomi-v1 转正），`docs/public/audio/` 与 `tools/*.mjs` 已入库，`tools/models/`（模型缓存）与探针产物仍忽略。
 - 个别句发音瑕疵处置：模型对特定音簇（如 gak）的渲染有随机劣化（约五成好take率）。流程＝整批试听 → 挑出坏句 → `node tools/take-pick.mjs` 出多个 take → 人耳选定后 `node tools/lock-take.mjs <label> <exampleId>` 锁定（写生产路径＋manifest，fingerprint 不变，重跑不会覆盖）。
+- 五十音发音：`npm run audio:kana`（`--force` 全量重生成）按 `docs/.vitepress/theme/data/kana-data.json`（与 KanaChart 组件共用的唯一数据源，音频文本固定用平假名，单拍音 lengthScale 取 1.2）生成 `docs/public/audio/kana/{罗马字}.mp3`；无独立台账，幂等重跑即可，许可与例句音频相同。
 
 ## 5. 站点配置
 
