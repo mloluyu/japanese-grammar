@@ -5,19 +5,33 @@
       "id": "ex-masen-ka-001",
       "text": "一緒に昼ご飯を食べませんか。",
       "furigana": [
-        { "text": "一緒", "reading": "いっしょ" },
-        { "text": "昼ご飯", "reading": "ひるごはん" }
+        {
+          "text": "一緒",
+          "reading": "いっしょ"
+        },
+        {
+          "text": "昼ご飯",
+          "reading": "ひるごはん"
+        }
       ],
-      "translation": "要不要一起吃午饭？"
+      "translation": "要不要一起吃午饭？",
+      "audio": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3"
     },
     {
       "id": "ex-masen-ka-002",
       "text": "日曜日に映画を見に行きませんか。",
       "furigana": [
-        { "text": "日曜日", "reading": "にちようび" },
-        { "text": "映画", "reading": "えいが" }
+        {
+          "text": "日曜日",
+          "reading": "にちようび"
+        },
+        {
+          "text": "映画",
+          "reading": "えいが"
+        }
       ],
-      "translation": "周日要不要去看电影？"
+      "translation": "周日要不要去看电影？",
+      "audio": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3"
     }
   ]
 }

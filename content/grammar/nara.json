@@ -5,20 +5,37 @@
       "id": "ex-nara-001",
       "text": "日本語を勉強しているなら、この辞書がおすすめです。",
       "furigana": [
-        { "text": "日本語", "reading": "にほんご" },
-        { "text": "勉強", "reading": "べんきょう" },
-        { "text": "辞書", "reading": "じしょ" }
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "辞書",
+          "reading": "じしょ"
+        }
       ],
-      "translation": "如果是（在）学日语的话，推荐这本词典。"
+      "translation": "如果是（在）学日语的话，推荐这本词典。",
+      "audio": "/audio/tsukuyomi-v1/ex-nara-001.mp3"
     },
     {
       "id": "ex-nara-002",
       "text": "海へ行くなら、夏がいいですね。",
       "furigana": [
-        { "text": "海", "reading": "うみ" },
-        { "text": "夏", "reading": "なつ" }
+        {
+          "text": "海",
+          "reading": "うみ"
+        },
+        {
+          "text": "夏",
+          "reading": "なつ"
+        }
       ],
-      "translation": "要去海边的话，夏天最合适。"
+      "translation": "要去海边的话，夏天最合适。",
+      "audio": "/audio/tsukuyomi-v1/ex-nara-002.mp3"
     }
   ]
 }

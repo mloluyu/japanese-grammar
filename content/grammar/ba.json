@@ -5,18 +5,29 @@
       "id": "ex-ba-001",
       "text": "もっと練習すれば、上手になりますよ。",
       "furigana": [
-        { "text": "練習", "reading": "れんしゅう" },
-        { "text": "上手", "reading": "じょうず" }
+        {
+          "text": "練習",
+          "reading": "れんしゅう"
+        },
+        {
+          "text": "上手",
+          "reading": "じょうず"
+        }
       ],
-      "translation": "再多练习的话，就会变好的哦。"
+      "translation": "再多练习的话，就会变好的哦。",
+      "audio": "/audio/tsukuyomi-v1/ex-ba-001.mp3"
     },
     {
       "id": "ex-ba-002",
       "text": "安ければ、買います。",
       "furigana": [
-        { "text": "安", "reading": "やす" }
+        {
+          "text": "安",
+          "reading": "やす"
+        }
       ],
-      "translation": "便宜的话就买。"
+      "translation": "便宜的话就买。",
+      "audio": "/audio/tsukuyomi-v1/ex-ba-002.mp3"
     }
   ]
 }

@@ -38,7 +38,8 @@ npm run docs:dev
 - 生成物：`docs/public/audio/{voiceId}/{例句ID}.mp3`；脚本把站点地址回写到例句 JSON 的 `audio` 字段，前端组件不感知生成过程。
 - 溯源台账：`content/audio-manifest.json` 记录每条音频的文本哈希、模型、参数与许可快照（文本改动或引擎/参数变化会触发自动重生成）；前端不读取该文件。
 - 多音字兜底：例句 JSON 的 `reading` 字段（全假名，校验器禁止汉字）会替代 `text` 送入 TTS。
-- 许可状态：引擎 MIT；**模型与生成音频的授权尚未拍板**（css10-ja 候选基座 CC BY-4.0 + CSS10 公有领域；tsukuyomi 候选语料为自定义条款，不得标注 CC0）。试点双声音盲听选型后再定，`audio.config.json` 的 `license` 字段暂留 TBD；试点期间 `tools/` 与 `docs/public/audio/` 暂不入库（.gitignore），选型后取消忽略再提交。
+- 许可状态：引擎 MIT；**生成音频的授权尚未最终拍板**（tsukuyomi 语料为自定义条款，不得标注 CC0；css10-ja 候选已经盲听淘汰）。`audio.config.json` 的 `license` 字段暂留 TBD，上传前须复核。选型已完成（tsukuyomi-v1 转正），`docs/public/audio/` 与 `tools/*.mjs` 已入库，`tools/models/`（模型缓存）与探针产物仍忽略。
+- 个别句发音瑕疵处置：模型对特定音簇（如 gak）的渲染有随机劣化（约五成好take率）。流程＝整批试听 → 挑出坏句 → `node tools/take-pick.mjs` 出多个 take → 人耳选定后 `node tools/lock-take.mjs <label> <exampleId>` 锁定（写生产路径＋manifest，fingerprint 不变，重跑不会覆盖）。
 
 ## 5. 站点配置
 

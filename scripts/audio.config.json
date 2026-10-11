@@ -30,7 +30,7 @@
       },
       "params": { "language": "ja", "noiseScale": 0.5, "lengthScale": 1.7, "noiseW": 0.3 },
       "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
-      "active": false
+      "active": true
     }
   }
 }

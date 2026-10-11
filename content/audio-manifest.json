@@ -124,8 +124,8 @@
       "voice": "tsukuyomi-v1",
       "textSource": "text",
       "textSha256": "0301521e12e459f70d28677611385fdc0d8823cec72a213e66886be813cdd9b0",
-      "audioSha256": "7af598a7b8f295a6ec61b726af7c7b8efb8672195f45e8cd7dad467281ed1d8a",
-      "bytes": 12956,
+      "audioSha256": "5d361dacce23347c5876e4ecfd50d67973235ec1185fbe8fd22fe26af0a50782",
+      "bytes": 12747,
       "sampleRate": 22050,
       "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
       "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
@@ -144,7 +144,7 @@
         "noiseW": 0.3
       },
       "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
-      "generatedAt": "2026-10-11T08:29:28.899Z"
+      "generatedAt": "2026-10-11T09:07:06.796Z"
     },
     "tsukuyomi-v1/ex-jt-04": {
       "path": "/audio/tsukuyomi-v1/ex-jt-04.mp3",

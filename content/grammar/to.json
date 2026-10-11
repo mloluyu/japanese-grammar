@@ -5,19 +5,33 @@
       "id": "ex-to-001",
       "text": "春になると、桜が咲きます。",
       "furigana": [
-        { "text": "春", "reading": "はる" },
-        { "text": "桜", "reading": "さくら" }
+        {
+          "text": "春",
+          "reading": "はる"
+        },
+        {
+          "text": "桜",
+          "reading": "さくら"
+        }
       ],
-      "translation": "一到春天，樱花就开。"
+      "translation": "一到春天，樱花就开。",
+      "audio": "/audio/tsukuyomi-v1/ex-to-001.mp3"
     },
     {
       "id": "ex-to-002",
       "text": "このボタンを押すと、電気がつきます。",
       "furigana": [
-        { "text": "押", "reading": "お" },
-        { "text": "電気", "reading": "でんき" }
+        {
+          "text": "押",
+          "reading": "お"
+        },
+        {
+          "text": "電気",
+          "reading": "でんき"
+        }
       ],
-      "translation": "一按这个按钮，灯就亮。"
+      "translation": "一按这个按钮，灯就亮。",
+      "audio": "/audio/tsukuyomi-v1/ex-to-002.mp3"
     }
   ]
 }

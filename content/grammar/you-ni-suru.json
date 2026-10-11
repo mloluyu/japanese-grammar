@@ -5,19 +5,33 @@
       "id": "ex-you-ni-suru-001",
       "text": "毎日、少し運動するようにしています。",
       "furigana": [
-        { "text": "毎日", "reading": "まいにち" },
-        { "text": "運動", "reading": "うんどう" }
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "運動",
+          "reading": "うんどう"
+        }
       ],
-      "translation": "我尽量每天做点运动。"
+      "translation": "我尽量每天做点运动。",
+      "audio": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3"
     },
     {
       "id": "ex-you-ni-suru-002",
       "text": "遅くまで起きないようにしてください。",
       "furigana": [
-        { "text": "遅", "reading": "おそ" },
-        { "text": "起", "reading": "お" }
+        {
+          "text": "遅",
+          "reading": "おそ"
+        },
+        {
+          "text": "起",
+          "reading": "お"
+        }
       ],
-      "translation": "请尽量不要熬夜到很晚。"
+      "translation": "请尽量不要熬夜到很晚。",
+      "audio": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3"
     }
   ]
 }
