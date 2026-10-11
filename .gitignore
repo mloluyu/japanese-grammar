@@ -10,3 +10,5 @@ docs/data/
 .env.*
 !.env.example
 project-docs/DOC_CONSISTENCY_AUDIT.md
+tools/
+docs/public/audio/

@@ -1,0 +1,48 @@
+{
+  "$comment": "例句音频生成配置。引擎与模型版本钉死；更换模型、音色或关键参数＝新增 voice-id（旧目录显式去留），不得复用。设计说明见 project-docs/DEVELOPMENT.md「音频生成」。",
+  "engine": {
+    "npmPackage": "piper-plus",
+    "npmVersion": "0.8.1",
+    "onnxruntimeWeb": "1.30.0",
+    "mp3Encoder": "@breezystack/lamejs",
+    "runtime": "Node + onnxruntime-web wasm CPU 后端"
+  },
+  "outputDir": "docs/public/audio",
+  "manifestFile": "content/audio-manifest.json",
+  "audioUrlPrefix": "/audio",
+  "modelCacheDir": "tools/models",
+  "encode": {
+    "format": "mp3",
+    "bitrateKbps": 64,
+    "channels": 1,
+    "sampleRate": "模型原生（22050），不重采样"
+  },
+  "voices": {
+    "css10-ja-v1": {
+      "label": "CSS10 日语（训练语料公有领域）",
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx",
+        "config": "config.json",
+        "base": "ayousanz/piper-plus-base（CC BY-4.0）",
+        "dataLicense": "CSS10 public domain"
+      },
+      "params": { "language": "ja", "noiseScale": 0.667, "lengthScale": 1.2, "noiseW": 0.5 },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "active": false
+    },
+    "tsukuyomi-v1": {
+      "label": "つくよみちゃん（训练语料为自定义条款）",
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx",
+        "config": "config.json",
+        "base": "ayousanz/piper-plus-base（CC BY-4.0）",
+        "dataLicense": "つくよみちゃんコーパス条款（自定义：署名与用途限制，须逐条审查）"
+      },
+      "params": { "language": "ja", "noiseScale": 0.667, "lengthScale": 1.5, "noiseW": 0.5 },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "active": false
+    }
+  }
+}

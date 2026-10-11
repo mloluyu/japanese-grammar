@@ -2,6 +2,7 @@
 // 语法条目 Frontmatter 与例句 JSON 校验。
 // 字段规范：project-docs/CONTENT_SCHEMA.md；验收用例：project-docs/TESTING.md「数据校验测试」。
 import { readdir, readFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
 import matter from 'gray-matter'
@@ -175,6 +176,24 @@ for (const file of exampleFiles) {
     }
     if (ex?.audio !== undefined && ex.audio !== null && typeof ex.audio !== 'string') {
       errors.push(`${label}: audio 应为字符串或 null`)
+    }
+    // reading：为 TTS 提供的显式读音。必须是假名（可含标点/长音符），不得夹汉字——
+    // 汉字读音交由 TTS 引擎与 furigana 维护，这里只兜底多音字场景。
+    if (ex?.reading !== undefined && ex.reading !== null) {
+      if (typeof ex.reading !== 'string' || ex.reading.trim().length === 0) {
+        errors.push(`${label}: reading 应为非空字符串或 null`)
+      } else if (/[\u3005\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/.test(ex.reading)) {
+        errors.push(`${label}: reading 须全部用假名书写，不得含汉字（当前：${ex.reading}）`)
+      }
+    }
+    // audio：指向站内 /audio/ 的文件必须真实存在（由 scripts/generate-audio.mjs 生成）。
+    if (typeof ex?.audio === 'string') {
+      const audioFile = path.join('docs/public', ex.audio.replace(/^\//, ''))
+      if (!audioFile.startsWith(path.join('docs/public') + path.sep)) {
+        errors.push(`${label}: audio 必须指向 /audio/ 下的文件（当前：${ex.audio}）`)
+      } else if (!existsSync(audioFile)) {
+        errors.push(`${label}: audio 指向的文件不存在（当前：${ex.audio}；先运行 npm run audio:generate）`)
+      }
     }
   }
 }

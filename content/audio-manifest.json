@@ -1,0 +1,1408 @@
+{
+  "schema_version": 1,
+  "items": {
+    "css10-ja-v1/ex-ba-001": {
+      "path": "/audio/css10-ja-v1/ex-ba-001.mp3",
+      "exampleId": "ex-ba-001",
+      "grammarId": "ba",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "f0ee2cfe75a293c6ba300aec84ecd5a68c11facbae319d5b5bbebcf0b692e3ac",
+      "audioSha256": "79109e34b40318537308d346713384f11d9afeff58b8dc917cb00bc9627174b9",
+      "bytes": 17136,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.383Z"
+    },
+    "css10-ja-v1/ex-ba-002": {
+      "path": "/audio/css10-ja-v1/ex-ba-002.mp3",
+      "exampleId": "ex-ba-002",
+      "grammarId": "ba",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "37eb6cd9f1f47e4cf8755458b339351f22a69d44b9e95fc66f04d0d6c5646d3f",
+      "audioSha256": "68cec57307782d190d67262a4ed0a3ab699c854b6f3301ea0b38098e0b5e6391",
+      "bytes": 8777,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.481Z"
+    },
+    "css10-ja-v1/ex-jt-01": {
+      "path": "/audio/css10-ja-v1/ex-jt-01.mp3",
+      "exampleId": "ex-jt-01",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "f585904dee45705b3fa6f67023eb0ed52c475131b1eb31d6ed853e3a94781df9",
+      "audioSha256": "29facaa30ecce2dc277549fd50cc27f552f5b22e5428d2bcf1f03967c2aba8a6",
+      "bytes": 7105,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.541Z"
+    },
+    "css10-ja-v1/ex-jt-02": {
+      "path": "/audio/css10-ja-v1/ex-jt-02.mp3",
+      "exampleId": "ex-jt-02",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "c88546ff1459e8bcd32cbfcab54f331795f5fec5e528be8cfa47b96c9fad1f2c",
+      "audioSha256": "fa61370e9a6eebfa012e73bd9f2dfeb998298596693a1062bf4748157af0ad99",
+      "bytes": 5851,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.591Z"
+    },
+    "css10-ja-v1/ex-jt-03": {
+      "path": "/audio/css10-ja-v1/ex-jt-03.mp3",
+      "exampleId": "ex-jt-03",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "0301521e12e459f70d28677611385fdc0d8823cec72a213e66886be813cdd9b0",
+      "audioSha256": "a258757b381d35881e496087220ce17cc8b50041388a4fa779c11d965c89d6d5",
+      "bytes": 7105,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.641Z"
+    },
+    "css10-ja-v1/ex-jt-04": {
+      "path": "/audio/css10-ja-v1/ex-jt-04.mp3",
+      "exampleId": "ex-jt-04",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "bb47040f985d3882970d76fafc8ad713dc89a69eccda143701748db4985b6f92",
+      "audioSha256": "a4bf707b1af94767c7692d939703a0f5c80c090d1029ff0321cd9f9b3b865f62",
+      "bytes": 7523,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.686Z"
+    },
+    "css10-ja-v1/ex-koto-ni-naru-001": {
+      "path": "/audio/css10-ja-v1/ex-koto-ni-naru-001.mp3",
+      "exampleId": "ex-koto-ni-naru-001",
+      "grammarId": "koto-ni-naru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "7fb44c751df529a3f3231d6fd256fb03a595b250f5bac60b90696d50a55961ce",
+      "audioSha256": "6944dd8fc1d1cc6d98e70f18b7765de2c9ce8fe3676947fee71f66a8cc8a14b7",
+      "bytes": 21106,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.810Z"
+    },
+    "css10-ja-v1/ex-koto-ni-naru-002": {
+      "path": "/audio/css10-ja-v1/ex-koto-ni-naru-002.mp3",
+      "exampleId": "ex-koto-ni-naru-002",
+      "grammarId": "koto-ni-naru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "85d3c55a35fe997be9ef8aaf6b235ad2c4f7440c117193356d3a4f679e984db8",
+      "audioSha256": "d8831f16a54129244fc453dd7653c51ab1e514e5d3bfc5b8da2618273bab74dc",
+      "bytes": 19853,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:07.998Z"
+    },
+    "css10-ja-v1/ex-koto-ni-suru-001": {
+      "path": "/audio/css10-ja-v1/ex-koto-ni-suru-001.mp3",
+      "exampleId": "ex-koto-ni-suru-001",
+      "grammarId": "koto-ni-suru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "3961f830354623bf291c3322d220de4ecb9301c761a3e173399245570dfcff49",
+      "audioSha256": "9955ca253a9f4f12590a633ac2db8e29ed3aebb2e251495fc06132004a772ea8",
+      "bytes": 21315,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.098Z"
+    },
+    "css10-ja-v1/ex-koto-ni-suru-002": {
+      "path": "/audio/css10-ja-v1/ex-koto-ni-suru-002.mp3",
+      "exampleId": "ex-koto-ni-suru-002",
+      "grammarId": "koto-ni-suru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "8fd51ce7554e60708e50aba6f57683768b8b934255767f64f2f1c5f9d78ffe30",
+      "audioSha256": "8f8b57dbef611fc7f4f84a9c34198da3cf3e9608e360eb9c2501f7eeaefad883",
+      "bytes": 17136,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.186Z"
+    },
+    "css10-ja-v1/ex-masen-ka-001": {
+      "path": "/audio/css10-ja-v1/ex-masen-ka-001.mp3",
+      "exampleId": "ex-masen-ka-001",
+      "grammarId": "masen-ka",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "da0fb7257ea98392cc645d5df4fc18741bb34bf8794ebb5a0ca6ae6d663d1f7a",
+      "audioSha256": "4d67868ef245d56c8e8bdaef651174c94587e72cafe864b40dee1f89ffdaecd8",
+      "bytes": 15255,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.265Z"
+    },
+    "css10-ja-v1/ex-masen-ka-002": {
+      "path": "/audio/css10-ja-v1/ex-masen-ka-002.mp3",
+      "exampleId": "ex-masen-ka-002",
+      "grammarId": "masen-ka",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "356d8e80df5db1efb00d5411f7bfdc1293f46b5cff5f12a7da1a70f3bf9d8110",
+      "audioSha256": "051f8ad667cd63c038e39b4e957568c60b38fbdd19381c06dae65a03338411f4",
+      "bytes": 15255,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.363Z"
+    },
+    "css10-ja-v1/ex-mashou-001": {
+      "path": "/audio/css10-ja-v1/ex-mashou-001.mp3",
+      "exampleId": "ex-mashou-001",
+      "grammarId": "mashou",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "3e6a21fd1ce3ad3f71fe5cb794b8b53938d57e358b04c68570626f717c1e56c8",
+      "audioSha256": "7781b6439d3c7fe57352a36a8e247da329ae383b5445ec12c943b76a47663062",
+      "bytes": 11284,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.440Z"
+    },
+    "css10-ja-v1/ex-mashou-002": {
+      "path": "/audio/css10-ja-v1/ex-mashou-002.mp3",
+      "exampleId": "ex-mashou-002",
+      "grammarId": "mashou",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "9a2971e95f6ab3db2c0877c6a0ae7ef54cee9dcdb9a9754bb4897b89ac65aaf3",
+      "audioSha256": "4a105df3b10a63d2ceafbdd05b276f787839941f2d2574b2416139ae664fb97a",
+      "bytes": 14001,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.517Z"
+    },
+    "css10-ja-v1/ex-nara-001": {
+      "path": "/audio/css10-ja-v1/ex-nara-001.mp3",
+      "exampleId": "ex-nara-001",
+      "grammarId": "nara",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "6cb02916bf80465d89d678d0a1030d8381be091ede371e2c613bc6e9c2730765",
+      "audioSha256": "1b5bd4fa5d84dc775c40d26862fdb06ef0ee67e0aee14dc5b4db34bbc200cfe4",
+      "bytes": 24659,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.646Z"
+    },
+    "css10-ja-v1/ex-nara-002": {
+      "path": "/audio/css10-ja-v1/ex-nara-002.mp3",
+      "exampleId": "ex-nara-002",
+      "grammarId": "nara",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "96c37e7897907d724456f7494ddf7eb564231769d2cb7f64e467cbd1e2aeb665",
+      "audioSha256": "18f34fbdf7cf0c6fb096941ebefeca6c9fae9db1c58157be6b8a5ad93144e59e",
+      "bytes": 13583,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.725Z"
+    },
+    "css10-ja-v1/ex-tara-001": {
+      "path": "/audio/css10-ja-v1/ex-tara-001.mp3",
+      "exampleId": "ex-tara-001",
+      "grammarId": "tara",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "c9f6e04aae701599df50cfd6f1aa8bc7a0434bd21e70392755fb39735d5f0d80",
+      "audioSha256": "551bd0ede9c726f12245115de77899b3e4a8ff5242ba8072ee1e3ff0775cbf9a",
+      "bytes": 14837,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.807Z"
+    },
+    "css10-ja-v1/ex-tara-002": {
+      "path": "/audio/css10-ja-v1/ex-tara-002.mp3",
+      "exampleId": "ex-tara-002",
+      "grammarId": "tara",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "6ccf8271a42b61681b43e18d29a016a65b4aca7e3e25ce98559346279845cf6f",
+      "audioSha256": "4be773cc61904ff98ed3aca4cbbb24d778d182c93da50c9550d50b934a2f3cf9",
+      "bytes": 17763,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.895Z"
+    },
+    "css10-ja-v1/ex-to-001": {
+      "path": "/audio/css10-ja-v1/ex-to-001.mp3",
+      "exampleId": "ex-to-001",
+      "grammarId": "to",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "ba412f845a12cbfb53860eed880b7fc64ddd4b7cd4b82c535c8fb77229d79200",
+      "audioSha256": "fa4e8da80e60e5f3a83a28f72010646b670e987c4d2d5efdac476f8af3f82fa0",
+      "bytes": 13583,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:08.965Z"
+    },
+    "css10-ja-v1/ex-to-002": {
+      "path": "/audio/css10-ja-v1/ex-to-002.mp3",
+      "exampleId": "ex-to-002",
+      "grammarId": "to",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "b636c3dd24a8efabba091654bb80acbc7daeeb76452d40f87e99cc5d385da808",
+      "audioSha256": "e81abea8d82cb56096fa5d0bfda9dbcb4d1d0d68b264351db9a5fbdf611e470d",
+      "bytes": 17972,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:09.048Z"
+    },
+    "css10-ja-v1/ex-you-ni-naru-001": {
+      "path": "/audio/css10-ja-v1/ex-you-ni-naru-001.mp3",
+      "exampleId": "ex-you-ni-naru-001",
+      "grammarId": "you-ni-naru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "274155df76e2f932abd979fffdd78bd86e68d4ed22450cdc851acf0b9cd4ec94",
+      "audioSha256": "8bf5436e61e750a15bad219dbe1865965a87b16bdb0d97526bcb52fb58697efe",
+      "bytes": 20271,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:09.151Z"
+    },
+    "css10-ja-v1/ex-you-ni-naru-002": {
+      "path": "/audio/css10-ja-v1/ex-you-ni-naru-002.mp3",
+      "exampleId": "ex-you-ni-naru-002",
+      "grammarId": "you-ni-naru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "bf33e6ca41ef198375e285b66f60a8b7cbd8bcc0e6a1aa2d695484f93c18213f",
+      "audioSha256": "4d0a4106f1d59f991bf73392d6c464e64eab8ed3691156e5e674361da599c8df",
+      "bytes": 20897,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:09.238Z"
+    },
+    "css10-ja-v1/ex-you-ni-suru-001": {
+      "path": "/audio/css10-ja-v1/ex-you-ni-suru-001.mp3",
+      "exampleId": "ex-you-ni-suru-001",
+      "grammarId": "you-ni-suru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "6ee44723373e5315dcf9a8e83bcd6613e503230792c95795faeb55496658232a",
+      "audioSha256": "081bca4de3a6b84c2ea8349b7ba4aa463acedca4644fbea545c10d8e6b4cf7cd",
+      "bytes": 20480,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:09.327Z"
+    },
+    "css10-ja-v1/ex-you-ni-suru-002": {
+      "path": "/audio/css10-ja-v1/ex-you-ni-suru-002.mp3",
+      "exampleId": "ex-you-ni-suru-002",
+      "grammarId": "you-ni-suru",
+      "voice": "css10-ja-v1",
+      "textSource": "text",
+      "textSha256": "f756436a9a62b8e83969b3ef1ab9c0f1323daead6ccb9ea08b7572c39be82fc1",
+      "audioSha256": "7c6af39cd86b354fd8945ebaf4633c78fce3674fec21a0f8d8e106b14b4cd3f0",
+      "bytes": 17554,
+      "sampleRate": 22050,
+      "fingerprint": "00b952a0df04fbcaad745d77711621d231bfc5cfdd945c759c0718f45d0249a6",
+      "modelOnnxSha256": "5ebc51dbf897238523f3df0d6e0f6c93033bc5cda3f8602a8379ebe2a4738c42",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-css10-ja-6lang",
+        "onnx": "css10-ja-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.2,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板，见台账；基座 CC BY-4.0 须署名，CSS10 语料公有领域）",
+      "generatedAt": "2026-10-11T07:52:09.407Z"
+    },
+    "tsukuyomi-v1/ex-ba-001": {
+      "path": "/audio/tsukuyomi-v1/ex-ba-001.mp3",
+      "exampleId": "ex-ba-001",
+      "grammarId": "ba",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "f0ee2cfe75a293c6ba300aec84ecd5a68c11facbae319d5b5bbebcf0b692e3ac",
+      "audioSha256": "64b38a9c949e4ee3f767b768fae113b6f4114d9881c46e89fa0ffa9117e2474c",
+      "bytes": 21942,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.005Z"
+    },
+    "tsukuyomi-v1/ex-ba-002": {
+      "path": "/audio/tsukuyomi-v1/ex-ba-002.mp3",
+      "exampleId": "ex-ba-002",
+      "grammarId": "ba",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "37eb6cd9f1f47e4cf8755458b339351f22a69d44b9e95fc66f04d0d6c5646d3f",
+      "audioSha256": "ada9f5b579be65e9c7b4dc3118b1e16baeca044954b0e8dd333ec4b8c719fda4",
+      "bytes": 12120,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.109Z"
+    },
+    "tsukuyomi-v1/ex-jt-01": {
+      "path": "/audio/tsukuyomi-v1/ex-jt-01.mp3",
+      "exampleId": "ex-jt-01",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "f585904dee45705b3fa6f67023eb0ed52c475131b1eb31d6ed853e3a94781df9",
+      "audioSha256": "c37f48e7412cb5f2c3579d19faf736a04bfde99e609b43424e6a5df1da868343",
+      "bytes": 8986,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.166Z"
+    },
+    "tsukuyomi-v1/ex-jt-02": {
+      "path": "/audio/tsukuyomi-v1/ex-jt-02.mp3",
+      "exampleId": "ex-jt-02",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "c88546ff1459e8bcd32cbfcab54f331795f5fec5e528be8cfa47b96c9fad1f2c",
+      "audioSha256": "7f3e0bcfe8b7acceaf5e71221af56f61054d6459cbdcc14d21232530f521c073",
+      "bytes": 8568,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.211Z"
+    },
+    "tsukuyomi-v1/ex-jt-03": {
+      "path": "/audio/tsukuyomi-v1/ex-jt-03.mp3",
+      "exampleId": "ex-jt-03",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "0301521e12e459f70d28677611385fdc0d8823cec72a213e66886be813cdd9b0",
+      "audioSha256": "3875f5ea61d5100a35888c26d1d50e3cd5b7f5e970bfea0a24fdf761c5c69032",
+      "bytes": 9195,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.259Z"
+    },
+    "tsukuyomi-v1/ex-jt-04": {
+      "path": "/audio/tsukuyomi-v1/ex-jt-04.mp3",
+      "exampleId": "ex-jt-04",
+      "grammarId": "jidoushi-tadoushi",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "bb47040f985d3882970d76fafc8ad713dc89a69eccda143701748db4985b6f92",
+      "audioSha256": "887e53667853c003efc0a12b5247aeb6725f4de52342023088f99f9993ed71f2",
+      "bytes": 8777,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.316Z"
+    },
+    "tsukuyomi-v1/ex-koto-ni-naru-001": {
+      "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-001.mp3",
+      "exampleId": "ex-koto-ni-naru-001",
+      "grammarId": "koto-ni-naru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "7fb44c751df529a3f3231d6fd256fb03a595b250f5bac60b90696d50a55961ce",
+      "audioSha256": "2a95eb89c833b55d6dab7c1e4dccbcc1285680592e93aeb56d17c7860b81c917",
+      "bytes": 27794,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.469Z"
+    },
+    "tsukuyomi-v1/ex-koto-ni-naru-002": {
+      "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-002.mp3",
+      "exampleId": "ex-koto-ni-naru-002",
+      "grammarId": "koto-ni-naru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "85d3c55a35fe997be9ef8aaf6b235ad2c4f7440c117193356d3a4f679e984db8",
+      "audioSha256": "78203b4b54ddf7f0b9dc8f2a4fec6f6e6967e7315c0e78faaf1f9035876d59f9",
+      "bytes": 24659,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.628Z"
+    },
+    "tsukuyomi-v1/ex-koto-ni-suru-001": {
+      "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-001.mp3",
+      "exampleId": "ex-koto-ni-suru-001",
+      "grammarId": "koto-ni-suru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "3961f830354623bf291c3322d220de4ecb9301c761a3e173399245570dfcff49",
+      "audioSha256": "ef3368cbca8556033753daefdeee511a74715075143f180c54d157dcc497db95",
+      "bytes": 29048,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.799Z"
+    },
+    "tsukuyomi-v1/ex-koto-ni-suru-002": {
+      "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-002.mp3",
+      "exampleId": "ex-koto-ni-suru-002",
+      "grammarId": "koto-ni-suru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "8fd51ce7554e60708e50aba6f57683768b8b934255767f64f2f1c5f9d78ffe30",
+      "audioSha256": "f1c371d67208eff3f6caf355fb1c02a91ca5c55323eb2511a14bc5d2b08571eb",
+      "bytes": 20480,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.892Z"
+    },
+    "tsukuyomi-v1/ex-masen-ka-001": {
+      "path": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3",
+      "exampleId": "ex-masen-ka-001",
+      "grammarId": "masen-ka",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "da0fb7257ea98392cc645d5df4fc18741bb34bf8794ebb5a0ca6ae6d663d1f7a",
+      "audioSha256": "838de53bbe98b0550ea2987d845b67a7421b9dcbb6a5678d001f5a8e4d04242f",
+      "bytes": 19226,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:18.965Z"
+    },
+    "tsukuyomi-v1/ex-masen-ka-002": {
+      "path": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3",
+      "exampleId": "ex-masen-ka-002",
+      "grammarId": "masen-ka",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "356d8e80df5db1efb00d5411f7bfdc1293f46b5cff5f12a7da1a70f3bf9d8110",
+      "audioSha256": "89893e042b28e6f4f8ae8635c1132a4bf2dd8a7cb9d0babf03ff16beb4bda55b",
+      "bytes": 18390,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.037Z"
+    },
+    "tsukuyomi-v1/ex-mashou-001": {
+      "path": "/audio/tsukuyomi-v1/ex-mashou-001.mp3",
+      "exampleId": "ex-mashou-001",
+      "grammarId": "mashou",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "3e6a21fd1ce3ad3f71fe5cb794b8b53938d57e358b04c68570626f717c1e56c8",
+      "audioSha256": "b25e5098da6b594b5361289a96065600a8ff0e37356fe6c2c0f36b6a4159c068",
+      "bytes": 12747,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.088Z"
+    },
+    "tsukuyomi-v1/ex-mashou-002": {
+      "path": "/audio/tsukuyomi-v1/ex-mashou-002.mp3",
+      "exampleId": "ex-mashou-002",
+      "grammarId": "mashou",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "9a2971e95f6ab3db2c0877c6a0ae7ef54cee9dcdb9a9754bb4897b89ac65aaf3",
+      "audioSha256": "9737aeaf3a7db56fa5d32e4f3a7aaa7ae515988bbf8a570352fe2d958ae8fe72",
+      "bytes": 18390,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.158Z"
+    },
+    "tsukuyomi-v1/ex-nara-001": {
+      "path": "/audio/tsukuyomi-v1/ex-nara-001.mp3",
+      "exampleId": "ex-nara-001",
+      "grammarId": "nara",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "6cb02916bf80465d89d678d0a1030d8381be091ede371e2c613bc6e9c2730765",
+      "audioSha256": "9cb54effb257a651765d36bfdfdd0bb28fc0ae1fb9efa5b7deedd5f8de6a205a",
+      "bytes": 29884,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.267Z"
+    },
+    "tsukuyomi-v1/ex-nara-002": {
+      "path": "/audio/tsukuyomi-v1/ex-nara-002.mp3",
+      "exampleId": "ex-nara-002",
+      "grammarId": "nara",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "96c37e7897907d724456f7494ddf7eb564231769d2cb7f64e467cbd1e2aeb665",
+      "audioSha256": "12c0b46f571096801c77096c0bf2331c18e4958f769f1f6d22a32159f3cae60d",
+      "bytes": 21315,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.359Z"
+    },
+    "tsukuyomi-v1/ex-tara-001": {
+      "path": "/audio/tsukuyomi-v1/ex-tara-001.mp3",
+      "exampleId": "ex-tara-001",
+      "grammarId": "tara",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "c9f6e04aae701599df50cfd6f1aa8bc7a0434bd21e70392755fb39735d5f0d80",
+      "audioSha256": "da29f31baf5e0961ba3395413a30d9131601edcd2514324059c6f030f6323f75",
+      "bytes": 23196,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.438Z"
+    },
+    "tsukuyomi-v1/ex-tara-002": {
+      "path": "/audio/tsukuyomi-v1/ex-tara-002.mp3",
+      "exampleId": "ex-tara-002",
+      "grammarId": "tara",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "6ccf8271a42b61681b43e18d29a016a65b4aca7e3e25ce98559346279845cf6f",
+      "audioSha256": "879ee66afc0345d2e0ccc5f8b6303e5fec0e98433249e32eb733f8a28aaea5a5",
+      "bytes": 25077,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.526Z"
+    },
+    "tsukuyomi-v1/ex-to-001": {
+      "path": "/audio/tsukuyomi-v1/ex-to-001.mp3",
+      "exampleId": "ex-to-001",
+      "grammarId": "to",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "ba412f845a12cbfb53860eed880b7fc64ddd4b7cd4b82c535c8fb77229d79200",
+      "audioSha256": "b70ea95e9a80424246a8df85edd7711dda4852cdb8405dbc72ee2b7acc1dc582",
+      "bytes": 21315,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.611Z"
+    },
+    "tsukuyomi-v1/ex-to-002": {
+      "path": "/audio/tsukuyomi-v1/ex-to-002.mp3",
+      "exampleId": "ex-to-002",
+      "grammarId": "to",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "b636c3dd24a8efabba091654bb80acbc7daeeb76452d40f87e99cc5d385da808",
+      "audioSha256": "23baeed00cdb8a7506da3045b46f0164f75c94a3953d7f0799e2b44e32b42a1e",
+      "bytes": 20897,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.692Z"
+    },
+    "tsukuyomi-v1/ex-you-ni-naru-001": {
+      "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-001.mp3",
+      "exampleId": "ex-you-ni-naru-001",
+      "grammarId": "you-ni-naru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "274155df76e2f932abd979fffdd78bd86e68d4ed22450cdc851acf0b9cd4ec94",
+      "audioSha256": "9a700e5a99ce8eee9713eadfc663b2cbe6aa0de9f697118fe2bdfc0b6461eb06",
+      "bytes": 29048,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.807Z"
+    },
+    "tsukuyomi-v1/ex-you-ni-naru-002": {
+      "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-002.mp3",
+      "exampleId": "ex-you-ni-naru-002",
+      "grammarId": "you-ni-naru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "bf33e6ca41ef198375e285b66f60a8b7cbd8bcc0e6a1aa2d695484f93c18213f",
+      "audioSha256": "3efdb5fa3c626c86a6942be15e2d9df1046ca3d86579a1b1e993a4e16ea01dd0",
+      "bytes": 26958,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:19.914Z"
+    },
+    "tsukuyomi-v1/ex-you-ni-suru-001": {
+      "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3",
+      "exampleId": "ex-you-ni-suru-001",
+      "grammarId": "you-ni-suru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "6ee44723373e5315dcf9a8e83bcd6613e503230792c95795faeb55496658232a",
+      "audioSha256": "38bcaf1b2884735dc90b87310e0532c1322e72ad7a64cd0c90f1efda0213a4c5",
+      "bytes": 25286,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:20.084Z"
+    },
+    "tsukuyomi-v1/ex-you-ni-suru-002": {
+      "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3",
+      "exampleId": "ex-you-ni-suru-002",
+      "grammarId": "you-ni-suru",
+      "voice": "tsukuyomi-v1",
+      "textSource": "text",
+      "textSha256": "f756436a9a62b8e83969b3ef1ab9c0f1323daead6ccb9ea08b7572c39be82fc1",
+      "audioSha256": "52c6e51a86f26d90b1e6cf84d15a799928d605d200e900ada11172168747271b",
+      "bytes": 19435,
+      "sampleRate": 22050,
+      "fingerprint": "05b85ec64846e6b817aafa9114dd105f90c4ac0d5f9ff7d514bd4fdbbc9aa17b",
+      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+      "engine": {
+        "package": "piper-plus",
+        "version": "0.8.1"
+      },
+      "model": {
+        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+      },
+      "params": {
+        "language": "ja",
+        "noiseScale": 0.667,
+        "lengthScale": 1.5,
+        "noiseW": 0.5
+      },
+      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "generatedAt": "2026-10-11T07:59:20.173Z"
+    }
+  },
+  "generatedBy": {
+    "script": "scripts/generate-audio.mjs",
+    "engine": {
+      "npmPackage": "piper-plus",
+      "npmVersion": "0.8.1",
+      "onnxruntimeWeb": "1.30.0",
+      "mp3Encoder": "@breezystack/lamejs",
+      "runtime": "Node + onnxruntime-web wasm CPU 后端"
+    },
+    "note": "溯源台账；站点前端不读取本文件，前端只读例句 JSON 的 audio 字段"
+  }
+}

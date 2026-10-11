@@ -10,7 +10,10 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "check": "node scripts/validate-grammar.mjs && node scripts/validate-quiz.mjs && node scripts/verify-search.mjs"
+    "check": "node scripts/validate-grammar.mjs && node scripts/validate-quiz.mjs && node scripts/verify-search.mjs",
+    "audio:setup": "npm install --no-save piper-plus@0.8.1 onnxruntime-web@1.30.0 @breezystack/lamejs --cache .npm-cache",
+    "audio:check": "node scripts/generate-audio.mjs --check",
+    "audio:generate": "node scripts/generate-audio.mjs"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
