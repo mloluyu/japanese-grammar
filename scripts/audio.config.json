@@ -29,7 +29,7 @@
         "dataLicense": "つくよみちゃんコーパス条款（自定义：署名与用途限制，须逐条审查）"
       },
       "params": { "language": "ja", "noiseScale": 0.5, "lengthScale": 1.7, "noiseW": 0.3 },
-      "license": "TBD（音频整体授权未拍板；该模型生成音频不得标注 CC0——语料条款含署名等义务）",
+      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
       "active": true
     }
   }

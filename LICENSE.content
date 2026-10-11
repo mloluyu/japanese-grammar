@@ -17,3 +17,9 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 的教材、题库、音频或网站释义（见 CONTRIBUTING.md）。
 
 音频、图片等资产如适用其他许可，应在其所在目录的说明文件中注明。
+
+例外（例句音频）：docs/public/audio/ 下的生成音频不在 CC BY-NC-SA 4.0 范围内，
+仅限站内收听（鑑賞用），不授权二次利用。其制作使用了开源 TTS 模型
+ayousanz/piper-plus-tsukuyomi-chan（训练语料：つくよみちゃんコーパス，CV. 夢前黎，
+https://tyc.rei-yumesaki.net/material/corpus/ ），该语料利用规约禁止以「允许他人将
+合成语音作为素材再利用」的形式公开，故音频不随内容许可分发。声明详见 docs/team/。

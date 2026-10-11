@@ -69,3 +69,5 @@ npm run docs:build      # 完整构建
 ## 许可证
 
 代码与配置以 [MIT](LICENSE) 许可发布；语法讲解、例句等创作内容以 [CC BY-NC-SA 4.0](LICENSE.content) 提供。贡献者应只提交自己创作、获得许可或可合法再分发的内容；不要直接复制受版权保护的教材、题库、音频或网站释义。
+
+**例句音频不在上述许可范围内**：站内例句发音由开源 TTS 模型 [ayousanz/piper-plus-tsukuyomi-chan](https://huggingface.co/ayousanz/piper-plus-tsukuyomi-chan)（训练语料：[つくよみちゃんコーパス](https://tyc.rei-yumesaki.net/material/corpus/)，CV. 夢前黎）生成，仅限站内收听，不授权二次利用。模型文件不随仓库分发，由维护者从 Hugging Face 获取。完整的开源组件引用与模型分发政策见[维护团队页的「许可与声明」](docs/team/index.md)。
