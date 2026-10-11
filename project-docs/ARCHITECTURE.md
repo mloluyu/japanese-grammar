@@ -73,10 +73,11 @@ docs/
   quizzes.data.ts        # 题库聚合数据加载器
   index.md  grammar-index.md  team/
   topics/  contribute/   # 专题与贡献文档（各含 index 总览页）
-  public/audio/          # 音频资产（待贡献）
+  public/audio/          # 生成例句音频（scripts/generate-audio.mjs 产物，仅站内收听）
 content/                 # 内容数据（在 docs 之外，构建时由加载器与校验器读取）
   grammar/               # 例句 JSON，与条目同名
   quizzes/               # 题库 JSON
+  audio-manifest.json    # 音频溯源台账（脚本维护，前端不读取）
 project-docs/            # 项目管理文档，不构建进公开站点
 scripts/
   validate-grammar.mjs  validate-quiz.mjs  verify-search.mjs
