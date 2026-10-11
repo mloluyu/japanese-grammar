@@ -81,7 +81,7 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     footer: {
       message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a> · <a href="/contribute/#侵权投诉">侵权投诉</a>`,
-      copyright: 'Content licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License.（<a href="/team/">例句音频</a>除外，仅限站内收听）',
+      copyright: '除<a href="/team/">例句音频</a>外，采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>协议',
     }
   },
 })

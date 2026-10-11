@@ -20,7 +20,7 @@ title: 关于本站
 ```
 :::
 
-::: info 开源项目
+::: info 开源项目使用声明
 - [VitePress](https://github.com/vuejs/vitepress)（MIT）— 站点框架
 - [Vue](https://github.com/vuejs/core)（MIT）— 前端框架
 - [MiniSearch](https://github.com/lucaong/minisearch)（MIT）— 站内搜索
