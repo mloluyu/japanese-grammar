@@ -1,0 +1,630 @@
+{
+ "voice": "tsukuyomi-v1",
+ "note": "五十音音频为 22 轮人工验收定稿：每格标注来源轮次/列、合成形态策略与时长(ms)/清晰度(per)。ぢ=ji、づ=zu、を=お 同音转写为已知妥协。",
+ "cells": {
+  "a": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态F3",
+   "dur": 390,
+   "per": 0.9
+  },
+  "i": {
+   "source": "第3轮 f 列",
+   "strategy": "三连切",
+   "dur": 87,
+   "per": 0.94
+  },
+  "u": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 152,
+   "per": 0.91
+  },
+  "e": {
+   "source": "第3轮 f 列",
+   "strategy": "时长中段切",
+   "dur": 103,
+   "per": 0.88
+  },
+  "o": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方D(ns0.667/nw0.8/ls1.6)",
+   "dur": 390,
+   "per": 0.96
+  },
+  "ka": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.87
+  },
+  "ki": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 475,
+   "per": 0.86
+  },
+  "ku": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 229,
+   "per": 0.86
+  },
+  "ke": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E2",
+   "dur": 390,
+   "per": 0.96
+  },
+  "ko": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方D(ns0.667/nw0.8/ls1.6)",
+   "dur": 390,
+   "per": 0.97
+  },
+  "sa": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方C(ns0.4/nw0.25/ls1.8)",
+   "dur": 390,
+   "per": 0.92
+  },
+  "shi": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.83
+  },
+  "su": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.75
+  },
+  "se": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.88
+  },
+  "so": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.87
+  },
+  "ta": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方D(ns0.667/nw0.8/ls1.6)",
+   "dur": 351,
+   "per": 0.93
+  },
+  "chi": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 162,
+   "per": 0.82
+  },
+  "tsu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 284,
+   "per": 0.96
+  },
+  "te": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E2",
+   "dur": 390,
+   "per": 0.95
+  },
+  "to": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 281,
+   "per": 0.95
+  },
+  "na": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方B(ns0.5/nw0.35/ls2.2)",
+   "dur": 390,
+   "per": 0.95
+  },
+  "ni": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「にじ」ls2.6",
+   "dur": 299,
+   "per": 0.99
+  },
+  "nu": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.97
+  },
+  "ne": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 448,
+   "per": 0.98
+  },
+  "no": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.96
+  },
+  "ha": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.94
+  },
+  "hi": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 292,
+   "per": 0.9
+  },
+  "fu": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.98
+  },
+  "ho": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 337,
+   "per": 0.93
+  },
+  "ma": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 398,
+   "per": 0.83
+  },
+  "mi": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 218,
+   "per": 0.92
+  },
+  "mu": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E2",
+   "dur": 390,
+   "per": 0.98
+  },
+  "me": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 167,
+   "per": 0.96
+  },
+  "mo": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.95
+  },
+  "ya": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态F3",
+   "dur": 390,
+   "per": 0.96
+  },
+  "yu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 259,
+   "per": 0.95
+  },
+  "yo": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E2",
+   "dur": 390,
+   "per": 0.96
+  },
+  "ra": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方B(ns0.5/nw0.35/ls2.2)",
+   "dur": 390,
+   "per": 0.92
+  },
+  "ri": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E1",
+   "dur": 368,
+   "per": 0.97
+  },
+  "ru": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「クルー」ls2.6",
+   "dur": 390,
+   "per": 0.96
+  },
+  "wa": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方B(ns0.5/nw0.35/ls2.2)",
+   "dur": 390,
+   "per": 0.91
+  },
+  "wo": {
+   "source": "第22轮 m 列",
+   "strategy": "を=お同音转写(L版o)",
+   "dur": 390,
+   "per": 0.96
+  },
+  "n": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E1",
+   "dur": 390,
+   "per": 0.97
+  },
+  "ga": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.96
+  },
+  "gi": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E2",
+   "dur": 390,
+   "per": 0.93
+  },
+  "gu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 430,
+   "per": 0.94
+  },
+  "ge": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方C(ns0.4/nw0.25/ls1.8)",
+   "dur": 390,
+   "per": 0.95
+  },
+  "go": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E1",
+   "dur": 390,
+   "per": 0.98
+  },
+  "za": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.96
+  },
+  "ji": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方C(ns0.4/nw0.25/ls1.8)",
+   "dur": 390,
+   "per": 0.94
+  },
+  "zu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 273,
+   "per": 0.9
+  },
+  "ze": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 264,
+   "per": 0.96
+  },
+  "zo": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.94
+  },
+  "da": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 312,
+   "per": 0.93
+  },
+  "di": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 355,
+   "per": 0.93
+  },
+  "du": {
+   "source": "第3轮 f 列",
+   "strategy": "三连切",
+   "dur": 97,
+   "per": 0.95
+  },
+  "de": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.9
+  },
+  "do": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态F3",
+   "dur": 390,
+   "per": 0.97
+  },
+  "ba": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方D(ns0.667/nw0.8/ls1.6)",
+   "dur": 390,
+   "per": 0.85
+  },
+  "bi": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 148,
+   "per": 0.97
+  },
+  "bu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 473,
+   "per": 0.96
+  },
+  "be": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.89
+  },
+  "bo": {
+   "source": "第3轮 f 列",
+   "strategy": "三连切",
+   "dur": 95,
+   "per": 0.93
+  },
+  "pi": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 209,
+   "per": 0.98
+  },
+  "pe": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 367,
+   "per": 0.93
+  },
+  "po": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态E1",
+   "dur": 390,
+   "per": 0.96
+  },
+  "kya": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.85
+  },
+  "sha": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.87
+  },
+  "cha": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.82
+  },
+  "nya": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 375,
+   "per": 0.85
+  },
+  "mya": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 462,
+   "per": 0.89
+  },
+  "rya": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 471,
+   "per": 0.87
+  },
+  "gya": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.89
+  },
+  "ja": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「じゃがいも」ls3.2",
+   "dur": 193,
+   "per": 0.8
+  },
+  "bya": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.75
+  },
+  "pya": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.95
+  },
+  "kyu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 316,
+   "per": 0.88
+  },
+  "shu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长句号切",
+   "dur": 338,
+   "per": 0.71
+  },
+  "chu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 462,
+   "per": 0.88
+  },
+  "nyu": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.86
+  },
+  "hyu": {
+   "source": "第3轮 f 列",
+   "strategy": "三连切",
+   "dur": 200,
+   "per": 0.96
+  },
+  "myu": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.95
+  },
+  "ryu": {
+   "source": "第9轮 l 列",
+   "strategy": "定长窗口390·配方A(ns0.667/nw0.5/ls2.6)",
+   "dur": 390,
+   "per": 0.97
+  },
+  "ju": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 379,
+   "per": 0.92
+  },
+  "byu": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.94
+  },
+  "pyu": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 441,
+   "per": 0.91
+  },
+  "kyo": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 387,
+   "per": 0.88
+  },
+  "sho": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.76
+  },
+  "cho": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 275,
+   "per": 0.91
+  },
+  "nyo": {
+   "source": "第7轮 j 列",
+   "strategy": "定长窗口450",
+   "dur": 450,
+   "per": 0.78
+  },
+  "hyo": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 277,
+   "per": 0.9
+  },
+  "myo": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.94
+  },
+  "ryo": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.77
+  },
+  "gyo": {
+   "source": "第3轮 f 列",
+   "strategy": "三连切",
+   "dur": 116,
+   "per": 0.97
+  },
+  "jo": {
+   "source": "第22轮 m 列",
+   "strategy": "390·形态F3",
+   "dur": 390,
+   "per": 0.9
+  },
+  "byo": {
+   "source": "第4轮 i 列",
+   "strategy": "定长窗口580",
+   "dur": 580,
+   "per": 0.76
+  },
+  "pyo": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 442,
+   "per": 0.87
+  },
+  "re": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「あれ」固定掷（闭塞深度0.019）前切60ms",
+   "dur": 366,
+   "per": 0.97
+  },
+  "ro": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「いろ」ls2.2 前切105ms（自然385ms）",
+   "dur": 400,
+   "per": 0.89
+  },
+  "pa": {
+   "source": "第22轮 m 列",
+   "strategy": "ぱん ls3.2 完整切＋a段WSOLA（自然442ms）",
+   "dur": 400,
+   "per": 0.88
+  },
+  "pu": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「ぷーる」ls1.4（自然309ms）",
+   "dur": 400,
+   "per": 0.99
+  },
+  "gyu": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「ぎゅうど」ls2.2（自然341ms）",
+   "dur": 400,
+   "per": 0.95
+  },
+  "he": {
+   "source": "第22轮 m 列",
+   "strategy": "载词「へそ」ls2.6",
+   "dur": 420,
+   "per": 0.94
+  },
+  "hya": {
+   "source": "第3轮 f 列",
+   "strategy": "延长切",
+   "dur": 310,
+   "per": 0.92
+  }
+ }
+}
