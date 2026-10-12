@@ -29,9 +29,14 @@ export default defineConfig({
     sidebar: {
       '/reference/': [
         {
-          text: '语言知识',
+          text: '',
           items: [
             { text: '总览', link: '/reference/' },
+          ],
+        },
+        {
+          text: '语言知识',
+          items: [
             { text: '自动词与他动词', link: '/reference/jidoushi-tadoushi' },
           ],
         },
@@ -49,6 +54,7 @@ export default defineConfig({
           items: [
             { text: '贡献总览', link: '/contribute/' },
             { text: '语法条目编写指南', link: '/contribute/writing-guide' },
+            { text: '语言知识编写指南', link: '/contribute/reference-guide' },
             { text: '练习题编写指南', link: '/contribute/quiz-guide' },
             { text: '内容审核指南', link: '/contribute/review-guide' },
           ],
