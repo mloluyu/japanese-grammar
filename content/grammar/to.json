@@ -15,7 +15,7 @@
         }
       ],
       "translation": "一到春天，樱花就开。",
-      "audio": "/audio/tsukuyomi-v1/ex-to-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/to/ex-to-001.mp3"
     },
     {
       "id": "ex-to-002",
@@ -31,7 +31,7 @@
         }
       ],
       "translation": "一按这个按钮，灯就亮。",
-      "audio": "/audio/tsukuyomi-v1/ex-to-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/to/ex-to-002.mp3"
     }
   ]
 }

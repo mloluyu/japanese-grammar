@@ -19,7 +19,7 @@
         }
       ],
       "translation": "如果是（在）学日语的话，推荐这本词典。",
-      "audio": "/audio/tsukuyomi-v1/ex-nara-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/nara/ex-nara-001.mp3"
     },
     {
       "id": "ex-nara-002",
@@ -35,7 +35,7 @@
         }
       ],
       "translation": "要去海边的话，夏天最合适。",
-      "audio": "/audio/tsukuyomi-v1/ex-nara-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/nara/ex-nara-002.mp3"
     }
   ]
 }

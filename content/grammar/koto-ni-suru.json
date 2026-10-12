@@ -15,7 +15,7 @@
         }
       ],
       "translation": "为了健康，我决定每天早上跑步。",
-      "audio": "/audio/tsukuyomi-v1/ex-koto-ni-suru-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/koto-ni-suru/ex-koto-ni-suru-001.mp3"
     },
     {
       "id": "ex-koto-ni-suru-002",
@@ -27,7 +27,7 @@
         }
       ],
       "translation": "我决定这个月不购物。",
-      "audio": "/audio/tsukuyomi-v1/ex-koto-ni-suru-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/koto-ni-suru/ex-koto-ni-suru-002.mp3"
     }
   ]
 }

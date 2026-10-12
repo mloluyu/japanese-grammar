@@ -15,7 +15,7 @@
         }
       ],
       "translation": "我尽量每天做点运动。",
-      "audio": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/you-ni-suru/ex-you-ni-suru-001.mp3"
     },
     {
       "id": "ex-you-ni-suru-002",
@@ -31,7 +31,7 @@
         }
       ],
       "translation": "请尽量不要熬夜到很晚。",
-      "audio": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/you-ni-suru/ex-you-ni-suru-002.mp3"
     }
   ]
 }

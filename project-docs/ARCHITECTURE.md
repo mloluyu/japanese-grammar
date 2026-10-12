@@ -73,7 +73,7 @@ docs/
   quizzes.data.ts        # 题库聚合数据加载器
   index.md  grammar-index.md  team/
   reference/ contribute/   # 语言知识与贡献文档（reference 含 index 总览页）
-  public/audio/          # 生成例句音频（scripts/generate-audio.mjs 产物，仅站内收听）
+  public/audio/          # 生成例句音频（按 voiceId/条目ID/ 分目录）＋ kana/ 假名定稿音频；仅站内收听
 content/                 # 内容数据（在 docs 之外，构建时由加载器与校验器读取）
   grammar/               # 例句 JSON，与条目同名
   quizzes/               # 题库 JSON

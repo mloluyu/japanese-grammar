@@ -15,7 +15,7 @@
         }
       ],
       "translation": "再多练习的话，就会变好的哦。",
-      "audio": "/audio/tsukuyomi-v1/ex-ba-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/ba/ex-ba-001.mp3"
     },
     {
       "id": "ex-ba-002",
@@ -27,7 +27,7 @@
         }
       ],
       "translation": "便宜的话就买。",
-      "audio": "/audio/tsukuyomi-v1/ex-ba-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/ba/ex-ba-002.mp3"
     }
   ]
 }

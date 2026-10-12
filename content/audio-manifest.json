@@ -2,7 +2,7 @@
  "schema_version": 1,
  "items": {
   "tsukuyomi-v1/ex-ba-001": {
-   "path": "/audio/tsukuyomi-v1/ex-ba-001.mp3",
+   "path": "/audio/tsukuyomi-v1/ba/ex-ba-001.mp3",
    "exampleId": "ex-ba-001",
    "grammarId": "ba",
    "voice": "tsukuyomi-v1",
@@ -31,7 +31,7 @@
    "generatedAt": "2026-10-11T08:29:28.605Z"
   },
   "tsukuyomi-v1/ex-ba-002": {
-   "path": "/audio/tsukuyomi-v1/ex-ba-002.mp3",
+   "path": "/audio/tsukuyomi-v1/ba/ex-ba-002.mp3",
    "exampleId": "ex-ba-002",
    "grammarId": "ba",
    "voice": "tsukuyomi-v1",
@@ -60,7 +60,7 @@
    "generatedAt": "2026-10-11T08:29:28.726Z"
   },
   "tsukuyomi-v1/ex-koto-ni-naru-001": {
-   "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-001.mp3",
+   "path": "/audio/tsukuyomi-v1/koto-ni-naru/ex-koto-ni-naru-001.mp3",
    "exampleId": "ex-koto-ni-naru-001",
    "grammarId": "koto-ni-naru",
    "voice": "tsukuyomi-v1",
@@ -89,7 +89,7 @@
    "generatedAt": "2026-10-11T08:29:29.135Z"
   },
   "tsukuyomi-v1/ex-koto-ni-naru-002": {
-   "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-002.mp3",
+   "path": "/audio/tsukuyomi-v1/koto-ni-naru/ex-koto-ni-naru-002.mp3",
    "exampleId": "ex-koto-ni-naru-002",
    "grammarId": "koto-ni-naru",
    "voice": "tsukuyomi-v1",
@@ -118,7 +118,7 @@
    "generatedAt": "2026-10-11T08:29:29.272Z"
   },
   "tsukuyomi-v1/ex-koto-ni-suru-001": {
-   "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-001.mp3",
+   "path": "/audio/tsukuyomi-v1/koto-ni-suru/ex-koto-ni-suru-001.mp3",
    "exampleId": "ex-koto-ni-suru-001",
    "grammarId": "koto-ni-suru",
    "voice": "tsukuyomi-v1",
@@ -147,7 +147,7 @@
    "generatedAt": "2026-10-11T08:29:29.436Z"
   },
   "tsukuyomi-v1/ex-koto-ni-suru-002": {
-   "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-002.mp3",
+   "path": "/audio/tsukuyomi-v1/koto-ni-suru/ex-koto-ni-suru-002.mp3",
    "exampleId": "ex-koto-ni-suru-002",
    "grammarId": "koto-ni-suru",
    "voice": "tsukuyomi-v1",
@@ -176,7 +176,7 @@
    "generatedAt": "2026-10-11T08:29:29.544Z"
   },
   "tsukuyomi-v1/ex-masen-ka-001": {
-   "path": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3",
+   "path": "/audio/tsukuyomi-v1/masen-ka/ex-masen-ka-001.mp3",
    "exampleId": "ex-masen-ka-001",
    "grammarId": "masen-ka",
    "voice": "tsukuyomi-v1",
@@ -205,7 +205,7 @@
    "generatedAt": "2026-10-11T08:29:29.629Z"
   },
   "tsukuyomi-v1/ex-masen-ka-002": {
-   "path": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3",
+   "path": "/audio/tsukuyomi-v1/masen-ka/ex-masen-ka-002.mp3",
    "exampleId": "ex-masen-ka-002",
    "grammarId": "masen-ka",
    "voice": "tsukuyomi-v1",
@@ -234,7 +234,7 @@
    "generatedAt": "2026-10-11T08:29:29.724Z"
   },
   "tsukuyomi-v1/ex-mashou-001": {
-   "path": "/audio/tsukuyomi-v1/ex-mashou-001.mp3",
+   "path": "/audio/tsukuyomi-v1/mashou/ex-mashou-001.mp3",
    "exampleId": "ex-mashou-001",
    "grammarId": "mashou",
    "voice": "tsukuyomi-v1",
@@ -263,7 +263,7 @@
    "generatedAt": "2026-10-11T08:29:29.793Z"
   },
   "tsukuyomi-v1/ex-mashou-002": {
-   "path": "/audio/tsukuyomi-v1/ex-mashou-002.mp3",
+   "path": "/audio/tsukuyomi-v1/mashou/ex-mashou-002.mp3",
    "exampleId": "ex-mashou-002",
    "grammarId": "mashou",
    "voice": "tsukuyomi-v1",
@@ -292,7 +292,7 @@
    "generatedAt": "2026-10-11T08:29:29.886Z"
   },
   "tsukuyomi-v1/ex-nara-001": {
-   "path": "/audio/tsukuyomi-v1/ex-nara-001.mp3",
+   "path": "/audio/tsukuyomi-v1/nara/ex-nara-001.mp3",
    "exampleId": "ex-nara-001",
    "grammarId": "nara",
    "voice": "tsukuyomi-v1",
@@ -321,7 +321,7 @@
    "generatedAt": "2026-10-11T08:29:30.043Z"
   },
   "tsukuyomi-v1/ex-nara-002": {
-   "path": "/audio/tsukuyomi-v1/ex-nara-002.mp3",
+   "path": "/audio/tsukuyomi-v1/nara/ex-nara-002.mp3",
    "exampleId": "ex-nara-002",
    "grammarId": "nara",
    "voice": "tsukuyomi-v1",
@@ -350,7 +350,7 @@
    "generatedAt": "2026-10-11T08:29:30.191Z"
   },
   "tsukuyomi-v1/ex-tara-001": {
-   "path": "/audio/tsukuyomi-v1/ex-tara-001.mp3",
+   "path": "/audio/tsukuyomi-v1/tara/ex-tara-001.mp3",
    "exampleId": "ex-tara-001",
    "grammarId": "tara",
    "voice": "tsukuyomi-v1",
@@ -379,7 +379,7 @@
    "generatedAt": "2026-10-11T08:29:30.316Z"
   },
   "tsukuyomi-v1/ex-tara-002": {
-   "path": "/audio/tsukuyomi-v1/ex-tara-002.mp3",
+   "path": "/audio/tsukuyomi-v1/tara/ex-tara-002.mp3",
    "exampleId": "ex-tara-002",
    "grammarId": "tara",
    "voice": "tsukuyomi-v1",
@@ -408,7 +408,7 @@
    "generatedAt": "2026-10-11T08:29:30.476Z"
   },
   "tsukuyomi-v1/ex-to-001": {
-   "path": "/audio/tsukuyomi-v1/ex-to-001.mp3",
+   "path": "/audio/tsukuyomi-v1/to/ex-to-001.mp3",
    "exampleId": "ex-to-001",
    "grammarId": "to",
    "voice": "tsukuyomi-v1",
@@ -437,7 +437,7 @@
    "generatedAt": "2026-10-11T08:29:30.623Z"
   },
   "tsukuyomi-v1/ex-to-002": {
-   "path": "/audio/tsukuyomi-v1/ex-to-002.mp3",
+   "path": "/audio/tsukuyomi-v1/to/ex-to-002.mp3",
    "exampleId": "ex-to-002",
    "grammarId": "to",
    "voice": "tsukuyomi-v1",
@@ -466,7 +466,7 @@
    "generatedAt": "2026-10-11T08:29:30.731Z"
   },
   "tsukuyomi-v1/ex-you-ni-naru-001": {
-   "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-001.mp3",
+   "path": "/audio/tsukuyomi-v1/you-ni-naru/ex-you-ni-naru-001.mp3",
    "exampleId": "ex-you-ni-naru-001",
    "grammarId": "you-ni-naru",
    "voice": "tsukuyomi-v1",
@@ -495,7 +495,7 @@
    "generatedAt": "2026-10-11T08:29:30.866Z"
   },
   "tsukuyomi-v1/ex-you-ni-naru-002": {
-   "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-002.mp3",
+   "path": "/audio/tsukuyomi-v1/you-ni-naru/ex-you-ni-naru-002.mp3",
    "exampleId": "ex-you-ni-naru-002",
    "grammarId": "you-ni-naru",
    "voice": "tsukuyomi-v1",
@@ -524,7 +524,7 @@
    "generatedAt": "2026-10-11T08:29:31.103Z"
   },
   "tsukuyomi-v1/ex-you-ni-suru-001": {
-   "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3",
+   "path": "/audio/tsukuyomi-v1/you-ni-suru/ex-you-ni-suru-001.mp3",
    "exampleId": "ex-you-ni-suru-001",
    "grammarId": "you-ni-suru",
    "voice": "tsukuyomi-v1",
@@ -553,7 +553,7 @@
    "generatedAt": "2026-10-11T08:29:31.259Z"
   },
   "tsukuyomi-v1/ex-you-ni-suru-002": {
-   "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3",
+   "path": "/audio/tsukuyomi-v1/you-ni-suru/ex-you-ni-suru-002.mp3",
    "exampleId": "ex-you-ni-suru-002",
    "grammarId": "you-ni-suru",
    "voice": "tsukuyomi-v1",

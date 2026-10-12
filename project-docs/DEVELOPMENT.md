@@ -35,7 +35,7 @@ npm run docs:dev
 - 核对缺口：`npm run audio:check`（只报告缺失/过期，不生成，不下载模型）。
 - 生成：`npm run audio:generate`（默认只处理 `active` 声音；`node scripts/generate-audio.mjs --all` 处理全部声音，试点盲听用）。
 - 引擎、模型版本与音色参数钉在 `scripts/audio.config.json`：更换模型、音色或关键参数＝新增 voice-id，不得复用旧 ID（避免同一文件名对应两批音质）。
-- 生成物：`docs/public/audio/{voiceId}/{例句ID}.mp3`；脚本把站点地址回写到例句 JSON 的 `audio` 字段，前端组件不感知生成过程。
+- 生成物：`docs/public/audio/{voiceId}/{条目ID}/{例句ID}.mp3`（按语法条目分目录）；脚本把站点地址回写到例句 JSON 的 `audio` 字段，前端组件不感知生成过程。
 - 溯源台账：`content/audio-manifest.json` 记录每条音频的文本哈希、模型、参数与许可快照（文本改动或引擎/参数变化会触发自动重生成）；前端不读取该文件。
 - 多音字兜底：例句 JSON 的 `reading` 字段（全假名，校验器禁止汉字）会替代 `text` 送入 TTS。
 - 许可状态：引擎 MIT（lamejs 为 LGPL-3.0，仅构建期工具，产物不受其约束）；生成音频按 tsukuyomi 语料利用规约处理——**仅限站内收听（鑑賞用），不授权二次利用**，且不得标注 CC0。正式声明见 `docs/team/index.md`「许可与声明」与 `LICENSE.content` 例外段；`audio.config.json` 的 `license` 字段已落正式文字。选型已完成（tsukuyomi-v1 转正），`docs/public/audio/` 与 `tools/*.mjs` 已入库，`tools/models/`（模型缓存）与探针产物仍忽略。

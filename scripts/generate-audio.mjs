@@ -163,7 +163,7 @@ function staleness(voiceId, voice, onnxSha) {
   const fp = fingerprint(voice)
   for (const ex of examples) {
     const item = manifest.items[itemKey(voiceId, ex.exampleId)]
-    const file = path.join(ROOT, outputDir, voiceId, `${ex.exampleId}.mp3`)
+    const file = path.join(ROOT, outputDir, voiceId, ex.grammarId, `${ex.exampleId}.mp3`)
     if (!item || !existsSync(file)) { missing.push(ex.exampleId); continue }
     const tts = (ex.reading?.trim() || ex.text)
     const reasons = []
@@ -230,7 +230,7 @@ for (const voiceId of voiceIds) {
     wasmG2pUrl: pathToFileURL(path.join(ROOT, 'node_modules/piper-plus/dist/rust-wasm/piper_plus_wasm.js')).href,
   })
   const voiceDir = path.join(ROOT, outputDir, voiceId)
-  await fs.mkdir(voiceDir, { recursive: true })
+  await fs.mkdir(voiceDir, { recursive: true }) // voiceDir 下按条目再分目录
   const regenerate = new Set([...missing, ...stale.map((s) => s.id)])
 
   for (const ex of examples) {
@@ -247,8 +247,9 @@ for (const voiceId of voiceIds) {
         samples = padded
       }
       const mp3 = encodeMp3(samples, raw.sampleRate, encode.bitrateKbps)
-      const rel = `${audioUrlPrefix}/${voiceId}/${ex.exampleId}.mp3`
-      await fs.writeFile(path.join(voiceDir, `${ex.exampleId}.mp3`), mp3)
+      const rel = `${audioUrlPrefix}/${voiceId}/${ex.grammarId}/${ex.exampleId}.mp3`
+      await fs.mkdir(path.join(voiceDir, ex.grammarId), { recursive: true })
+      await fs.writeFile(path.join(voiceDir, ex.grammarId, `${ex.exampleId}.mp3`), mp3)
       manifest.items[itemKey(voiceId, ex.exampleId)] = {
         path: rel,
         exampleId: ex.exampleId,
@@ -285,7 +286,7 @@ for (const voiceId of voiceIds) {
     const exampleId = key.slice(voiceId.length + 1)
     if (!byId.has(exampleId)) {
       delete manifest.items[key]
-      await fs.rm(path.join(voiceDir, `${exampleId}.mp3`), { force: true })
+      await fs.rm(path.join(voiceDir, manifest.items[`${voiceId}/${exampleId}`]?.grammarId ?? '', `${exampleId}.mp3`), { force: true })
       log(`  清理孤儿音频 ${key}`)
     }
   }
@@ -296,7 +297,7 @@ for (const [filePath, ids] of touchedJson) {
   const voiceId = voiceIds.find((v) => cfg.voices[v].active)
   const data = JSON.parse(await fs.readFile(filePath, 'utf8'))
   for (const ex of data.examples) {
-    if (ids.has(ex.id)) ex.audio = `${audioUrlPrefix}/${voiceId}/${ex.id}.mp3`
+    if (ids.has(ex.id)) ex.audio = `${audioUrlPrefix}/${voiceId}/${ex.grammarId}/${ex.id}.mp3`
   }
   await fs.writeFile(filePath, JSON.stringify(data, null, 2) + '\n')
   log(`回写 ${path.relative(ROOT, filePath)}（${[...ids].join(', ')}）`)

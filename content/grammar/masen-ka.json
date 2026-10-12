@@ -15,7 +15,7 @@
         }
       ],
       "translation": "要不要一起吃午饭？",
-      "audio": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3"
+      "audio": "/audio/tsukuyomi-v1/masen-ka/ex-masen-ka-001.mp3"
     },
     {
       "id": "ex-masen-ka-002",
@@ -31,7 +31,7 @@
         }
       ],
       "translation": "周日要不要去看电影？",
-      "audio": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3"
+      "audio": "/audio/tsukuyomi-v1/masen-ka/ex-masen-ka-002.mp3"
     }
   ]
 }
