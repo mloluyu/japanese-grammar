@@ -1,712 +1,596 @@
 {
-  "schema_version": 1,
-  "items": {
-    "tsukuyomi-v1/ex-ba-001": {
-      "path": "/audio/tsukuyomi-v1/ex-ba-001.mp3",
-      "exampleId": "ex-ba-001",
-      "grammarId": "ba",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "f0ee2cfe75a293c6ba300aec84ecd5a68c11facbae319d5b5bbebcf0b692e3ac",
-      "audioSha256": "cefd1f4c04395e8840d77aa4014235f20ea005e3582d01eef9c0ccea9c50550c",
-      "bytes": 30720,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:28.605Z"
-    },
-    "tsukuyomi-v1/ex-ba-002": {
-      "path": "/audio/tsukuyomi-v1/ex-ba-002.mp3",
-      "exampleId": "ex-ba-002",
-      "grammarId": "ba",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "37eb6cd9f1f47e4cf8755458b339351f22a69d44b9e95fc66f04d0d6c5646d3f",
-      "audioSha256": "2eba69d25ef8e3f897dba94396ed643332a39497ee47a2bc0fe5642b3948a99f",
-      "bytes": 15673,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:28.726Z"
-    },
-    "tsukuyomi-v1/ex-jt-01": {
-      "path": "/audio/tsukuyomi-v1/ex-jt-01.mp3",
-      "exampleId": "ex-jt-01",
-      "grammarId": "jidoushi-tadoushi",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "f585904dee45705b3fa6f67023eb0ed52c475131b1eb31d6ed853e3a94781df9",
-      "audioSha256": "a930dab9f3e6c158a3718fbd1237c9d95bc5b0ef0c7b45e63855be161ae02ee3",
-      "bytes": 11702,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:28.787Z"
-    },
-    "tsukuyomi-v1/ex-jt-02": {
-      "path": "/audio/tsukuyomi-v1/ex-jt-02.mp3",
-      "exampleId": "ex-jt-02",
-      "grammarId": "jidoushi-tadoushi",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "c88546ff1459e8bcd32cbfcab54f331795f5fec5e528be8cfa47b96c9fad1f2c",
-      "audioSha256": "bec2bb4da77557e104ea596ed5f38f02cb120a941db74b7da958ba1a6da750e3",
-      "bytes": 11284,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:28.841Z"
-    },
-    "tsukuyomi-v1/ex-jt-03": {
-      "path": "/audio/tsukuyomi-v1/ex-jt-03.mp3",
-      "exampleId": "ex-jt-03",
-      "grammarId": "jidoushi-tadoushi",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "0301521e12e459f70d28677611385fdc0d8823cec72a213e66886be813cdd9b0",
-      "audioSha256": "5d361dacce23347c5876e4ecfd50d67973235ec1185fbe8fd22fe26af0a50782",
-      "bytes": 12747,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T09:07:06.796Z"
-    },
-    "tsukuyomi-v1/ex-jt-04": {
-      "path": "/audio/tsukuyomi-v1/ex-jt-04.mp3",
-      "exampleId": "ex-jt-04",
-      "grammarId": "jidoushi-tadoushi",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "bb47040f985d3882970d76fafc8ad713dc89a69eccda143701748db4985b6f92",
-      "audioSha256": "5d61fd0b1a04416a834abd6a6ab66a4df798819359503e49c01703105cd3bd96",
-      "bytes": 11284,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:28.962Z"
-    },
-    "tsukuyomi-v1/ex-koto-ni-naru-001": {
-      "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-001.mp3",
-      "exampleId": "ex-koto-ni-naru-001",
-      "grammarId": "koto-ni-naru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "7fb44c751df529a3f3231d6fd256fb03a595b250f5bac60b90696d50a55961ce",
-      "audioSha256": "086faffe7d197cabeba89b9ae1fde80164850c5a537238fcf42cb88c584b5965",
-      "bytes": 34481,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.135Z"
-    },
-    "tsukuyomi-v1/ex-koto-ni-naru-002": {
-      "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-002.mp3",
-      "exampleId": "ex-koto-ni-naru-002",
-      "grammarId": "koto-ni-naru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "85d3c55a35fe997be9ef8aaf6b235ad2c4f7440c117193356d3a4f679e984db8",
-      "audioSha256": "5478b53ea840d3f800918073ba87a5cf40df2937462d3f92c780cdc91ae85641",
-      "bytes": 27585,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.272Z"
-    },
-    "tsukuyomi-v1/ex-koto-ni-suru-001": {
-      "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-001.mp3",
-      "exampleId": "ex-koto-ni-suru-001",
-      "grammarId": "koto-ni-suru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "3961f830354623bf291c3322d220de4ecb9301c761a3e173399245570dfcff49",
-      "audioSha256": "0aba3d4c11cbb27873c0aa396accfbac0c5f7b2c501418da3fe23a543f194978",
-      "bytes": 34272,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.436Z"
-    },
-    "tsukuyomi-v1/ex-koto-ni-suru-002": {
-      "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-002.mp3",
-      "exampleId": "ex-koto-ni-suru-002",
-      "grammarId": "koto-ni-suru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "8fd51ce7554e60708e50aba6f57683768b8b934255767f64f2f1c5f9d78ffe30",
-      "audioSha256": "19afb4a9562c3a66bd02dd795e885eb7909b5a020db9ddb8fb07cd350a1fa619",
-      "bytes": 24450,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.544Z"
-    },
-    "tsukuyomi-v1/ex-masen-ka-001": {
-      "path": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3",
-      "exampleId": "ex-masen-ka-001",
-      "grammarId": "masen-ka",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "da0fb7257ea98392cc645d5df4fc18741bb34bf8794ebb5a0ca6ae6d663d1f7a",
-      "audioSha256": "2cb43731d5d4a86a46f11b68a1967b029dd4265e43fbbd62e6d0a2766c6b4025",
-      "bytes": 21733,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.629Z"
-    },
-    "tsukuyomi-v1/ex-masen-ka-002": {
-      "path": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3",
-      "exampleId": "ex-masen-ka-002",
-      "grammarId": "masen-ka",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "356d8e80df5db1efb00d5411f7bfdc1293f46b5cff5f12a7da1a70f3bf9d8110",
-      "audioSha256": "0726de95f071e254ad9057f0516694ec39e89c3ebb646333d6a79e39416a6ba7",
-      "bytes": 23405,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.724Z"
-    },
-    "tsukuyomi-v1/ex-mashou-001": {
-      "path": "/audio/tsukuyomi-v1/ex-mashou-001.mp3",
-      "exampleId": "ex-mashou-001",
-      "grammarId": "mashou",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "3e6a21fd1ce3ad3f71fe5cb794b8b53938d57e358b04c68570626f717c1e56c8",
-      "audioSha256": "9e133ab22aa3fea2938b5cba0653baf35d41be9689933a82fbbacc73c67a7f93",
-      "bytes": 16927,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.793Z"
-    },
-    "tsukuyomi-v1/ex-mashou-002": {
-      "path": "/audio/tsukuyomi-v1/ex-mashou-002.mp3",
-      "exampleId": "ex-mashou-002",
-      "grammarId": "mashou",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "9a2971e95f6ab3db2c0877c6a0ae7ef54cee9dcdb9a9754bb4897b89ac65aaf3",
-      "audioSha256": "defe85cb85fa855bba4b9f33cb5b5d6cfad2116891332cd2911fa0ab6d24f49c",
-      "bytes": 23823,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:29.886Z"
-    },
-    "tsukuyomi-v1/ex-nara-001": {
-      "path": "/audio/tsukuyomi-v1/ex-nara-001.mp3",
-      "exampleId": "ex-nara-001",
-      "grammarId": "nara",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "6cb02916bf80465d89d678d0a1030d8381be091ede371e2c613bc6e9c2730765",
-      "audioSha256": "d45d80f480f2540f5bbb6cfd38018ceda49d0a61474282b8609f74bb3c22f73b",
-      "bytes": 35526,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.043Z"
-    },
-    "tsukuyomi-v1/ex-nara-002": {
-      "path": "/audio/tsukuyomi-v1/ex-nara-002.mp3",
-      "exampleId": "ex-nara-002",
-      "grammarId": "nara",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "96c37e7897907d724456f7494ddf7eb564231769d2cb7f64e467cbd1e2aeb665",
-      "audioSha256": "6495ce803eb2155be53327ac5877b2fdbb8aab5319b80cd05819b4330059780c",
-      "bytes": 25286,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.191Z"
-    },
-    "tsukuyomi-v1/ex-tara-001": {
-      "path": "/audio/tsukuyomi-v1/ex-tara-001.mp3",
-      "exampleId": "ex-tara-001",
-      "grammarId": "tara",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "c9f6e04aae701599df50cfd6f1aa8bc7a0434bd21e70392755fb39735d5f0d80",
-      "audioSha256": "403d00e6cd94e7f80fede79835af0772141a2a48a9294812586455321f45a092",
-      "bytes": 28421,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.316Z"
-    },
-    "tsukuyomi-v1/ex-tara-002": {
-      "path": "/audio/tsukuyomi-v1/ex-tara-002.mp3",
-      "exampleId": "ex-tara-002",
-      "grammarId": "tara",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "6ccf8271a42b61681b43e18d29a016a65b4aca7e3e25ce98559346279845cf6f",
-      "audioSha256": "b8ff99a888a4ff97d5abe7e007b6a9969002bc5b2643c59c8c7beab1dd4bff21",
-      "bytes": 27376,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.476Z"
-    },
-    "tsukuyomi-v1/ex-to-001": {
-      "path": "/audio/tsukuyomi-v1/ex-to-001.mp3",
-      "exampleId": "ex-to-001",
-      "grammarId": "to",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "ba412f845a12cbfb53860eed880b7fc64ddd4b7cd4b82c535c8fb77229d79200",
-      "audioSha256": "e3f183c345c6ab4afed2989c5295c4c589f5a2bf5b0d2e14c577ab53b77bfee9",
-      "bytes": 22987,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.623Z"
-    },
-    "tsukuyomi-v1/ex-to-002": {
-      "path": "/audio/tsukuyomi-v1/ex-to-002.mp3",
-      "exampleId": "ex-to-002",
-      "grammarId": "to",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "b636c3dd24a8efabba091654bb80acbc7daeeb76452d40f87e99cc5d385da808",
-      "audioSha256": "c75c5b645e5cbdc2ebe9d2f349462e430c0eecff1bdbf80797d1a95eff1c309e",
-      "bytes": 26331,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.731Z"
-    },
-    "tsukuyomi-v1/ex-you-ni-naru-001": {
-      "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-001.mp3",
-      "exampleId": "ex-you-ni-naru-001",
-      "grammarId": "you-ni-naru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "274155df76e2f932abd979fffdd78bd86e68d4ed22450cdc851acf0b9cd4ec94",
-      "audioSha256": "0bce696a9f8311a6e1b35438b5a19e75790fe8c3aced5a8053206532ee110fb4",
-      "bytes": 33227,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:30.866Z"
-    },
-    "tsukuyomi-v1/ex-you-ni-naru-002": {
-      "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-002.mp3",
-      "exampleId": "ex-you-ni-naru-002",
-      "grammarId": "you-ni-naru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "bf33e6ca41ef198375e285b66f60a8b7cbd8bcc0e6a1aa2d695484f93c18213f",
-      "audioSha256": "ddff2f0c49bdad9e93b1258d892797f21fe940ef46594d40771d457c93c613f2",
-      "bytes": 32391,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:31.103Z"
-    },
-    "tsukuyomi-v1/ex-you-ni-suru-001": {
-      "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3",
-      "exampleId": "ex-you-ni-suru-001",
-      "grammarId": "you-ni-suru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "6ee44723373e5315dcf9a8e83bcd6613e503230792c95795faeb55496658232a",
-      "audioSha256": "7ef036596e3c9c563499efa20f41cd67bb37a8d9ca6afdb1b1e84141f4481d0e",
-      "bytes": 31764,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:31.259Z"
-    },
-    "tsukuyomi-v1/ex-you-ni-suru-002": {
-      "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3",
-      "exampleId": "ex-you-ni-suru-002",
-      "grammarId": "you-ni-suru",
-      "voice": "tsukuyomi-v1",
-      "textSource": "text",
-      "textSha256": "f756436a9a62b8e83969b3ef1ab9c0f1323daead6ccb9ea08b7572c39be82fc1",
-      "audioSha256": "e8759c0e25b6386cb749f5b11486fed6cfa65ab68bb8ec766e8f475daa213f92",
-      "bytes": 22569,
-      "sampleRate": 22050,
-      "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
-      "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
-      "engine": {
-        "package": "piper-plus",
-        "version": "0.8.1"
-      },
-      "model": {
-        "repo": "ayousanz/piper-plus-tsukuyomi-chan",
-        "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
-      },
-      "params": {
-        "language": "ja",
-        "noiseScale": 0.5,
-        "lengthScale": 1.7,
-        "noiseW": 0.3
-      },
-      "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
-      "generatedAt": "2026-10-11T08:29:31.386Z"
-    }
+ "schema_version": 1,
+ "items": {
+  "tsukuyomi-v1/ex-ba-001": {
+   "path": "/audio/tsukuyomi-v1/ex-ba-001.mp3",
+   "exampleId": "ex-ba-001",
+   "grammarId": "ba",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "f0ee2cfe75a293c6ba300aec84ecd5a68c11facbae319d5b5bbebcf0b692e3ac",
+   "audioSha256": "cefd1f4c04395e8840d77aa4014235f20ea005e3582d01eef9c0ccea9c50550c",
+   "bytes": 30720,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:28.605Z"
   },
-  "generatedBy": {
-    "script": "scripts/generate-audio.mjs",
-    "engine": {
-      "npmPackage": "piper-plus",
-      "npmVersion": "0.8.1",
-      "onnxruntimeWeb": "1.30.0",
-      "mp3Encoder": "@breezystack/lamejs",
-      "runtime": "Node + onnxruntime-web wasm CPU 后端"
-    },
-    "note": "溯源台账；站点前端不读取本文件，前端只读例句 JSON 的 audio 字段"
+  "tsukuyomi-v1/ex-ba-002": {
+   "path": "/audio/tsukuyomi-v1/ex-ba-002.mp3",
+   "exampleId": "ex-ba-002",
+   "grammarId": "ba",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "37eb6cd9f1f47e4cf8755458b339351f22a69d44b9e95fc66f04d0d6c5646d3f",
+   "audioSha256": "2eba69d25ef8e3f897dba94396ed643332a39497ee47a2bc0fe5642b3948a99f",
+   "bytes": 15673,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:28.726Z"
+  },
+  "tsukuyomi-v1/ex-koto-ni-naru-001": {
+   "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-001.mp3",
+   "exampleId": "ex-koto-ni-naru-001",
+   "grammarId": "koto-ni-naru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "7fb44c751df529a3f3231d6fd256fb03a595b250f5bac60b90696d50a55961ce",
+   "audioSha256": "086faffe7d197cabeba89b9ae1fde80164850c5a537238fcf42cb88c584b5965",
+   "bytes": 34481,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.135Z"
+  },
+  "tsukuyomi-v1/ex-koto-ni-naru-002": {
+   "path": "/audio/tsukuyomi-v1/ex-koto-ni-naru-002.mp3",
+   "exampleId": "ex-koto-ni-naru-002",
+   "grammarId": "koto-ni-naru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "85d3c55a35fe997be9ef8aaf6b235ad2c4f7440c117193356d3a4f679e984db8",
+   "audioSha256": "5478b53ea840d3f800918073ba87a5cf40df2937462d3f92c780cdc91ae85641",
+   "bytes": 27585,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.272Z"
+  },
+  "tsukuyomi-v1/ex-koto-ni-suru-001": {
+   "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-001.mp3",
+   "exampleId": "ex-koto-ni-suru-001",
+   "grammarId": "koto-ni-suru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "3961f830354623bf291c3322d220de4ecb9301c761a3e173399245570dfcff49",
+   "audioSha256": "0aba3d4c11cbb27873c0aa396accfbac0c5f7b2c501418da3fe23a543f194978",
+   "bytes": 34272,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.436Z"
+  },
+  "tsukuyomi-v1/ex-koto-ni-suru-002": {
+   "path": "/audio/tsukuyomi-v1/ex-koto-ni-suru-002.mp3",
+   "exampleId": "ex-koto-ni-suru-002",
+   "grammarId": "koto-ni-suru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "8fd51ce7554e60708e50aba6f57683768b8b934255767f64f2f1c5f9d78ffe30",
+   "audioSha256": "19afb4a9562c3a66bd02dd795e885eb7909b5a020db9ddb8fb07cd350a1fa619",
+   "bytes": 24450,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.544Z"
+  },
+  "tsukuyomi-v1/ex-masen-ka-001": {
+   "path": "/audio/tsukuyomi-v1/ex-masen-ka-001.mp3",
+   "exampleId": "ex-masen-ka-001",
+   "grammarId": "masen-ka",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "da0fb7257ea98392cc645d5df4fc18741bb34bf8794ebb5a0ca6ae6d663d1f7a",
+   "audioSha256": "2cb43731d5d4a86a46f11b68a1967b029dd4265e43fbbd62e6d0a2766c6b4025",
+   "bytes": 21733,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.629Z"
+  },
+  "tsukuyomi-v1/ex-masen-ka-002": {
+   "path": "/audio/tsukuyomi-v1/ex-masen-ka-002.mp3",
+   "exampleId": "ex-masen-ka-002",
+   "grammarId": "masen-ka",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "356d8e80df5db1efb00d5411f7bfdc1293f46b5cff5f12a7da1a70f3bf9d8110",
+   "audioSha256": "0726de95f071e254ad9057f0516694ec39e89c3ebb646333d6a79e39416a6ba7",
+   "bytes": 23405,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.724Z"
+  },
+  "tsukuyomi-v1/ex-mashou-001": {
+   "path": "/audio/tsukuyomi-v1/ex-mashou-001.mp3",
+   "exampleId": "ex-mashou-001",
+   "grammarId": "mashou",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "3e6a21fd1ce3ad3f71fe5cb794b8b53938d57e358b04c68570626f717c1e56c8",
+   "audioSha256": "9e133ab22aa3fea2938b5cba0653baf35d41be9689933a82fbbacc73c67a7f93",
+   "bytes": 16927,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.793Z"
+  },
+  "tsukuyomi-v1/ex-mashou-002": {
+   "path": "/audio/tsukuyomi-v1/ex-mashou-002.mp3",
+   "exampleId": "ex-mashou-002",
+   "grammarId": "mashou",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "9a2971e95f6ab3db2c0877c6a0ae7ef54cee9dcdb9a9754bb4897b89ac65aaf3",
+   "audioSha256": "defe85cb85fa855bba4b9f33cb5b5d6cfad2116891332cd2911fa0ab6d24f49c",
+   "bytes": 23823,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:29.886Z"
+  },
+  "tsukuyomi-v1/ex-nara-001": {
+   "path": "/audio/tsukuyomi-v1/ex-nara-001.mp3",
+   "exampleId": "ex-nara-001",
+   "grammarId": "nara",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "6cb02916bf80465d89d678d0a1030d8381be091ede371e2c613bc6e9c2730765",
+   "audioSha256": "d45d80f480f2540f5bbb6cfd38018ceda49d0a61474282b8609f74bb3c22f73b",
+   "bytes": 35526,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.043Z"
+  },
+  "tsukuyomi-v1/ex-nara-002": {
+   "path": "/audio/tsukuyomi-v1/ex-nara-002.mp3",
+   "exampleId": "ex-nara-002",
+   "grammarId": "nara",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "96c37e7897907d724456f7494ddf7eb564231769d2cb7f64e467cbd1e2aeb665",
+   "audioSha256": "6495ce803eb2155be53327ac5877b2fdbb8aab5319b80cd05819b4330059780c",
+   "bytes": 25286,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.191Z"
+  },
+  "tsukuyomi-v1/ex-tara-001": {
+   "path": "/audio/tsukuyomi-v1/ex-tara-001.mp3",
+   "exampleId": "ex-tara-001",
+   "grammarId": "tara",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "c9f6e04aae701599df50cfd6f1aa8bc7a0434bd21e70392755fb39735d5f0d80",
+   "audioSha256": "403d00e6cd94e7f80fede79835af0772141a2a48a9294812586455321f45a092",
+   "bytes": 28421,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.316Z"
+  },
+  "tsukuyomi-v1/ex-tara-002": {
+   "path": "/audio/tsukuyomi-v1/ex-tara-002.mp3",
+   "exampleId": "ex-tara-002",
+   "grammarId": "tara",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "6ccf8271a42b61681b43e18d29a016a65b4aca7e3e25ce98559346279845cf6f",
+   "audioSha256": "b8ff99a888a4ff97d5abe7e007b6a9969002bc5b2643c59c8c7beab1dd4bff21",
+   "bytes": 27376,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.476Z"
+  },
+  "tsukuyomi-v1/ex-to-001": {
+   "path": "/audio/tsukuyomi-v1/ex-to-001.mp3",
+   "exampleId": "ex-to-001",
+   "grammarId": "to",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "ba412f845a12cbfb53860eed880b7fc64ddd4b7cd4b82c535c8fb77229d79200",
+   "audioSha256": "e3f183c345c6ab4afed2989c5295c4c589f5a2bf5b0d2e14c577ab53b77bfee9",
+   "bytes": 22987,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.623Z"
+  },
+  "tsukuyomi-v1/ex-to-002": {
+   "path": "/audio/tsukuyomi-v1/ex-to-002.mp3",
+   "exampleId": "ex-to-002",
+   "grammarId": "to",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "b636c3dd24a8efabba091654bb80acbc7daeeb76452d40f87e99cc5d385da808",
+   "audioSha256": "c75c5b645e5cbdc2ebe9d2f349462e430c0eecff1bdbf80797d1a95eff1c309e",
+   "bytes": 26331,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.731Z"
+  },
+  "tsukuyomi-v1/ex-you-ni-naru-001": {
+   "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-001.mp3",
+   "exampleId": "ex-you-ni-naru-001",
+   "grammarId": "you-ni-naru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "274155df76e2f932abd979fffdd78bd86e68d4ed22450cdc851acf0b9cd4ec94",
+   "audioSha256": "0bce696a9f8311a6e1b35438b5a19e75790fe8c3aced5a8053206532ee110fb4",
+   "bytes": 33227,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:30.866Z"
+  },
+  "tsukuyomi-v1/ex-you-ni-naru-002": {
+   "path": "/audio/tsukuyomi-v1/ex-you-ni-naru-002.mp3",
+   "exampleId": "ex-you-ni-naru-002",
+   "grammarId": "you-ni-naru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "bf33e6ca41ef198375e285b66f60a8b7cbd8bcc0e6a1aa2d695484f93c18213f",
+   "audioSha256": "ddff2f0c49bdad9e93b1258d892797f21fe940ef46594d40771d457c93c613f2",
+   "bytes": 32391,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:31.103Z"
+  },
+  "tsukuyomi-v1/ex-you-ni-suru-001": {
+   "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-001.mp3",
+   "exampleId": "ex-you-ni-suru-001",
+   "grammarId": "you-ni-suru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "6ee44723373e5315dcf9a8e83bcd6613e503230792c95795faeb55496658232a",
+   "audioSha256": "7ef036596e3c9c563499efa20f41cd67bb37a8d9ca6afdb1b1e84141f4481d0e",
+   "bytes": 31764,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:31.259Z"
+  },
+  "tsukuyomi-v1/ex-you-ni-suru-002": {
+   "path": "/audio/tsukuyomi-v1/ex-you-ni-suru-002.mp3",
+   "exampleId": "ex-you-ni-suru-002",
+   "grammarId": "you-ni-suru",
+   "voice": "tsukuyomi-v1",
+   "textSource": "text",
+   "textSha256": "f756436a9a62b8e83969b3ef1ab9c0f1323daead6ccb9ea08b7572c39be82fc1",
+   "audioSha256": "e8759c0e25b6386cb749f5b11486fed6cfa65ab68bb8ec766e8f475daa213f92",
+   "bytes": 22569,
+   "sampleRate": 22050,
+   "fingerprint": "cd01b849dfc66387a776bd630705d5ce95dca6f94e93f98bebeeb4f0bc0d0cb0",
+   "modelOnnxSha256": "5289e9b6eaf21080803b7fe1c4dc85b5491d4c216121207a41df18dd5f68e5d7",
+   "engine": {
+    "package": "piper-plus",
+    "version": "0.8.1"
+   },
+   "model": {
+    "repo": "ayousanz/piper-plus-tsukuyomi-chan",
+    "onnx": "tsukuyomi-chan-6lang-fp16.onnx"
+   },
+   "params": {
+    "language": "ja",
+    "noiseScale": 0.5,
+    "lengthScale": 1.7,
+    "noiseW": 0.3
+   },
+   "license": "tsukuyomi-chan-corpus（つくよみちゃんコーパス利用规约，CV.夢前黎）：生成音频仅限站内收听（鑑賞用），不授权二次利用；语料条款禁止以允许他人作为素材再利用的形式公开",
+   "generatedAt": "2026-10-11T08:29:31.386Z"
   }
+ },
+ "generatedBy": {
+  "script": "scripts/generate-audio.mjs",
+  "engine": {
+   "npmPackage": "piper-plus",
+   "npmVersion": "0.8.1",
+   "onnxruntimeWeb": "1.30.0",
+   "mp3Encoder": "@breezystack/lamejs",
+   "runtime": "Node + onnxruntime-web wasm CPU 后端"
+  },
+  "note": "溯源台账；站点前端不读取本文件，前端只读例句 JSON 的 audio 字段"
+ }
 }

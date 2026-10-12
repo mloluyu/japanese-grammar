@@ -30,9 +30,5 @@
   "hearsay-and-conjecture": {
     "label": "传闻与推量",
     "description": "そうだ、ようだ、らしい、はずだ 等。"
-  },
-  "grammar-term": {
-    "label": "文法术语",
-    "description": "自動詞・他動詞、音便、活用等术语解说，不标 JLPT 等级。"
   }
 }
