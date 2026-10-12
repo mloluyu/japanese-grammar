@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: '问题反馈与贡献指南', link: '/contribute/' },
           { text: '关于本站', link: '/team/' },
+          { text: '友情链接', link: '/links/' },
         ],
       },
     ],
@@ -92,7 +93,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     footer: {
-      message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a> · <a href="/contribute/#侵权投诉">侵权投诉</a>`,
+      message: `©${year > 2026 ? `2026-${year}` : 2026} <a href="/team/">本站维护组</a> · <a href="/contribute/#侵权投诉">侵权投诉</a> · <a href="/links/">友情链接</a>`,
       copyright: '除<a href="/team/">音频</a>外，采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>协议',
     }
   },
