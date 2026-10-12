@@ -92,7 +92,7 @@ README.md  CONTRIBUTING.md  LICENSE  LICENSE.content
 - `/`：首页与快速入口。
 - `/grammar-index`：语法总索引与筛选。
 - `/grammar/<id>`：单条语法（如 `/grammar/koto-ni-naru`）。
-- `/reference/`：语言知识区（语法术语／对比与辨析，无固定格式、不强制例句），无总览页，导航以下拉直达各页；现有页面 `/reference/jidoushi-tadoushi`、`/reference/conditionals`、`/reference/decision-and-intention`。原 `/topics/` 专题区已并入。
+- `/reference/`：语言知识区（语法术语／对比与辨析，无固定格式、不强制例句），导航为普通链接指向总览页；总览为自动列表（`docs/reference-index.data.ts` 扫描 `reference/*.md`，新增页面零维护），页面需在 `config.ts` 侧边栏登记。现有页面 `/reference/jidoushi-tadoushi`、`/reference/conditionals`、`/reference/decision-and-intention`。原 `/topics/` 专题区已并入。
 - `/contribute/`：贡献总览；三份指南在其下。
 - `/team/`：维护团队。
 
