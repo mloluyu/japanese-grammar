@@ -16,7 +16,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '语法索引', link: '/grammar-index' },
-      { text: '语言知识', link: '/reference/' },
+      {
+        text: '语言知识',
+        items: [
+          { text: '自动词与他动词', link: '/reference/jidoushi-tadoushi' },
+          { text: '条件表达：と・ば・たら・なら', link: '/reference/conditionals' },
+          { text: '决定、努力与变化', link: '/reference/decision-and-intention' },
+        ],
+      },
       { text: '五十音', link: '/kana/' },
       {
         text: '关于',
@@ -31,7 +38,6 @@ export default defineConfig({
         {
           text: '语言知识',
           items: [
-            { text: '总览', link: '/reference/' },
             { text: '自动词与他动词', link: '/reference/jidoushi-tadoushi' },
           ],
         },
