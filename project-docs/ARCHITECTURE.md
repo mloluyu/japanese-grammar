@@ -72,7 +72,7 @@ docs/
   examples.data.ts       # 例句聚合数据加载器
   quizzes.data.ts        # 题库聚合数据加载器
   index.md  grammar-index.md  team/
-  topics/  contribute/   # 专题与贡献文档（各含 index 总览页）
+  reference/ contribute/   # 语言知识与贡献文档（reference 含 index 总览页）
   public/audio/          # 生成例句音频（scripts/generate-audio.mjs 产物，仅站内收听）
 content/                 # 内容数据（在 docs 之外，构建时由加载器与校验器读取）
   grammar/               # 例句 JSON，与条目同名
@@ -92,7 +92,7 @@ README.md  CONTRIBUTING.md  LICENSE  LICENSE.content
 - `/`：首页与快速入口。
 - `/grammar-index`：语法总索引与筛选。
 - `/grammar/<id>`：单条语法（如 `/grammar/koto-ni-naru`）。
-- `/topics/`：专题总览；现有专题为 `/topics/conditionals`、`/topics/decision-and-intention`。
+- `/reference/`：语言知识区（语法术语／对比与辨析，无固定格式、不强制例句）；总览 `/reference/`，现有页面 `/reference/jidoushi-tadoushi`、`/reference/conditionals`、`/reference/decision-and-intention`。原 `/topics/` 专题区已并入。
 - `/contribute/`：贡献总览；三份指南在其下。
 - `/team/`：维护团队。
 
