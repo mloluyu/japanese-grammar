@@ -2,6 +2,7 @@
 id: mashou
 title: 〜ましょう
 reading: ましょう
+summary: 提议一起做某事或表明说话人意向的郑重表达
 jlpt: N5
 category: sentence-patterns
 tags:

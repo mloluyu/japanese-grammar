@@ -1,17 +1,22 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { withBase } from 'vitepress'
 import categories from '../../categories.json'
 
 interface GrammarEntry {
   id: string
   title: string
+  summary: string
   reading: string
   jlpt: string
   category: string
   tags: string[]
   url: string
 }
+
+// 语法索引页放宽版心：组件挂载期间在 <html> 上挂标记类，
+// 覆盖 VitePress 的 --vp-layout-max-width；离开页面即摘除，不影响其他页。
+const WIDE_CLASS = 'grammar-index-wide'
 
 const props = defineProps<{ entries: GrammarEntry[] }>()
 
@@ -37,6 +42,7 @@ const filtered = computed(() => {
     if (q) {
       const haystack = [
         entry.title,
+        entry.summary,
         entry.reading,
         entry.category,
         categoryMeta[entry.category]?.label ?? '',
@@ -64,6 +70,9 @@ function reset() {
 function categoryLabel(id: string) {
   return categoryMeta[id]?.label ?? id
 }
+
+onMounted(() => document.documentElement.classList.add(WIDE_CLASS))
+onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
 </script>
 
 <template>
@@ -102,7 +111,8 @@ function categoryLabel(id: string) {
     <ul v-else class="entry-grid">
       <li v-for="entry in filtered" :key="entry.id" class="entry-card">
         <a :href="withBase(entry.url)" class="entry-title">{{ entry.title }}</a>
-        <p v-if="entry.reading" class="entry-reading" lang="ja">{{ entry.reading }}</p>
+        <p v-if="entry.summary" class="entry-summary">{{ entry.summary }}</p>
+        <p v-else-if="entry.reading" class="entry-reading" lang="ja">{{ entry.reading }}</p>
         <p class="entry-meta">
           <span v-if="entry.jlpt" class="badge level">{{ entry.jlpt }}</span>
           <span class="badge category">{{ categoryLabel(entry.category) }}</span>
@@ -114,6 +124,9 @@ function categoryLabel(id: string) {
 </template>
 
 <style scoped>
+:global(html.grammar-index-wide) {
+  --vp-layout-max-width: 1728px;
+}
 .grammar-index {
   margin-top: 8px;
 }
@@ -163,18 +176,25 @@ function categoryLabel(id: string) {
   margin: 8px 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 12px;
 }
 .entry-card {
-  border: 1px solid var(--vp-c-divider);
+  margin: 0; /* 抵消 .vp-doc li+li 的 8px 顶边距，保持所有卡片等高对齐 */
+  border: 1px solid var(--vp-c-brand-1);
   border-radius: 10px;
   padding: 12px 14px;
-  background: var(--vp-c-bg-soft);
+  background: var(--vp-c-bg);
 }
 .entry-title {
   font-weight: 600;
   font-size: 16px;
+}
+.entry-summary {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
 }
 .entry-reading {
   margin: 2px 0 0;

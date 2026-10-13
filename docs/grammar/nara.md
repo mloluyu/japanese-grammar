@@ -2,6 +2,7 @@
 id: nara
 title: 〜なら
 reading: なら
+summary: 就对方提出的话题给出判断或建议的限定条件
 jlpt: N4
 category: conditionals
 tags:

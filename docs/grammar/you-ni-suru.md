@@ -2,6 +2,7 @@
 id: you-ni-suru
 title: 〜ようにする
 reading: ようにする
+summary: 表示设法做到或避免某事「尽量…」
 jlpt: N3
 category: sentence-patterns
 tags:

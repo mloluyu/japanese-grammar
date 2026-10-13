@@ -2,6 +2,7 @@
 id: to
 title: 〜と（条件）
 reading: と
+summary: 条件一成立后项必然跟进，兼表习惯与反复性发现
 jlpt: N4
 category: conditionals
 tags:

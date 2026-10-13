@@ -20,6 +20,7 @@
 |---|---|---:|---|
 | `id` | string | 是 | 全局唯一稳定 ID |
 | `title` | string | 是 | 页面标题，如 `〜ことになる` |
+| `summary` | string | 是 | 中文一句话简介（≤40 字，校验器强制）；语法索引卡片副标题 |
 | `reading` | string | 建议 | 读音或检索用假名 |
 | `jlpt` | enum | 是 | `N5`、`N4`、`N3`、`N2`、`N1` |
 | `category` | string | 是 | 稳定分类 ID，必须在分类注册表 `docs/.vitepress/categories.json` 中定义 |

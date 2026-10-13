@@ -2,6 +2,7 @@
 id: koto-ni-suru
 title: 〜ことにする
 reading: ことにする
+summary: 表示说话人自主拍板的决定「（我）决定…」
 jlpt: N3
 category: sentence-patterns
 tags:

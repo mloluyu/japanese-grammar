@@ -19,6 +19,7 @@
 ---
 id: example-pattern
 title: 〜例の文型
+summary: 用中文一句话概括这个句型的核心用法（不超过 40 字）
 reading: れいのぶんけい
 jlpt: N3
 category: example-category

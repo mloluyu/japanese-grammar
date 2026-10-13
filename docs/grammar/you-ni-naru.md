@@ -2,6 +2,7 @@
 id: you-ni-naru
 title: 〜ようになる
 reading: ようになる
+summary: 表示能力或习惯发生的变化「变得…了」
 jlpt: N3
 category: sentence-patterns
 tags:

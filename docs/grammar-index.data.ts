@@ -7,6 +7,7 @@ import { createContentLoader } from 'vitepress'
 export interface GrammarEntry {
   id: string
   title: string
+  summary: string // 中文一句话简介（索引卡片副标题）
   reading: string
   jlpt: string
   category: string
@@ -23,6 +24,7 @@ export default createContentLoader('grammar/*.md', {
       .map(({ url, frontmatter }) => ({
         id: String(frontmatter.id ?? ''),
         title: String(frontmatter.title ?? ''),
+        summary: String(frontmatter.summary ?? ''),
         reading: String(frontmatter.reading ?? ''),
         jlpt: String(frontmatter.jlpt ?? ''),
         category: String(frontmatter.category ?? ''),

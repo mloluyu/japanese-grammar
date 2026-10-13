@@ -2,6 +2,7 @@
 id: ba
 title: 〜ば
 reading: ば
+summary: 假定条件，强调前提成立后项即成立的对应关系
 jlpt: N4
 category: conditionals
 tags:

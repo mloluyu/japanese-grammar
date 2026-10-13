@@ -2,6 +2,7 @@
 id: tara
 title: 〜たら
 reading: たら
+summary: 用途最广的条件表达，表示假定或既定的先后触发
 jlpt: N4
 category: conditionals
 tags:

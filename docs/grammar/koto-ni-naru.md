@@ -2,6 +2,7 @@
 id: koto-ni-naru
 title: 〜ことになる
 reading: ことになる
+summary: 表示外部安排或既成结果的决定「定了要…」
 jlpt: N3
 category: sentence-patterns
 tags:

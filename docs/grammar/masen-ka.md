@@ -2,6 +2,7 @@
 id: masen-ka
 title: 〜ませんか
 reading: ませんか
+summary: 礼貌地邀请或提议对方一起做事的否定疑问
 jlpt: N5
 category: sentence-patterns
 tags:

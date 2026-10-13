@@ -12,7 +12,7 @@ const CONTENT_DIR = path.resolve('content')
 const CATEGORIES_FILE = path.resolve('docs/.vitepress/categories.json')
 const JLPT = new Set(['N5', 'N4', 'N3', 'N2', 'N1'])
 const STATUS = new Set(['draft', 'reviewed', 'needs-correction'])
-const REQUIRED = ['id', 'title', 'jlpt', 'category', 'tags', 'related', 'status']
+const REQUIRED = ['id', 'title', 'summary', 'jlpt', 'category', 'tags', 'related', 'status']
 // 文法术语类条目不标 JLPT 等级：jlpt 字段可省略（values 仍受限）。
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/
 
@@ -78,6 +78,13 @@ for (const file of files) {
   }
   if (data.jlpt !== undefined && !JLPT.has(data.jlpt)) {
     errors.push(`${rel}: jlpt 必须是 N5–N1 之一，当前为 ${JSON.stringify(data.jlpt)}`)
+  }
+  if (data.summary !== undefined) {
+    if (typeof data.summary !== 'string' || data.summary.trim() === '') {
+      errors.push(`${rel}: summary 必须是非空字符串（中文一句话简介，用于索引卡片副标题）`)
+    } else if (data.summary.length > 40) {
+      errors.push(`${rel}: summary 超过 40 字（当前 ${data.summary.length} 字），请压缩到一句话`)
+    }
   }
   if (data.category !== undefined && !Object.hasOwn(categories, data.category)) {
     errors.push(`${rel}: 未注册的 category：${JSON.stringify(data.category)}（注册表：docs/.vitepress/categories.json）`)

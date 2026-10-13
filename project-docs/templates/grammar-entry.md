@@ -1,6 +1,7 @@
 ---
 id: my-new-pattern            # 全局唯一；小写英文/数字/连字符；不要把等级或目录层级写进 ID
 title: 〜〜                    # 页面标题，如 〜ことになる
+summary: 〜〜                  # 中文一句话简介（≤40 字）；语法索引卡片副标题
 reading: 〜〜                  # 检索用假名
 jlpt: N4                      # N5–N1 之一
 category: sentence-patterns   # 必须是分类注册表中已有的 ID（docs/.vitepress/categories.json）
