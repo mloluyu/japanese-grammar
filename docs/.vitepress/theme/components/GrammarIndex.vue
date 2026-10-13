@@ -176,7 +176,7 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
   margin: 8px 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 12px;
 }
 .entry-card {
