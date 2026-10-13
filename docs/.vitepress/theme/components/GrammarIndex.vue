@@ -71,6 +71,15 @@ function categoryLabel(id: string) {
   return categoryMeta[id]?.label ?? id
 }
 
+// 卡片最多显示 3 个 tag，其余折叠成 +N（悬停看全量），保证卡片高度恒定。
+const MAX_TAGS = 3
+function tagView(entry: GrammarEntry) {
+  return {
+    shown: entry.tags.slice(0, MAX_TAGS),
+    rest: entry.tags.slice(MAX_TAGS),
+  }
+}
+
 onMounted(() => document.documentElement.classList.add(WIDE_CLASS))
 onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
 </script>
@@ -116,7 +125,14 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
         <p class="entry-meta">
           <span v-if="entry.jlpt" class="badge level">{{ entry.jlpt }}</span>
           <span class="badge category">{{ categoryLabel(entry.category) }}</span>
-          <span v-for="item in entry.tags" :key="item" class="badge tag">{{ item }}</span>
+        </p>
+        <p class="entry-meta entry-tags">
+          <span v-for="item in tagView(entry).shown" :key="item" class="badge tag">{{ item }}</span>
+          <span
+            v-if="tagView(entry).rest.length"
+            class="badge tag more"
+            :title="tagView(entry).rest.join('、')"
+          >+{{ tagView(entry).rest.length }}</span>
         </p>
       </li>
     </ul>
@@ -125,13 +141,13 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
 
 <style scoped>
 :global(html.grammar-index-wide) {
-  --vp-layout-max-width: 1728px;
+  --vp-layout-max-width: 1240px;
 }
 /* grammar-index.md 为 aside:false 的独立页，走 .VPDoc:not(.has-sidebar) 分支：
    该分支的 .container(992/1104px) 与 .content(752/784px) 硬顶比 --vp-layout-max-width 更窄，
    全部覆盖才真正放宽；特异性 (0,5,1) 压过原规则 (0,4,0) 且不受媒体查询档位影响。 */
 :global(html.grammar-index-wide .VPDoc:not(.has-sidebar) .container) {
-  max-width: 1728px;
+  max-width: 1240px;
 }
 :global(html.grammar-index-wide .VPDoc:not(.has-sidebar) .content) {
   max-width: 100%;
@@ -216,6 +232,9 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
   flex-wrap: wrap;
   gap: 6px;
 }
+.entry-tags {
+  margin-top: 6px;
+}
 .badge {
   display: inline-block;
   border-radius: 999px;
@@ -231,5 +250,11 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
 .badge.tag {
   background: var(--vp-c-default-soft);
   color: var(--vp-c-text-2);
+}
+.badge.more {
+  background: transparent;
+  color: var(--vp-c-text-3);
+  border: 1px dashed var(--vp-c-border);
+  cursor: help;
 }
 </style>
