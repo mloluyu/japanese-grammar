@@ -1,5 +1,6 @@
 ---
 title: 语法索引
+aside: false
 ---
 
 <script setup>
