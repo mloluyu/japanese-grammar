@@ -10,6 +10,9 @@ hero:
       text: 浏览语法
       link: /grammar-index
     - theme: alt
+      text: 新手入门
+      link: /start/
+    - theme: alt
       text: 参与贡献
       link: /contribute/
 

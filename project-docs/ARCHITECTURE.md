@@ -68,6 +68,7 @@ docs/
     components/          # GrammarIndex / RelatedGrammar / ExampleSentences / PracticeQuiz
   grammar/               # 语法条目 .md 平铺
   kana/                  # 五十音速查页
+  start/                 # 新手入门区（学习路线／教材／网课／APP／FAQ，推荐类内容由维护团队维护）
   grammar-index.data.ts  # 索引页数据加载器（createContentLoader）
   examples.data.ts       # 例句聚合数据加载器
   quizzes.data.ts        # 题库聚合数据加载器
@@ -93,6 +94,7 @@ README.md  CONTRIBUTING.md  LICENSE  LICENSE.content
 - `/grammar-index`：语法总索引与筛选。
 - `/grammar/<id>`：单条语法（如 `/grammar/koto-ni-naru`）。
 - `/reference/`：语言知识区（语法术语／对比与辨析，无固定格式、不强制例句），导航为普通链接指向总览页；总览为自动列表（`docs/reference-index.data.ts` 扫描 `reference/*.md`，新增页面零维护），页面需在 `config.ts` 侧边栏登记。现有页面 `/reference/jidoushi-tadoushi`、`/reference/conditionals`、`/reference/decision-and-intention`。原 `/topics/` 专题区已并入。
+- `/start/`：新手入门区（学习路线图／教材怎么选／网课与视频／APP 推荐／高频问答），导航与首页 hero 均有入口；推荐类内容时效性强，页面尾部带时效声明，更新由维护团队直接进行。
 - `/contribute/`：贡献总览；四份指南（语法条目／语言知识／练习题／内容审核）在其下。
 - `/team/`：维护团队。
 - `/links/`：友情链接（卡片数据 `theme/data/friend-links.json`，加链接只改 JSON；无申请模板，下架经 Issue 反馈）。

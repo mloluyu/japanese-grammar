@@ -18,6 +18,7 @@ export default defineConfig({
       { text: '语法索引', link: '/grammar-index' },
       { text: '语言知识', link: '/reference/' },
       { text: '五十音', link: '/kana/' },
+      { text: '新手入门', link: '/start/' },
       {
         text: '关于',
         items: [
@@ -28,6 +29,18 @@ export default defineConfig({
       },
     ],
     sidebar: {
+      '/start/': [
+        {
+          text: '新手入门',
+          items: [
+            { text: '总览与学习路线', link: '/start/' },
+            { text: '教材怎么选', link: '/start/textbooks' },
+            { text: '网课与视频资源', link: '/start/courses' },
+            { text: 'APP 推荐', link: '/start/apps' },
+            { text: '高频问答', link: '/start/faq' },
+          ],
+        },
+      ],
       '/reference/': [
         {
           text: '',
