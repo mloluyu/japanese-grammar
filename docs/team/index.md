@@ -6,6 +6,8 @@ title: 关于本站
 
 本站来源于某个日语学习群管理员的某日突发奇想。
 
+日语交流群：[![QQ群](https://img.shields.io/badge/QQ群-452617807-12B7F5?logo=tencentqq&logoColor=white)](https://qm.qq.com/q/452617807)
+
 ### 来自社群的帮助
 
 知识共享离不开各位的支持，这个页面尽自己所能地记录了所有为本站提供帮助的人：

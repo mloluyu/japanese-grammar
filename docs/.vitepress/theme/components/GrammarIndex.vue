@@ -141,13 +141,13 @@ onUnmounted(() => document.documentElement.classList.remove(WIDE_CLASS))
 
 <style scoped>
 :global(html.grammar-index-wide) {
-  --vp-layout-max-width: 1240px;
+  --vp-layout-max-width: 1200px;
 }
 /* grammar-index.md 为 aside:false 的独立页，走 .VPDoc:not(.has-sidebar) 分支：
    该分支的 .container(992/1104px) 与 .content(752/784px) 硬顶比 --vp-layout-max-width 更窄，
    全部覆盖才真正放宽；特异性 (0,5,1) 压过原规则 (0,4,0) 且不受媒体查询档位影响。 */
 :global(html.grammar-index-wide .VPDoc:not(.has-sidebar) .container) {
-  max-width: 1240px;
+  max-width: 1200px;
 }
 :global(html.grammar-index-wide .VPDoc:not(.has-sidebar) .content) {
   max-width: 100%;
